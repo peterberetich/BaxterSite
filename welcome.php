@@ -38,14 +38,15 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   </head>
-  <body style="overflow:hidden>
+  <body style="overflow:hidden">
 
 
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
+
 <div>
-    <video autoplay loop width="100%" muted id="welcomepg">
+    <video autoplay loop width='100%' muted id='welcomepg'>
         <source src="images/baxaerial.webm" type='video/webm; codecs="vp8,vorbis"'/>
         <source src="images/baxaerial.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'/>
     </video>
@@ -54,34 +55,33 @@
     	</section>
 </div>
 
-        <!-- MEDIA query!!!!! -->
-        
-    <div class="row" style="margin-top:2em">
-      <div class="col-sm-4"></div>
-          <div class="col-sm-4">
-          <div class="col-sm-6">
-              <a href="prospectivedash.php"><img class="center-block img-responsive" src="images/elements/P-Prospective.png" style="width:30em"><br/></a>
-            </div>
-            <div class="col-sm-6">
-              <a href="studentdash.php"><img class="center-block img-responsive" src="images/elements/Sn-Student.png" style="width:30em"><br/></a>
-            </div>
-            
-            </div>
-        <div class="col-sm-4"></div>
-  </div>
-  <div class="row">
-      <div class="col-sm-4"></div>
-          <div class="col-sm-4">
-            <div class="col-sm-6">
-              <a href="#"><img class="center-block img-responsive" src="images/elements/Pa-Parent.png" style="width:30em"><br/></a>
-            </div>
-                <div class="col-sm-6">
-              <a href="about.php"><img class="center-block img-responsive" src="images/elements/Co-Community.png" style="width:30em"><br/></a>
-            </div>
-            </div>
-        <div class="col-sm-4"></div><br/><br/>
-    </div> 
-      
+
+<div class="row" style="margin-top:2em">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 text-center">
+        <div style="display:inline-block">
+              <a href="prospectivedash.php"><img class="center-block img-responsive" src="images/elements/P-Prospective.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+        </div>
+        <div style="display:inline-block">
+              <a href="studentdash.php"><img class="center-block img-responsive" src="images/elements/Sn-Student.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+    
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 text-center">
+        <div style="display:inline-block">
+              <a href="#"><img class="center-block img-responsive" src="images/elements/Pa-Parent.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+        </div>
+        <div style="display:inline-block">
+              <a href="about.php"><img class="center-block img-responsive" src="images/elements/Co-Community.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div> 
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.2.min.js"></script>

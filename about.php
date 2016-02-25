@@ -52,21 +52,23 @@
 
 <ul class="bxslider">
   <li>
-    <img style="position:relative" src="images/carousel/carouselhistory.jpg"/>
+    <div class="slideimage" style="background-image: url('images/carousel/carouselhistory.jpg'); background-position: center;"></div>
     <div class="textbox" style="margin-left: auto; margin-right: auto">
         <a href="history.php">
         <p>History</p>
         </a>
       </div>
     </li>
-  <li><img src="images/carousel/facultycarousel.jpg"/>
+  <li>
+    <div class="slideimage" style="background-image: url('images/carousel/facultycarousel.jpg'); background-position: center;"></div>
     <div class="textbox" id="staff" style="margin-left: auto; margin-right: auto">
         <a href="faculty.php">
         <p>Staff</p>
         </a>
       </div>
     </li>
-  <li><img src="images/carousel/FabLab_rightwide_pano.jpg" />
+  <li>
+    <div class="slideimage" style="background-image: url('images/carousel/FabLab_rightwide_pano.jpg'); background-position: center;"></div>
     <div class="textbox" id="flexfriday" style="margin-left: auto; margin-right: auto">
         <a href="faculty.php">
         <p>Flex Friday</p>

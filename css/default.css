@@ -296,3 +296,15 @@ white {
     background-position: bottom;
     background-size: cover;
 }
+
+.slideimage {
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.centerednav {
+    max-width: 1920;
+    margin: 0 auto !important;
+    float: none !important;
+}
