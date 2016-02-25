@@ -22,7 +22,7 @@
     <meta name="theme-color" content="#457fdb">
     <title>About - Baxter Academy</title>
     <!-- Bootstrap -->
-	   <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
     <!--Lightbox css-->
     <link href="css/jquery.fancybox.css" rel="stylesheet">

@@ -21,7 +21,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <title>Student Dashboard</title>
+        <title>Faculty Dashboard</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
@@ -62,42 +62,10 @@
             <div class="col-sm-6">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center">
-                    <div class="form-group" style="height:2em;">
-                          <input style="text-align:center; font-size: 2em" type="text" class="form-control" id="box" placeholder="Search Teachers">
-                    </div>
+                    <h1 id="dashheader">Forms</h1>
                   </div>
                   <div class="panel-body dashpanel" style="overflow-y: scroll">
-                    <ul class=navList>
-                            <li><a href="faculty.php#jamory"><p>Amory, Jon</p></a></li>
-                            <li><a href="faculty.php#mbarnes"><p>Barnes, Matt </p></a></li>
-                            <li><a href="faculty.php#sbuhlman"><p>Buhlman, Sarah</p></a></li>
-                            <li><a href="faculty.php#hdippolito"><p>D'Ippolito, Heather</p></a></li>
-                            <li><a href="faculty.php#jdoughty"><p>Doughty, Jonathan</p></a></li>
-                            <li><a href="faculty.php#natdoug"><p>Edmunds, Nate </p></a></li>
-                            <li><a href="faculty.php#dgagne"><p>Gagne, Debra</p></a></li>
-                            <li><a href="faculty.php#agilman"><p>Gilman, Adam</p></a></li>
-                            <li><a href="faculty.php#jguerette"><p>Guerette, Jordan</p></a></li>
-                            <li><a href="faculty.php#whodous"><p>Hodous, Wells</p></a></li>
-                            <li><a href="faculty.php#thowe"><p>Howe, Tia</p></a></li>
-                            <li><a href="faculty.php#hlarsson"><p>Larsson, Halsted </p></a></li>
-                            <li><a href="faculty.php#mlawrence"><p>Lawrence, Megan</p></a></li>
-                            <li><a href="faculty.php#eli"><p>Li, Enyue      </p></a></li>
-                            <li><a href="faculty.php#alukas"><p>Lukas, Alan</p></a></li>
-                            <li><a href="faculty.php#lmedeiros"><p>Medeiros, Laurie </p></a></li>
-                            <li><a href="faculty.php#pmoxhay"><p>Moxhay, Peter </p></a></li>
-                            <li><a href="faculty.php#mnunez"><p>Nunez, Moises </p></a></li>
-                            <li><a href="faculty.php#bolson"><p>Olson, Brian </p></a></li>
-                            <li><a href="faculty.php#bolsonsparwol"><p>Parrott-Wolfe, Sean </p></a></li>
-                            <li><a href="faculty.php#apfeifer"><p>Pfeifer, Alice </p></a></li>
-                            <li><a href="faculty.php#drawson"><p>Rawson, David </p></a></li>
-                            <li><a href="faculty.php#prawson"><p>Rawson, Pamela </p></a></li>
-                            <li><a href="faculty.php#scogin"><p>Scogin, Sam </p></a></li>
-                            <li><a href="faculty.php#astarr"><p>Starr, Aleah </p></a></li>
-                            <li><a href="faculty.php#sstutzman"><p>Stutzman, Sunny </p></a></li>
-                            <li><a href="faculty.php#ataylor"><p>Taylor, Angela </p></a></li>
-                            <li><a href="faculty.php#kvirmalo"><p>Virmalo, Katelyn </p></a></li>
-                            <li><a href="faculty.php#awinter"><p>Winter, Antonia </p></a></li>
-                        </ul>
+                    <iframe src="https://drive.google.com/embeddedfolderview?id=0B3AnN9we9Ym8dVJtS1pmRERielE#list" width="100%" height="815px" frameborder="0"></iframe>
                 </div>
               </div>
             </div>
@@ -141,7 +109,7 @@
               <div class="panel panel-primary">
                   <div class="panel-heading text-center"><h1 id="dashheader">Lunch Form</h1></div>
                   <div class="panel-body dashpanel">
-                    <cms:editable name='lunchorderform' type='richtext'>
+                    <cms:editable name='hello' type='richtext'>
                         <p>Hello</p>
                     </cms:editable>
                   </div>
