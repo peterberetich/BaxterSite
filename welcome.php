@@ -60,10 +60,10 @@
     <div class="col-md-3"></div>
     <div class="col-md-6 text-center">
         <div style="display:inline-block">
-              <a href="prospectivedash.php"><img class="center-block img-responsive" src="images/elements/P-Prospective.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+              <a href="prospectivedash.php"><img class="center-block img-responsive" src="images/elements/P-Prospective.png" style="height:20vh; min-width:100px; margin: auto 10px"><br/></a>
         </div>
         <div style="display:inline-block">
-              <a href="studentdash.php"><img class="center-block img-responsive" src="images/elements/Sn-Student.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+              <a href="studentdash.php"><img class="center-block img-responsive" src="images/elements/Sn-Student.png" style="height:20vh; min-width:100px; margin: auto 10px"><br/></a>
         </div>
     </div>
     <div class="col-md-3"></div>
@@ -74,10 +74,10 @@
     <div class="col-md-3"></div>
     <div class="col-md-6 text-center">
         <div style="display:inline-block">
-              <a href="#"><img class="center-block img-responsive" src="images/elements/Pa-Parent.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+              <a href="#"><img class="center-block img-responsive" src="images/elements/Pa-Parent.png" style="height:20vh; min-width:100px; margin: auto 10px"><br/></a>
         </div>
         <div style="display:inline-block">
-              <a href="about.php"><img class="center-block img-responsive" src="images/elements/Co-Community.png" style="width:20vw; max-width:230px; min-width:100px; margin: auto 10px"><br/></a>
+              <a href="about.php"><img class="center-block img-responsive" src="images/elements/Co-Community.png" style="height:20vh; min-width:100px; margin: auto 10px"><br/></a>
         </div>
     </div>
     <div class="col-md-3"></div>
