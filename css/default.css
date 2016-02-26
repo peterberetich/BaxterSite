@@ -314,3 +314,17 @@ white {
     margin: 0 auto !important;
     float: none !important;
 }
+
+.facmax {
+    max-width: 1350px
+}
+
+.snaptop {
+    position:fixed; 
+    top:70px; 
+    right:6px; 
+    margin-left:auto; 
+    margin-right:auto; 
+    z-index:99; 
+    height:140px
+}

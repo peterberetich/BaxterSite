@@ -34,11 +34,10 @@
   </head>
   <body>
 
-<div style="position:fixed; bottom:0; left:0; right:0; margin-left:auto; margin-right:auto; z-index:99; height:140px">
+
+<div class="snaptop">
     <a href="#top">
-        <section id="topbar">
-            <h2 class="fullwidthtopbar"><img src="images/top.png" width="60px"/></h2>
-        </section>
+            <img src="images/top.png" width="60px"/>
     </a>
 </div>
 
@@ -50,11 +49,11 @@
 
 <h1 id="top" style="text-align:center">Faculty and Staff</h1>
 <br/>
-    <img class="img-responsive" src="images/headerimages/facultyheader.jpg" alt="Faculty" width="100%">
+<div class="image" style="background-image: url('images/headerimages/facultyheader.jpg'); background-position: center"></div>
 <br/>
 <div class="row">
 	<div class="col-lg-2">
-        <div id="" style="overflow-y: scroll; height:400px;">
+        <div id="" style="overflow-y: scroll; height:80vh;">
             <div class="panelnoborder panel-default" style="margin-left:10%; margin-right:10%">
                 <div class="form-group">
                   <input style="text-align:center" type="text" class="form-control" id="box" placeholder="Find Teachers">
@@ -93,9 +92,9 @@
         </div>
         </div>
         <br/>
-</div>
+    </div>
 <div class="col-lg-10">
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jamory" class="panel-title" style="text-align:center">Jonathan Amory - Engineering/Robotics Teacher</h1>
    </div>
@@ -122,7 +121,7 @@ Fun facts about Mr. Amory:  He has sailed to Norway. He has climbed mountains on
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="mbarnes" class="panel-title" style="text-align:center">Matthew Barnes - Art & Design Teacher</h1>
    </div>
@@ -148,7 +147,7 @@ Fun facts about Mr. Barnes: He’s a pilot, a scuba diver, and the cemetery keep
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="sbuhlman" class="panel-title" style="text-align:center">Sarah Buhlman - Instructional Specialist</h1>
    </div>
@@ -174,7 +173,7 @@ Fun facts about Ms. Buhlman: She once had a job preparing three meals a day for 
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="hdippolito" class="panel-title" style="text-align:center">Heather D'Ippolito - Humanities Teacher</h1>
    </div>
@@ -205,7 +204,7 @@ Fun facts about Ms. D’Ippolito:  If she weren’t a teacher, she’d probably 
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jdoughty" class="panel-title" style="text-align:center">Jonathan Doughty - Science Teacher</h1>
    </div>
@@ -230,7 +229,7 @@ Fun Fact: When in Madagascar, Mr. Doughty was at one point taught to sail a dugo
    </div>
 </div>
 <br/>
-    <div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+    <div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="natdoug" class="panel-title" style="text-align:center">Nate Edmunds - Art & Design Teacher</h1>
    </div>
@@ -255,7 +254,7 @@ Fun facts about Mr. Edmunds: He is building an 18.3-foot cedar-strip kayak, work
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="dgagne" class="panel-title" style="text-align:center">Debra Gagne - Social Worker</h1>
    </div>
@@ -276,7 +275,7 @@ Bio coming soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="agilman" class="panel-title" style="text-align:center">Adam Gilman - Humanities Teacher</h1>
    </div>
@@ -303,7 +302,7 @@ Fun facts about Mr. Gilman: He’s been to thirty countries (and counting). He t
      </div>
    </div>
 </div>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jguerette" class="panel-title" style="text-align:center">Jordan Guerette - French & Music Teacher</h1>
    </div>
@@ -332,7 +331,7 @@ Fun facts about Mr. Guerette: He is part of a heavy metal band that sells albums
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="whodous" class="panel-title" style="text-align:center">Wells Hodous - Engineering Teacher</h1>
    </div>
@@ -358,7 +357,7 @@ Fun Fact:  I love simple living, my kids, (three, two are in high school!) the s
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="thowe" class="panel-title" style="text-align:center">Tia Howe - Admissions & Front Office Manager</h1>
    </div>
@@ -382,7 +381,7 @@ Fun facts: Ms Howe is a taphophile* (definition: someone who takes interest in c
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="hlarsson" class="panel-title" style="text-align:center">Halsted Larsson - Programming Teacher</h1>
    </div>
@@ -410,7 +409,7 @@ Fun Fact: Mr. Larsson spent a year after college in a Clinical Pastoral Educatio
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="mlawrence" class="panel-title" style="text-align:center">Megan Lawrence - Spanish Teacher</h1>
    </div>
@@ -436,7 +435,7 @@ Fun facts about Ms. Lawrence: She raised sheep when she was growing up. She read
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="eli" class="panel-title" style="text-align:center">Enyue Li - Mandarin Chinese Teacher</h1>
    </div>
@@ -463,7 +462,7 @@ Fun facts about Ms. Li: She has done research in Chinese calligraphy and grammar
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="alukas" class="panel-title" style="text-align:center">Alan Lukas</h1>
    </div>
@@ -483,7 +482,7 @@ Bio coming soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="lmedeiros" class="panel-title" style="text-align:center">Laurie Medeiros - Guidance Counselor</h1>
    </div>
@@ -510,7 +509,7 @@ Fun Fact: Ms. Medeiros  is a playwright in her spare time, and enjoys having her
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="pmoxhay" class="panel-title" style="text-align:center">Peter Moxhay - Physics & Math Teacher</h1>
    </div>
@@ -534,7 +533,7 @@ Fun facts about Dr. Moxhay: He has done research in elementary particle physics,
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="mnunez" class="panel-title" style="text-align:center">Moises Nunez - Director of Student Services</h1>
    </div>
@@ -560,7 +559,7 @@ Fun facts about Mr. Nunez: Everyone calls him Mo. His first language is Spanish.
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="bolson" class="panel-title" style="text-align:center">Brian Olson - Geography and Special Education Teacher</h1>
    </div>
@@ -590,7 +589,7 @@ Fun facts about Mr. Olson: He likes juicing and children's books, beat-boxing an
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="sparwol" class="panel-title" style="text-align:center">Sean Parrott-Wolfe - Mathematics Teacher</h1>
    </div>
@@ -616,7 +615,7 @@ Fun facts:  Mr. Parrott-Wolfe has been a barista, paperboy, audio engineer, weld
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="eperks" class="panel-title" style="text-align:center">Elke Perks - Life Sciences Teacher</h1>
    </div>
@@ -644,7 +643,7 @@ Fun facts about Ms. Perks: She moved to Maine from New Jersey to be a chef at an
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="apfeifer" class="panel-title" style="text-align:center">Alice Pfeifer - Instructional Specialist</h1>
    </div>
@@ -664,7 +663,7 @@ Bio coming soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="drawson" class="panel-title" style="text-align:center">David Rawson - Math, Science & Technology Teacher</h1>
    </div>
@@ -692,7 +691,7 @@ Fun facts about Mr. Rawson: Neither the piano nor the clarinet (or even, during 
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="prawson" class="panel-title" style="text-align:center">Pamela Rawson - Mathematics Teacher</h1>
    </div>
@@ -721,7 +720,7 @@ Fun facts about Ms Rawson: She plays many instruments, but none of them very wel
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="brosenbloom" class="panel-title" style="text-align:center">Ben Rosenbloom</h1>
    </div>
@@ -741,7 +740,7 @@ Bio Coming Soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="dschwarz" class="panel-title" style="text-align:center">Donna Schwarz - Front Office Administrative Assistant</h1>
    </div>
@@ -761,7 +760,7 @@ Bio Coming Soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="scogin" class="panel-title" style="text-align:center">Samuel Scogin - Humanities Teacher</h1>
    </div>
@@ -789,7 +788,7 @@ Fun facts about Mr. Scogin: He spends at least one week a year alone in the back
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="astarr" class="panel-title" style="text-align:center">Aleah Starr - Humanities Teacher</h1>
    </div>
@@ -815,7 +814,7 @@ Fun Fact:  Ms. Starr grew up in the smallest U.S. state capital which also happe
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="sstutzman" class="panel-title" style="text-align:center">Sunny Stutzman - Fabrication & Engineering Teacher</h1>
    </div>
@@ -843,7 +842,7 @@ Fun facts about Mr. Stutzman: He surfs year-round in Maine’s coastal waters. H
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="ataylor" class="panel-title" style="text-align:center">Angela Taylor - Humanities Teacher</h1>
    </div>
@@ -871,7 +870,7 @@ Fun facts about Ms. Taylor:  She was in the Navy but gets seasick. She thought s
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="kvirmalo" class="panel-title" style="text-align:center">Katelyn Virmalo - Humanities Teacher </h1>
    </div>
@@ -901,7 +900,7 @@ Fun facts about Ms. Virmalo: She is a traveler, reader, baker, seamstress, yogi,
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="awinter" class="panel-title" style="text-align:center">Antonia Winter - Educational Technician </h1>
    </div>
@@ -928,7 +927,7 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
 </div>
 </div>
     
-</cms:editable>
+<!--/cms:editable-->
         
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.2.min.js"></script>
@@ -942,6 +941,17 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
         $('.dropdown-toggle').dropdown();
     });
 	</script>
+<script>
+    $(".snaptop").hide();
+    $(document).scroll(function() {
+      var y = $(this).scrollTop();
+      if (y > 300) {
+        $('.snaptop').fadeIn();
+      } else {
+        $('.snaptop').fadeOut();
+      }
+    });
+</script>
 
 </body>
 </html>

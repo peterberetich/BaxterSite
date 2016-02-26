@@ -49,7 +49,7 @@
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
-
+<div class="centerednav">
 <ul class="bxslider">
   <li>
     <div class="slideimage" style="background-image: url('images/carousel/carouselhistory.jpg'); background-position: center;"></div>
@@ -68,7 +68,7 @@
       </div>
     </li>
   <li>
-    <div class="slideimage" style="background-image: url('images/carousel/FabLab_rightwide_pano.jpg'); background-position: center;"></div>
+    <div class="slideimage" style="background-image: url('images/carousel/fablab1.jpg'); background-position: center;"></div>
     <div class="textbox" id="flexfriday" style="margin-left: auto; margin-right: auto">
         <a href="faculty.php">
         <p>Flex Friday</p>
@@ -76,12 +76,14 @@
       </div>
     </li>
 </ul>
+</div>
 
 <br/>
       
 <div class="row">
     <div class="col-sm-1"></div>
     <div class="col-sm-10">
+    <div class="centerednav">
         <div class="col-sm-4">
             <div>
               <a class="various fancybox.iframe" href="http://www.youtube.com/embed/ooV86nrVc_Y?autoplay=1&amp;rel=0&amp;showinfo=0">
@@ -112,6 +114,7 @@
               </a>
             </div>
         </div>
+    </div>
     </div>
     <div class="col-sm-1"></div>
 </div>
@@ -159,6 +162,7 @@
           $('.bxslider').bxSlider({
                 mode: 'horizontal',
                 touchEnabled: true,
+                speed: 1500,
           });
         });
           

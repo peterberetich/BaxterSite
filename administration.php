@@ -21,12 +21,8 @@
     
     <title>Administration - Baxter Academy</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap_faculty.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
-
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-    <link href="css/owl.transitions.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,10 +31,15 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   </head>
-  <body>
+<body id="top">
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
+<div class="snaptop">
+    <a href="#top">
+            <img src="images/top.png" width="60px"/>
+    </a>
+</div>
 <br/>
 <h1 style="text-align:center">Administration</h1>
 <br/>
@@ -54,7 +55,7 @@
         <br/>
 </div>
 <div class="col-lg-10">
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="cstasio" class="panel-title" style="text-align:center">Carl Stasio - Executive Director</h1>
    </div>
@@ -82,7 +83,7 @@ Fun facts about Mr. Stasio: In high school, he took a bus every day from East Bo
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="mlaforge" class="panel-title" style="text-align:center">Michele LaForge - Head of School</h1>
    </div>
@@ -114,7 +115,7 @@ Fun facts about Ms. LaForge:  She quilts. She likes to read Jane Austen and scie
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="kdriver" class="panel-title" style="text-align:center">Katherine Driver - Director of Guidance and Counseling</h1>
    </div>
@@ -144,7 +145,7 @@ Fun facts about Ms. Driver: She plays bass in various bluegrass ensembles and is
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="acooper" class="panel-title" style="text-align:center">Amos Cooper - IT Manager</h1>
    </div>
@@ -170,7 +171,7 @@ Fun Facts: Mr. Cooper really enjoys playing music, especially the bass guitar. H
    </div>
 </div>
 <br/>
-<div class="panel panel-default" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jtalbot" class="panel-title" style="text-align:center">Jessica Talbot - Special Education Program Coordinator</h1>
    </div>
