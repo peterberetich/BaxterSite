@@ -1,9 +1,9 @@
 section {
   box-sizing: border-box; /* or not */
   margin: 0 auto;
-  margin-bottom: 7em;
+  margin-bottom: 7vh;
   width:  100%;
-  padding: 1.5rem;
+  padding: 3vh;
 }
 
 section, .history {
@@ -16,10 +16,10 @@ section, .history {
 
 section, .mobile {
   box-sizing: border-box; /* or not */
-  margin: 4em auto;
-  margin-bottom: 4em;
+  margin: 7vh auto;
+  margin-bottom: 7vh;
   width:  100%;
-  padding: 1rem;
+/*  padding: 1rem;*/
 }
 h2, .full-width {
   position: relative; /* child absolute */

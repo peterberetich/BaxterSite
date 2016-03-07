@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!--Google Analytics Tag-->
+  <!--End Google Analytics Tag-->
+  	<link rel="icon" 
+      type="image/png" 
+      href="images/favicon/baxicon.png">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baxter Academy</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/history.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    
+        <!--Lightbox css-->
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+
+    <link href="css/multi-screen-css.css" type="text/css" rel="stylesheet"/>
+    <link href="css/jquery.gridster.css" type="text/css" rel="stylesheet"/>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <div id="screen1" class="ms-container ms-default">
+        <div class="gridster">
+            <ul>
+                <li data-row="1" data-col="1" data-sizex="1" data-sizey="1"></li>
+                <li data-row="2" data-col="1" data-sizex="1" data-sizey="1"></li>
+                <li data-row="3" data-col="1" data-sizex="1" data-sizey="1"></li>
+
+                <li data-row="1" data-col="2" data-sizex="2" data-sizey="1"></li>
+                <li data-row="2" data-col="2" data-sizex="2" data-sizey="2"></li>
+
+                <li data-row="1" data-col="4" data-sizex="1" data-sizey="1"></li>
+                <li data-row="2" data-col="4" data-sizex="2" data-sizey="1"></li>
+                <li data-row="3" data-col="4" data-sizex="1" data-sizey="1"></li>
+
+                <li data-row="1" data-col="5" data-sizex="1" data-sizey="1"></li>
+                <li data-row="3" data-col="5" data-sizex="1" data-sizey="1"></li>
+
+                <li data-row="1" data-col="6" data-sizex="1" data-sizey="1"></li>
+                <li data-row="2" data-col="6" data-sizex="1" data-sizey="2"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="screen2" class="ms-container">
+    <div style="position:relative; z-index:10">
+        
+        </div>
+        <div style="position:absolute; width: 100vw; height: 100vh; left: 0; top: 0; background: #d32828;">
+        <a class="ms-nav-link btn btn-default" data-ms-target="screen1" href="javascript:void(0)" style="; top:0; left:auto; right:0; position:absolute">X</a>
+        </div>
+    </div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.gridster.js"></script>
+    <script type="text/javascript" src="js/multi-screen.js"></script>
+    <script type="text/javascript">$(document).ready(function() { MultiScreen.init(); });</script>
+    <script src="js/plugins/jquery.capSlide.js"></script>
+    <script src="js/plugins/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+  <script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+  </script>
+  <script type="text/javascript">
+            $(document).ready(function() {
+                $(".various").fancybox({
+                    modal       : false,
+                    maxWidth	: 1280,
+                    maxHeight	: 720,
+                    fitToView	: false,
+                    width		: '80%',
+                    height		: '80%',
+                    autoSize	: false,
+                    closeClick	: false,
+                    openEffect	: 'none',
+                    closeEffect	: 'none',
+                    closeBtn    : true
+                });
+            });
+            $(function(){ //DOM Ready
+                $(".gridster ul").gridster({
+                    widget_margins: [10, 10],
+                    widget_base_dimensions: [140, 140]
+                });
+            });
+        </script>
+</body>
+</html>

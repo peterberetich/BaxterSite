@@ -94,9 +94,9 @@ h2, .fullwidthvision {
   margin: 0 -9999rem;
   /* add back section padding value */
   padding: .25rem 9999rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.7rem;
   top: 0px;
-  background: #db6229; /* For browsers that do not support gradients */    
+  background: #F9690E; /* For browsers that do not support gradients */    
   color: white;
   text-align:center;
   font-size: 4em;

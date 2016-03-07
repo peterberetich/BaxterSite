@@ -303,6 +303,12 @@ white {
     background-size: cover;
 }
 
+.responsiveimage {
+    height: 200px;
+    background-position: bottom;
+    background-size: cover;
+}
+
 .centerednav {
     max-width: 1920px;
     margin: 0 auto !important;
@@ -311,12 +317,27 @@ white {
 
 .centereddiv {
     max-width: 500px;
+    padding: 10px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.centeredtext {
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.centered1000 {
+    max-width: 1000px;
+    padding: 10px;
     margin: 0 auto !important;
     float: none !important;
 }
 
 .facmax {
-    max-width: 1350px
+    max-width: 1490px;
 }
 
 .snaptop {
@@ -327,4 +348,199 @@ white {
     margin-right:auto; 
     z-index:99; 
     height:140px
+}
+
+.header-unit {
+  height: 230px;
+  width: 100%;
+  border-right:none;
+  border-left: none;
+  position: relative;
+  bottom: 30px;
+  padding: 0px;
+}
+
+#video-container {
+	position: absolute;
+}
+
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+
+video {
+	position:absolute;
+	z-index:0;
+}
+
+video.fillWidth {
+	width: 100%;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.baxelements {
+    height:28vh; 
+    margin: auto 10px;
+}
+
+.bluething {
+    background-color: #1c6ac4
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-clip: padding-box;
+}
+.card span.card-title {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 300;
+    
+}
+@media screen and (max-width: 963px) {
+.card span.card-title {
+        font-size: 1.5em;
+    }
+}
+
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+}
+.card .card-image img {
+  border-radius: 2px 2px 0 0;
+  background-clip: padding-box;
+  position: relative;
+  z-index: -1;
+}
+.card .card-image span.card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+}
+.card .card-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.card .card-content p {
+  margin: 0;
+  color: inherit;
+}
+.card .card-content span.card-title {
+  line-height: 48px;
+  color: black;
+}
+.card .card-action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px;
+}
+.card .card-action a {
+  color: #ffab40;
+  margin-right: 16px;
+  transition: color 0.3s ease;
+}
+.card .card-action a:hover {
+  color: #ffd8a6;
+  text-decoration: none;
+}
+
+.card {
+    opacity: 1; /* css standard */
+    /*filter: alpha(opacity=90); /* internet explorer */
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.card:hover {
+    opacity: 0.7; /* css standard */
+    /*filter: alpha(opacity=100); /* internet explorer */
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50px;
+  width: 100px;
+}
+
+#video-viewport {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    z-index: 100; /* for accessing the video by click */
 }

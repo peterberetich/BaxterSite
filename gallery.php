@@ -22,6 +22,7 @@
     <!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
+    <link href="css/history.css" rel="stylesheet">
 
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="resources/UberGallery.css" />
@@ -38,17 +39,19 @@
   </head>
   <body>
 <!--BEGIN NAV-->
-<?php include('header.html'); ?>
+<?php include_once('header.html');  
+
+echo "<section id='history'>";
+echo "    <h2 class='fullwidthvision'>Gallery</h2>";
+echo "</section>";
+
+include_once('resources/UberGallery.php'); $gallery = UberGallery::init()->createGallery('gallerypics');?>
 <!--End of Navbar-->
-      
-<div class="container-fluid center-block" style="height: 100px">
-<?php include_once('resources/UberGallery.php'); $gallery = UberGallery::init()->createGallery('gallerypics'); ?>
-</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="resources/colorbox/jquery.colorbox.js"></script>
-      <script src="js/plugins/jquery.capSlide.js"></script>
+    <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/plugins/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>

@@ -22,6 +22,7 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
 
+ErrorDocument 404 http://whassat.com/baxteracademy/404page.php
 
 #Additional options to extend server limits. Commented out as might not work on some hosts
 #php_value upload_max_filesize 1000M

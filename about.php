@@ -33,13 +33,6 @@
 
     <script type="text/javascript" src="js/webpjs-0.0.2.min.js"></script>
 
-	<!--<script data-cfasync="false">
-  		(function(r,e,E,m,b){E[r]=E[r]||{};E[r][b]=E[r][b]||function(){
-		(E[r].q=E[r].q||[]).push(arguments)};b=m.getElementsByTagName(e)[0];m=m.createElement(e);
-		m.async=1;m.src=("file:"==location.protocol?"https:":"")+"//s.reembed.com/G-A0G401.js";
-		b.parentNode.insertBefore(m,b)})("reEmbed","script",window,document,"api");
-	</script>-->
-
 	<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>

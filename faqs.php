@@ -43,8 +43,7 @@
 </section>
 <div class="image" style="background-image: url('images/headerimages/faqbanner.jpg'); background-position: center;"></div>
 <br/>
-<div style="width: 60vw; margin-left:auto; margin-right:auto">
-<p>
+<div class="centeredtext">
 <cms:editable name='FAQs' type='richtext'>
 What is Baxter Academy?
 Baxter Academy is a public charter school in Portland, Maine. Its curriculum is rooted in inquiry and project-based learning and is connected across subjects. Baxter opened in fall 2013 with a learning community of 130 freshman and sophomore students from more than 20 Maine towns. Its teacher to student ratio is 1:16. It is free to attend Baxter Academy.
@@ -64,9 +63,9 @@ If your child is a Maine resident rising into the ninth tenth, or eleventh grade
 How do I enroll my student?
 Fill out the online application, found on our Home Page, and send in a hard-copy Letter of Intent to Enroll to add your student's name to the waitlist. Follow the Admissions updates online at http://baxter-academy.org/admissions/. We host Open Houses in the Fall and Winter. The Open Enrollment period begins in December or January, ending with a Lottery held in February or March.
 </cms:editable>
-</p>
 
 <br/><br/><br/>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
   <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>

@@ -32,9 +32,7 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   </head>
-  <body>
-
-
+<body id="top">
 <div class="snaptop">
     <a href="#top">
             <img src="images/top.png" width="60px"/>
@@ -47,7 +45,7 @@
 <br/>
 <!--cms:editable name='main_content' no_xss_check='1' type='textarea'-->
 
-<h1 id="top" style="text-align:center">Faculty and Staff</h1>
+<h1 style="text-align:center">Faculty and Staff</h1>
 <br/>
 <div class="image" style="background-image: url('images/headerimages/facultyheader.jpg'); background-position: center"></div>
 <br/>
@@ -951,6 +949,21 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
         $('.snaptop').fadeOut();
       }
     });
+    
+    $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 </script>
 
 </body>

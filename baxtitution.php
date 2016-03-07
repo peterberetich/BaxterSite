@@ -55,7 +55,7 @@
     </div>
     <div class="col-lg-1"></div>
 </div>
-
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="js/jquery-1.11.2.min.js"></script>
