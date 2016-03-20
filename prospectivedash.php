@@ -23,7 +23,7 @@
     
         <title>Baxter Academy</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
   </head>
   <body>
@@ -75,10 +75,10 @@ If necessary, a lottery will be held at <b> 6 p.m. on FEBRUARY 10, 2016</b>
     <script src="js/plugins/owl.carousel.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+
   <script>
     $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
+        
     });
   $(document).ready(function(){
     $('.singleitem').slick({

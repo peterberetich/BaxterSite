@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
  
 	$('#popoverData').popover();
 	$('#popoverData2').popover();
@@ -67,7 +67,7 @@ function startSlides(start, end, delay) {
 
 $('#box').keyup(function(){
    var valThis = $(this).val().toLowerCase();
-    if(valThis == ""){
+    if (valThis == ""){
         $('.navList > li').show();
     } else {
         $('.navList > li').each(function(){
@@ -89,4 +89,15 @@ $('#box').keyup(function(){
          //go to destination
          $('html,body').animate({scrollTop:dest}, 1000,'swing');
      });
-     
+
+
+(function($){
+	$(document).ready(function(){
+		$('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+			event.preventDefault(); 
+			event.stopPropagation(); 
+			$(this).parent().siblings().removeClass('open');
+			$(this).parent().toggleClass('open');
+		});
+	});
+})(jQuery);

@@ -23,7 +23,7 @@
     
         <title>Faculty Dashboard</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
       
     <link href="css/jquery.fancybox.css" rel="stylesheet">
@@ -38,8 +38,8 @@
 <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
-        <div class="col-lg-6" id="nopad">
-            <div class="col-sm-6">
+        <div>
+            <div class="col-sm-4">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Events</h1></div>
                   <div class="panel-body dashpanel">
@@ -47,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <div class="panel panel-primary">
                   <div class="panel-heading text-center"><h1 id="dashheader">Apps</h1></div>
                   <div class="panel-body dashpanel text-center">
@@ -57,9 +57,7 @@
                 </div>
                 </div>
               </div>
-            </div>
-        <div class="col-lg-6" id="nopad">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center">
                     <h1 id="dashheader">Forms</h1>
@@ -69,15 +67,41 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <a class="various fancybox.iframe white" id="popout" href="opencampusmap.html">
+        </div>
+    <div class="col-lg-1"></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+        <div>
+            <div class="col-sm-4">
               <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Open Campus Map</h1></div>
+                <div class="panel-heading text-center"><h1 id="dashheader">Events</h1></div>
                   <div class="panel-body dashpanel">
-                    <iframe width="100%" height="100%" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/baxter-boundaries_70733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false#14/43.6542/-70.2564"></iframe>
-                  </div>
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=baxter-academy.org_n8j1pe52cu4eii2nm0dtkfpcp4%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
                 </div>
-                </a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-primary">
+                  <div class="panel-heading text-center"><h1 id="dashheader">Apps</h1></div>
+                  <div class="panel-body dashpanel text-center">
+                        <a href="https://maine.infinitecampus.org/campus/baxter.jsp" target="_blank" class="appbutton"><button type="button" class="btn btn-ic">Infinite <br/>Campus</button></a>
+                        <a href="https://classroom.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gc">Google <br/>Classroom</button></a>
+                        <a href="https://mail.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gm">Gmail</button></a>
+                </div>
+                </div>
+              </div>
+            <div class="col-sm-4">
+              <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                    <h1 id="dashheader">Forms</h1>
+                  </div>
+                  <div class="panel-body dashpanel" style="overflow-y: scroll">
+                    <iframe src="https://drive.google.com/embeddedfolderview?id=0B3AnN9we9Ym8dVJtS1pmRERielE#list" width="100%" height="815px" frameborder="0"></iframe>
+                </div>
+              </div>
             </div>
         </div>
     <div class="col-lg-1"></div>
@@ -129,7 +153,7 @@
     <script src="js/custom.js"></script>
   <script>
     $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
+        
     });
   </script>
 

@@ -21,7 +21,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Minutes - Baxter Academy</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
 
     <link href="css/history.css" rel="stylesheet">
@@ -85,10 +85,10 @@ Behavior Management and Discipline Policy
     <script src="js/plugins/owl.carousel.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+
   <script>
     $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
+        
     });
   $(document).ready(function(){
     $('.singleitem').slick({

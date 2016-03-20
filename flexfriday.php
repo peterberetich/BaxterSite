@@ -21,10 +21,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Friday - Baxter Academy</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
 
     <link href="css/history.css" rel="stylesheet">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,17 +65,6 @@ Outside of our national school system, work in the “real world” is about sol
     <script src="js/plugins/owl.carousel.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script>
-    $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
-    });
-  $(document).ready(function(){
-    $('.singleitem').slick({
-      adaptiveHeight: true
-      });
-  });
-  </script>
 
 </body>
 </html>

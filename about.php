@@ -22,7 +22,7 @@
     <meta name="theme-color" content="#457fdb">
     <title>About - Baxter Academy</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
     <!--Lightbox css-->
     <link href="css/jquery.fancybox.css" rel="stylesheet">
@@ -46,27 +46,24 @@
 <ul class="bxslider">
   <li>
     <div class="slideimage" style="background-image: url('images/carousel/carouselhistory.jpg'); background-position: center;"></div>
-    <div class="textbox" style="margin-left: auto; margin-right: auto">
-        <a href="history.php">
-        <p>History</p>
-        </a>
-      </div>
+    <a href="history">
+        <div class="textbox" style="margin-left: auto; margin-right: auto">
+        What is Baxter?</div>
+    </a>
     </li>
   <li>
     <div class="slideimage" style="background-image: url('images/carousel/facultycarousel.jpg'); background-position: center;"></div>
-    <div class="textbox" id="staff" style="margin-left: auto; margin-right: auto">
-        <a href="faculty.php">
-        <p>Staff</p>
-        </a>
-      </div>
-    </li>
+    <a href="faculty">
+        <div class="textbox" id="staff" style="margin-left: auto; margin-right: auto">
+        Who works at Baxter?</div>
+    </a>
+  </li>
   <li>
     <div class="slideimage" style="background-image: url('images/carousel/fablab1.jpg'); background-position: center;"></div>
-    <div class="textbox" id="flexfriday" style="margin-left: auto; margin-right: auto">
-        <a href="faculty.php">
-        <p>Flex Friday</p>
-        </a>
-      </div>
+    <a href="flexfriday">
+        <div class="textbox" id="flexfriday" style="margin-left: auto; margin-right: auto">
+        What is Flex Friday?</div>
+    </a>
     </li>
 </ul>
 </div>
@@ -155,21 +152,14 @@
           $('.bxslider').bxSlider({
                 mode: 'horizontal',
                 touchEnabled: true,
-                speed: 1500,
+                speed: 1200,
           });
-        });
           
-        $(document).keydown(function(e){
-            if (e.keyCode == 39) // Right arrow 
-            {
-                slider.goToNextSlide();
-                return false;
-            }
-            else if (e.keyCode == 37) // left arrow
-            {
-                 slider.goToPrevSlide();
-                return false;
-           }
+          $(".bx-pager-link").click(function () {
+            console.log('bla');            
+            slider.stopAuto();
+            slider.startAuto();
+        });
         });
       </script>
 

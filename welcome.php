@@ -40,7 +40,6 @@
   </head>
   <body style="overflow:hidden">
 
-
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
@@ -88,10 +87,5 @@
     <script src="js/plugins/jquery.capSlide.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-	<script>
-    $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
-    });
-	</script>
 </body>
 </html>

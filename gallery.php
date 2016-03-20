@@ -20,7 +20,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Baxter Academy</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
     <link href="css/history.css" rel="stylesheet">
 
@@ -58,7 +58,7 @@ include_once('resources/UberGallery.php'); $gallery = UberGallery::init()->creat
     
   <script>
     $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
+        
     });
   </script>
 

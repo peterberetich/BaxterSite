@@ -22,7 +22,7 @@
 
     <title>History - Baxter Academy</title>
     <!-- Bootstrap -->
-	   <link href="css/bootstrap.css" rel="stylesheet">
+	   <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
 
     <link href="css/history.css" rel="stylesheet">
@@ -47,7 +47,8 @@
 <section id="history">
     <h2 class="fullwidthhistory">History</h2>
 </section>
-
+<div class="image" style="background-image: url('images/carousel/carouselhistory.jpg'); background-position: bottom;"></div>
+<br/><br/>
 <div class="centeredtext">
 <cms:editable name='historycontent' type='richtext'>
     Baxter Academy was founded in response to a growing urgency among students and parents for greater access to high-quality STEM education. In the summer of 2012, a group of students, parents, educators, and community leaders united around the idea of a STEM-focused charter high school in Portland that would be open by lottery to any high school student in the state of Maine and would feature an innovative, project-based curriculum. A key feature of the school would be Flex Friday, a unique program designed to invest 20 percent of the week in yearlong student-driven projects solving real-world problems.  Baxter students would commute daily from a 25-mile catchment area to go to school in downtown Portland where they would be prepared for the best colleges and be plugged directly into the economic engine of the state through internships, mentorships, and industry partnerships. 
@@ -89,16 +90,11 @@ Our students choose work that inspires their imaginations. They persevere throug
     <script src="js/plugins/owl.carousel.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+
   <script>
     $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
+        
     });
-  $(document).ready(function(){
-    $('.singleitem').slick({
-      adaptiveHeight: true
-      });
-  });
   </script>
 
 </body>

@@ -205,10 +205,10 @@ Fun facts about Ms. Talbot: She spends much of her free time playing table-top R
     <script src="js/plugins/owl.carousel.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+
 	<script>
     $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
+        
     });
 	$(document).ready(function(){
 		$('.singleitem').slick({

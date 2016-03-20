@@ -40,7 +40,7 @@ h2, .full-width {
   color: white;
   text-align:center;
   font-size: 3rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-shadow:#4D4D4D;
 }
 
@@ -55,7 +55,7 @@ h2, .fullwidthhistory {
   color: white;
   text-align:center;
   font-size: 4em;
-  font-family: 'Open Sans', sans-serif; font-weight: 300; 
+  font-family: 'Roboto', sans-serif; 
   text-shadow:#4D4D4D;
 }
 
@@ -70,7 +70,7 @@ h2, .fullwidthtopbar {
   bottom: 0;
   text-align:center;
   font-size: 4em;
-  font-family: 'Open Sans', sans-serif; font-weight: 300; 
+  font-family: 'Roboto', sans-serif;
   text-shadow:#4D4D4D;
 }
 
@@ -85,7 +85,7 @@ h2, .fullwidthmission {
   color: white;
   text-align:center;
   font-size: 4em;
-  font-family: 'Open Sans', sans-serif; font-weight: 300; 
+  font-family: 'Roboto', sans-serif;
   text-shadow:#4D4D4D;
 }
 
@@ -100,7 +100,7 @@ h2, .fullwidthvision {
   color: white;
   text-align:center;
   font-size: 4em;
-  font-family: 'Open Sans', sans-serif; font-weight: 300; 
+  font-family: 'Roboto', sans-serif;
   text-shadow:#4D4D4D;
 }
 

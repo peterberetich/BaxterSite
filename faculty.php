@@ -47,7 +47,7 @@
 
 <h1 style="text-align:center">Faculty and Staff</h1>
 <br/>
-<div class="image" style="background-image: url('images/headerimages/facultyheader.jpg'); background-position: center"></div>
+<div class="image" style="background-image: url('images/headerimages/staffheader.jpg'); background-position: center"></div>
 <br/>
 <div class="row">
 	<div class="col-lg-2">
@@ -924,7 +924,7 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
    </div>
 </div>
 </div>
-    
+</div>
 <!--/cms:editable-->
         
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
@@ -933,12 +933,7 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
     <script src="js/plugins/owl.carousel.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-	<script>
-    $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
-    });
-	</script>
+
 <script>
     $(".snaptop").hide();
     $(document).scroll(function() {

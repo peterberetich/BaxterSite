@@ -1,43 +1,3 @@
-<?php
-	if (isset($_POST["submit"])) {
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$message = $_POST['message'];
-		$human = intval($_POST['human']);
-		$from = 'Demo Contact Form'; 
-		$to = 'peter.beretich@baxter-academy.org'; 
-		$subject = 'Message from Contact Demo ';
-		
-		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
-		// Check if name has been entered
-		if (!$_POST['name']) {
-			$errName = 'Please enter your name';
-		}
-		
-		// Check if email has been entered and is valid
-		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-			$errEmail = 'Please enter a valid email address';
-		}
-		
-		//Check if message has been entered
-		if (!$_POST['message']) {
-			$errMessage = 'Please enter your message';
-		}
-		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
-			$errHuman = 'Your anti-spam is incorrect';
-		}
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-	if (mail ($to, $subject, $body, $from)) {
-		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-	} else {
-		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
-	}
-}
-	}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -150,52 +110,23 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 </nav>
 <!--End of Navbar-->
     <h1 class="page-header text-center"><u>Contact Us</u></h1>
-    <div class="row">
-    <div class="col-lg-5">
-  	<div class="container">
   		<div class="row">
   			<div class="col-lg-6">
   				<h4 class="page-header text-justified">Email addresses for staff members can be found on either the <a href="faculty.html">Faculty</a> or Administration page.   General inquiries can be made below, and we'll direct it to the right person.  Thank you!</h4>
-				<form class="form-horizontal" role="form" method="post" action="contact.php">
-					<div class="form-group">
-						<label for="name" class="col-sm-2 control-label">Name</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-							<?php echo "<p class='text-danger'>$errName</p>";?>
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="email" class="col-sm-2 control-label">Email</label>
-						<div class="col-sm-10">
-							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-							<?php echo "<p class='text-danger'>$errEmail</p>";?>
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="message" class="col-sm-2 control-label">Message</label>
-						<div class="col-sm-10">
-							<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-							<?php echo "<p class='text-danger'>$errMessage</p>";?>
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-							<?php echo "<p class='text-danger'>$errHuman</p>";?>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-10 col-sm-offset-2">
-							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-10 col-sm-offset-2">
-							<?php echo $result; ?>	
-						</div>
-					</div>
-				</form> 
+                <script language="javascript">var sa_email_id = '70545-88443';var sa_sent_text = 'Thank you for contacting us. We will get back to you soon!';</script>
+                    <form name="htmlform" method="post" action="html_form_send.php">
+                      <label for="first_name">First Name *</label>
+                      <input class="form-control"  type="text" name="first_name">
+                      <label for="last_name">Last Name *</label>
+                      <input class="form-control" type="text" name="last_name">
+                      <label for="email">Email Address *</label>
+                      <input class="form-control" type="text" name="email">
+                      <label for="telephone">Phone Number</label>
+                      <input class="form-control" type="text" name="telephone">
+                      <label for="comments">Comments *</label>
+                      <textarea class="form-control" name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                      <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+                    </form>
 			</div>
             
     		<div class="col-lg-6">
@@ -209,10 +140,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					<br/>
 					<b>F :</b> 1.207.331.4831 </h3>
     		</div>
-		</div>
-	</div>
-    
-    </div>
+		</div>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </body>
