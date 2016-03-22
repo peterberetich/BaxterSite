@@ -1,15 +1,14 @@
 section {
   box-sizing: border-box; /* or not */
   margin: 0 auto;
-  margin-bottom: 7em;
+  margin-bottom: 2em;
   width:  100%;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 section, .history {
   box-sizing: border-box; /* or not */
-  margin: 0 auto;
-  margin-bottom: 0em;
+  margin: 2em auto;
   width:  100%;
   padding: 0rem;
 }
@@ -97,6 +96,21 @@ h2, .fullwidthvision {
   padding-bottom: 0.7rem;
   top: 0px;
   background: #F9690E; /* For browsers that do not support gradients */    
+  color: white;
+  text-align:center;
+  font-size: 4em;
+  font-family: 'Roboto', sans-serif;
+  text-shadow:#4D4D4D;
+}
+
+h2, .fullwidthdashboard {
+  position: relative; /* child absolute */
+  margin: 0 -9999rem;
+  /* add back section padding value */
+  padding: .25rem 9999rem;
+  padding-bottom: 0.7rem;
+  top: 0px;
+  background: #337AB7; /* For browsers that do not support gradients */    
   color: white;
   text-align:center;
   font-size: 4em;

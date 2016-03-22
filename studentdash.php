@@ -25,7 +25,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
-      
+    <link href="css/history.css" rel="stylesheet">
     <link href="css/jquery.fancybox.css" rel="stylesheet">
 
   </head>
@@ -33,7 +33,9 @@
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
-<br/>
+<section class="history">
+    <h2 class="fullwidthdashboard">Student Dashboard</h2>
+</section>
 <div class="centerednav">
 <div class="row">
     <div class="col-lg-1"></div>
@@ -104,7 +106,7 @@
             <div class="col-sm-6">
               <a class="various fancybox.iframe white" id="popout" href="opencampusmap.html">
               <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Open Campus Map</h1></div>
+                  <div class="panel-heading text-center"><h1 id="dashheader">Open Campus</h1></div>
                   <div class="panel-body dashpanel">
                     <iframe width="100%" height="100%" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/baxter-boundaries_70733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false#14/43.6542/-70.2564"></iframe>
                   </div>
@@ -133,7 +135,7 @@
               <div class="panel panel-primary">
                   <div class="panel-heading text-center"><h1 id="dashheader">Senate links</h1></div>
                   <div class="panel-body dashpanel text-center">
-                    <a href="https://docs.google.com/a/baxter-academy.org/forms/viewform?hl=en&id=1Zsbv9kRbJj1SGy1ekLSsH1XwQw8pXu6ZEE2YFY8T4CY" target="_blank"><button type="button" class="btn btn-info"><h6 style="font-size:1.2em; white-space: normal;">Flex Friday Fundraising Form</h6></button></a>
+                    <a href="https://docs.google.com/a/baxter-academy.org/forms/viewform?hl=en&id=1Zsbv9kRbJj1SGy1ekLSsH1XwQw8pXu6ZEE2YFY8T4CY" target="_blank"><button type="button" class="btn btn-danger">Flex Friday<br> Fundraising Form</button></a>
                 </div>
               </div>
             </div>

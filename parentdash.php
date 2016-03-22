@@ -25,7 +25,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
-      
+    <link href="css/history.css" rel="stylesheet">
     <link href="css/jquery.fancybox.css" rel="stylesheet">
 
   </head>
@@ -33,12 +33,14 @@
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
-<br/>
+<section class="history">
+    <h2 class="fullwidthdashboard">Parent Dashboard</h2>
+</section>
 <div class="centerednav">
 <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
-        <div class="col-lg-6" id="nopad">
+        <div class="col-lg-7 nopadding">
             <div class="col-sm-6">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Events</h1></div>
@@ -52,74 +54,36 @@
                   <div class="panel-heading text-center"><h1 id="dashheader">Apps</h1></div>
                   <div class="panel-body dashpanel text-center">
                         <a href="https://maine.infinitecampus.org/campus/baxter.jsp" target="_blank" class="appbutton"><button type="button" class="btn btn-ic">Infinite <br/>Campus</button></a>
-                        <a href="https://classroom.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gc">Google <br/>Classroom</button></a>
-                        <a href="https://mail.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gm">Gmail</button></a>
+                        <a href="https://docs.google.com/document/d/1hslQ09snrSWzV6JnKGt69DG2yyIaSHzpDIX2vhlmw40/edit?ts=5693d8cc" target="_blank" class="appbutton"><button type="button" class="btn btn-gc">Wishlist</button></a>
+                        <a href="gallery" target="_blank" class="appbutton"><button type="button" class="btn btn-gm">Gallery</button></a>
+                        <div class="appbutton">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="9NZEBBL3EQ89N">
+                        <input type="submit" class="btn btn-success" style="height:56px" value="Donate to Baxter" name="Donate" alt="">
+                        </form></div>
+                        <!--a href="https://mail.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-success">Donate<br> to Baxter</button></a-->
                 </div>
                 </div>
               </div>
-            </div>
-        <div class="col-lg-6" id="nopad">
-            <div class="col-sm-6">
-              <div class="panel panel-primary">
-                <div class="panel-heading text-center">
-                    <div class="form-group" style="height:2em;">
-                          <input style="text-align:center; font-size: 2em" type="text" class="form-control" id="box" placeholder="Search Teachers">
-                    </div>
-                  </div>
-                  <div class="panel-body dashpanel" style="overflow-y: scroll">
-                    <ul class=navList>
-                            <li><a href="faculty.php#jamory"><p>Amory, Jon</p></a></li>
-                            <li><a href="faculty.php#mbarnes"><p>Barnes, Matt </p></a></li>
-                            <li><a href="faculty.php#sbuhlman"><p>Buhlman, Sarah</p></a></li>
-                            <li><a href="faculty.php#hdippolito"><p>D'Ippolito, Heather</p></a></li>
-                            <li><a href="faculty.php#jdoughty"><p>Doughty, Jonathan</p></a></li>
-                            <li><a href="faculty.php#natdoug"><p>Edmunds, Nate </p></a></li>
-                            <li><a href="faculty.php#dgagne"><p>Gagne, Debra</p></a></li>
-                            <li><a href="faculty.php#agilman"><p>Gilman, Adam</p></a></li>
-                            <li><a href="faculty.php#jguerette"><p>Guerette, Jordan</p></a></li>
-                            <li><a href="faculty.php#whodous"><p>Hodous, Wells</p></a></li>
-                            <li><a href="faculty.php#thowe"><p>Howe, Tia</p></a></li>
-                            <li><a href="faculty.php#hlarsson"><p>Larsson, Halsted </p></a></li>
-                            <li><a href="faculty.php#mlawrence"><p>Lawrence, Megan</p></a></li>
-                            <li><a href="faculty.php#eli"><p>Li, Enyue      </p></a></li>
-                            <li><a href="faculty.php#alukas"><p>Lukas, Alan</p></a></li>
-                            <li><a href="faculty.php#lmedeiros"><p>Medeiros, Laurie </p></a></li>
-                            <li><a href="faculty.php#pmoxhay"><p>Moxhay, Peter </p></a></li>
-                            <li><a href="faculty.php#mnunez"><p>Nunez, Moises </p></a></li>
-                            <li><a href="faculty.php#bolson"><p>Olson, Brian </p></a></li>
-                            <li><a href="faculty.php#bolsonsparwol"><p>Parrott-Wolfe, Sean </p></a></li>
-                            <li><a href="faculty.php#apfeifer"><p>Pfeifer, Alice </p></a></li>
-                            <li><a href="faculty.php#drawson"><p>Rawson, David </p></a></li>
-                            <li><a href="faculty.php#prawson"><p>Rawson, Pamela </p></a></li>
-                            <li><a href="faculty.php#scogin"><p>Scogin, Sam </p></a></li>
-                            <li><a href="faculty.php#astarr"><p>Starr, Aleah </p></a></li>
-                            <li><a href="faculty.php#sstutzman"><p>Stutzman, Sunny </p></a></li>
-                            <li><a href="faculty.php#ataylor"><p>Taylor, Angela </p></a></li>
-                            <li><a href="faculty.php#kvirmalo"><p>Virmalo, Katelyn </p></a></li>
-                            <li><a href="faculty.php#awinter"><p>Winter, Antonia </p></a></li>
-                        </ul>
-                </div>
               </div>
-            </div>
-            <div class="col-sm-6">
-              <a class="various fancybox.iframe white" id="popout" href="opencampusmap.html">
+            <div class="col-lg-5 nopadding">
+             <div class="col-sm-12">
               <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Open Campus Map</h1></div>
-                  <div class="panel-body dashpanel">
-                    <iframe width="100%" height="100%" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/baxter-boundaries_70733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false#14/43.6542/-70.2564"></iframe>
+                  <div class="panel-heading text-center"><h1 id="dashheader">Forms + Policies</h1></div>
+                  <div class="panel-body dashpanel scroll-y">
+                    <cms:editable name='formsandpolicies' type='richtext'></cms:editable>
                   </div>
                 </div>
-                </a>
             </div>
-        </div>
+            </div>
+            </div>
     <div class="col-lg-1"></div>
-</div>
 </div>
 <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
-        <div class="col-lg-6" id="nopad">
-            <div class="col-sm-12">
+            <div class="col-sm-7">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Michele's Updates</h1></div>
                   <div class="panel-body dashpanel">
@@ -127,28 +91,15 @@
                 </div>
               </div>
             </div>
-        </div>
-        <div class="col-lg-6" id="nopad">
-            <div class="col-sm-6">
+            <div class="col-sm-5">
               <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Senate links</h1></div>
-                  <div class="panel-body dashpanel text-center">
-                    <a href="https://docs.google.com/a/baxter-academy.org/forms/viewform?hl=en&id=1Zsbv9kRbJj1SGy1ekLSsH1XwQw8pXu6ZEE2YFY8T4CY" target="_blank"><button type="button" class="btn btn-info"><h6 style="font-size:1.2em; white-space: normal;">Flex Friday Fundraising Form</h6></button></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Lunch Form</h1></div>
-                  <div class="panel-body dashpanel">
-                    <cms:editable name='lunchorderform' type='richtext'>
-                        <p>Hello</p>
-                    </cms:editable>
+              <div class="panel-heading text-center"><a href="faqs" target="_blank"><h1 id="dashheader">FAQs</h1></a></div>
+                  <div class="panel-body dashpanel scroll-y">
+                    <cms:editable name='faqs' type='richtext'></cms:editable>
                   </div>
                 </div>
             </div>
         </div>
-    </div>
     <div class="col-lg-1"></div>
 </div>
 </div>

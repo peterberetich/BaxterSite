@@ -46,9 +46,14 @@
 
 <div>
     <video autoplay loop width='100%' muted id='welcomepg'>
-        <source src="images/baxaerial.webm" type='video/webm; codecs="vp8,vorbis"'/>
-        <source src="images/baxaerial.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'/>
+        <?php 
+            $strings= array('baxaerial', 'flyaway');
+            $random_str = $strings[array_rand($strings)];
+          ?>
+        <source src="images/<?php echo $random_str; ?>.webm" type='video/webm; codecs="vp8,vorbis"'/>
+        <source src="images/<?php echo $random_str; ?>.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'/>
     </video>
+        
 		<section>
   			<h2 class="full-width">ARE YOU IN YOUR ELEMENT?</h2>
     	</section>
@@ -59,10 +64,10 @@
     <div class="col-lg-3"></div>
     <div class="col-lg-6 text-center">
         <div style="display:inline-block">
-              <a href="#"><img class="center-block img-responsive baxelements" src="images/elements/Pa-Parent.png"><br/></a>
+              <a href="parentdash"><img class="center-block img-responsive baxelements" src="images/elements/Pa-Parent.png"><br/></a>
         </div>
         <div style="display:inline-block">
-              <a href="studentdash.php"><img class="center-block img-responsive baxelements" src="images/elements/Sn-Student.png"><br/></a>
+              <a href="studentdash"><img class="center-block img-responsive baxelements" src="images/elements/Sn-Student.png"><br/></a>
         </div>
     </div>
     <div class="col-lg-3"></div>
@@ -73,10 +78,10 @@
     <div class="col-lg-3"></div>
     <div class="col-lg-6 text-center">
         <div style="display:inline-block">
-              <a href="prospectivedash.php"><img class="center-block img-responsive baxelements" src="images/elements/Pr-Prospective.png"><br/></a>
+              <a href="prospectivedash"><img class="center-block img-responsive baxelements" src="images/elements/Pr-Prospective.png"><br/></a>
         </div>
         <div style="display:inline-block">
-              <a href="about.php"><img class="center-block img-responsive baxelements" src="images/elements/Cu-Curious.png"><br/></a>
+              <a href="about"><img class="center-block img-responsive baxelements" src="images/elements/Cu-Curious.png"><br/></a>
         </div>
     </div>
     <div class="col-lg-3"></div>
