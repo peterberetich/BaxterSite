@@ -506,6 +506,15 @@ video.fillWidth {
     opacity: 1;
 }
 
+melement {
+    width: 15rem;
+    opacity: 0.8;
+}
+
+melement:hover {
+    opacity: 1;
+}
+
 .bluething {
     background-color: #1c6ac4
 }

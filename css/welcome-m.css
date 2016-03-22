@@ -161,7 +161,7 @@ html#mobile {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-animation: pulse 10s infinite alternate;
+  -webkit-animation: pulse 20s infinite alternate;
 }
 
 @-webkit-keyframes pulse {

@@ -48,10 +48,11 @@
       <div class="col-lg-4"></div>
           <div class="col-lg-4" style="text-align:center">
           <div style="display: inline-block;">
-              <a href="#"><img class="center-block img-responsive" src="images/elements/Pa-Parent.png" style="width:15rem"><br/></a>
+              <a href="parentdash"><img class="center-block img-responsive" src="images/elements/Pa-Parent.png" style="width:15rem"><br/></a>
             </div>
+            <div style="display: inline-block; width:15px;"></div>
             <div style="display: inline-block;">
-              <a href="studentdash.php"><img class="center-block img-responsive" src="images/elements/Sn-Student.png" style="width:15rem"><br/></a>
+              <a href="studentdash"><img class="center-block img-responsive" src="images/elements/Sn-Student.png" style="width:15rem"><br/></a>
             </div>
             
             </div>
@@ -61,8 +62,9 @@
       <div class="col-lg-4"></div>
           <div class="col-lg-4" style="text-align:center">
             <div style="display: inline-block;">
-              <a href="prospectivedash.php"><img class="center-block img-responsive" src="images/elements/Pr-Prospective.png" style="width:15rem"><br/></a>
+              <a href="prospectivedash"><img class="center-block img-responsive" src="images/elements/Pr-Prospective.png" style="width:15rem"><br/></a>
             </div>
+            <div style="display: inline-block; width:15px;"></div>
                 <div style="display: inline-block;">
               <a href="about.php"><img class="center-block img-responsive" src="images/elements/Cu-Curious.png" style="width:15rem"><br/></a>
             </div>
