@@ -1,3 +1,4 @@
+<?php include("password_protect.php"); ?>
 <?php require_once( 'couch/cms.php' ); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,13 +15,13 @@
     </script>
   <!--End Google Analytics Tag-->
 
-  	<link rel="icon" 
-      type="image/png" 
+      <link rel="icon"
+      type="image/png"
       href="images/favicon/baxicon.png">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
         <title>Faculty Dashboard</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -41,7 +42,8 @@
     <div class="col-lg-2"></div>
     <div class="col-lg-8">
         <div>
-            <div class="col-sm-6">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Events</h1></div>
                   <div class="panel-body dashpanel">
@@ -49,7 +51,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
               <div class="panel panel-primary">
                   <div class="panel-heading text-center"><h1 id="dashheader">Apps</h1></div>
                   <div class="panel-body dashpanel text-center">
@@ -59,6 +61,7 @@
                 </div>
                 </div>
               </div>
+            <div class="col-sm-1"></div>
             </div>
     <div class="col-lg-2"></div>
 </div>
@@ -67,7 +70,8 @@
     <div class="col-lg-2"></div>
     <div class="col-lg-8">
         <div>
-            <div class="col-sm-6">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Michele's Updates</h1></div>
                   <div class="panel-body dashpanel">
@@ -75,7 +79,7 @@
                 </div>
               </div>
               </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center">
                     <h1 id="dashheader">Forms</h1>
@@ -85,13 +89,25 @@
                 </div>
               </div>
             </div>
+            <div class="col-sm-1"></div>
         </div>
     <div class="col-lg-2"></div>
 </div>
 </div>
+<div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+    <div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 text-right">
+            <a class="btn btn-default" href="facultydash?logout=1">Logout</a>
+            </div>
+            <div class="col-sm-1"></div>
+            </div>
+    <div class="col-lg-2"></div>
 </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/plugins/owl.carousel.min.js"></script>
@@ -99,7 +115,7 @@
     <script src="js/custom.js"></script>
   <script>
     $(document).ready(function () {
-        
+
     });
   </script>
 
@@ -110,20 +126,20 @@
             $(document).ready(function() {
                 $(".various").fancybox({
                     modal       : false,
-                    maxWidth	: 1280,
-                    maxHeight	: 720,
-                    fitToView	: false,
-                    width		: '80%',
-                    height		: '80%',
-                    autoSize	: false,
-                    closeClick	: false,
-                    openEffect	: 'none',
-                    closeEffect	: 'none',
+                    maxWidth    : 1280,
+                    maxHeight    : 720,
+                    fitToView    : false,
+                    width        : '80%',
+                    height        : '80%',
+                    autoSize    : false,
+                    closeClick    : false,
+                    openEffect    : 'none',
+                    closeEffect    : 'none',
                     closeBtn    : true
                 });
             });
         </script>
-      
+
 </body>
 </html>
 <?php COUCH::invoke(); ?>

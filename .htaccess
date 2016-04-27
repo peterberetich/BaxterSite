@@ -39,3 +39,14 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/png "access 0 hour"
+    ExpiresByType image/gif "access 0 hour"
+    ExpiresByType image/jpeg "access 0 hour"
+    ExpiresByType text/javascript "access 0 hour"
+    ExpiresByType text/css "access 0 hour"
+    ExpiresByType text/html "access 0 hour"
+    ExpiresDefault "access 0 hour"
+</IfModule>

@@ -14,13 +14,13 @@
     </script>
   <!--End Google Analytics Tag-->
 
-  	<link rel="icon" 
-      type="image/png" 
+      <link rel="icon"
+      type="image/png"
       href="images/favicon/baxicon.png">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
         <title>Parent Dashboard</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -104,7 +104,7 @@
 </div>
 </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/plugins/owl.carousel.min.js"></script>
@@ -112,7 +112,7 @@
     <script src="js/custom.js"></script>
   <script>
     $(document).ready(function () {
-        
+
     });
   </script>
 
@@ -123,20 +123,20 @@
             $(document).ready(function() {
                 $(".various").fancybox({
                     modal       : false,
-                    maxWidth	: 1280,
-                    maxHeight	: 720,
-                    fitToView	: false,
-                    width		: '80%',
-                    height		: '80%',
-                    autoSize	: false,
-                    closeClick	: false,
-                    openEffect	: 'none',
-                    closeEffect	: 'none',
+                    maxWidth    : 1280,
+                    maxHeight    : 720,
+                    fitToView    : false,
+                    width        : '80%',
+                    height        : '80%',
+                    autoSize    : false,
+                    closeClick    : false,
+                    openEffect    : 'none',
+                    closeEffect    : 'none',
                     closeBtn    : true
                 });
             });
         </script>
-      
+
 </body>
 </html>
 <?php COUCH::invoke(); ?>

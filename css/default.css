@@ -1,22 +1,22 @@
 /* CSS Document */
 
 .container {
-	max-width: 1000px;
+    max-width: 1000px;
 }
 
 .videoWrapper {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:0px;
-	height:0;
-	overflow:hidden;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:0px;
+    height:0;
+    overflow:hidden;
 }
 .videoWrapper iframe , .videoWrapper object, .videoWrapper embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
 }
 
 #owl-demo .item img{
@@ -35,10 +35,10 @@ html, body {
 }
 
 h1 {
-	font:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	margin-top:7px;
-	margin-bottom:7px;
-	color:#383838;
+    font:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    margin-top:7px;
+    margin-bottom:7px;
+    color:#383838;
 }
 
 /* on both */
@@ -53,31 +53,31 @@ fixed-button {
 }
 
 #historybanner {
-	background-image: url(img\hispageheaders\historybanner.png);  
-	background-size: cover; 
-	background-position: center; 
-	height: 200px
+    background-image: url(img\hispageheaders\historybanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px
 }
 
 ul,li { list-style-type: none;
         list-style-position:inside;
         margin:0;
-        padding:0; 
+        padding:0;
 }
 
 .textbox {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     line-height: 1.1;
-    font-size: 6.5vw;
+    font-size: 3.5vw;
     border-color: white;
     border: 4px;
     border-radius: 5px;
     color: whitesmoke;
     text-decoration: none;
     z-index: 99;
-    width: 47vw;
-    height: 7.5vw;
+    width: 25vw;
+    height: 4vw;
     padding: 0;
     text-align: center;
     margin: auto;
@@ -88,18 +88,18 @@ ul,li { list-style-type: none;
 }
 
 .textbox#staff {
-    width: 65vw !important;
+    width: 25vw !important;
     background-color: rgba(139, 61, 76, 0.87)
 }
 
 .textbox#flexfriday {
-    width: 59vw !important;
+    width: 40vw !important;
     background-color: rgba(61, 97, 139, 0.87)
 }
 
 .textbox a:hover {
     text-decoration: none;
-    
+
 }
 
 .textbox:hover {
@@ -334,8 +334,8 @@ fieldset[disabled] .btn-gm.active {
 }
 
 .appbutton {
-    display:inline-block; 
-    margin-right:1em; 
+    display:inline-block;
+    margin-right:1em;
     margin-bottom:1em;
 }
 
@@ -353,8 +353,26 @@ white {
     background-size: cover;
 }
 
+.tall-image {
+    height: 25em;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.body-image {
+    position : relative;
+
+    height : 50vh;
+
+    text-indent : -9999px;
+
+    background-attachment : fixed;
+    background-position   : top center;
+    background-size       : cover;
+}
+
 .slideimage {
-    height: 40vw;
+    height: 20vw;
     max-height: 800px;
     background-position: bottom;
     background-size: cover;
@@ -364,6 +382,21 @@ white {
     height: 200px;
     background-position: bottom;
     background-size: cover;
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+}
+
+.card-image .responsiveimage:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2); /* IE 9 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.2, SizingMethod='auto expand')"; /* IE8 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.2, SizingMethod='auto expand'); /* IE6 and 7 */ 
 }
 
 .centerednav {
@@ -386,6 +419,13 @@ white {
     float: none !important;
 }
 
+.centered900 {
+    max-width: 900px;
+    padding: 10px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
 .centered1000 {
     max-width: 1000px;
     padding: 10px;
@@ -398,13 +438,17 @@ white {
 }
 
 .snaptop {
-    position:fixed; 
-    top:70px; 
-    right:6px; 
-    margin-left:auto; 
-    margin-right:auto; 
-    z-index:99; 
-    height:140px
+    position:fixed;
+    bottom:75px;
+    right:10px;
+    margin-left:auto;
+    margin-right:auto;
+    z-index:99;
+    transition: transform .2s ease-in-out;
+}
+
+.snaptop:hover {
+    transform: scale(1.1);
 }
 
 .header-unit {
@@ -418,29 +462,29 @@ white {
 }
 
 #video-container {
-	position: absolute;
+    position: absolute;
 }
 
 #video-container {
-	top:0%;
-	left:0%;
-	height:100%;
-	width:100%;
-	overflow: hidden;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
 }
 
 video {
-	position:absolute;
-	z-index:0;
+    position:absolute;
+    z-index:0;
 }
 
 video.fillWidth {
-	width: 100%;
+    width: 100%;
 }
 
 /* The Overlay (background) */
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
@@ -495,15 +539,55 @@ video.fillWidth {
     }
 }
 
-.baxelements {
-    transition: opacity 0.2s ease;
-    opacity: 0.7;
-    height:28vh; 
+.inlineblockeroo {
+    white-space: nowrap; /* this does the trick */    
+    display: inline-block;
+}
+
+.curious {
+    transition: all 0.2s ease;
+    opacity: 1;
+    height:28vh;
+    max-height: 300px;
+    width: auto;
     margin: auto 10px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    /*glow*/
+    -moz-box-shadow: 0 0 0px #fff;
+    -webkit-box-shadow: 0 0 0px #fff;
+    box-shadow: 0px 0px 0px #fff;
+}
+
+.curious:hover {
+    /*opacity: 1;
+    -moz-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);*/
+    transform: scale(1.05);
+}
+
+.baxelements {
+    transition: all 0.2s ease;
+    opacity: 1;
+    height:28vh;
+    margin: -5px 3px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    /*glow*/
+    -moz-box-shadow: 0 0 0px #fff;
+    -webkit-box-shadow: 0 0 0px #fff;
+    box-shadow: 0px 0px 0px #fff;
 }
 
 .baxelements:hover {
-    opacity: 1;
+    /*opacity: 1;
+    -moz-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);*/
+    transform: scale(0.9);
 }
 
 melement {
@@ -534,7 +618,7 @@ melement:hover {
     color: #fff;
     font-size: 2em;
     font-weight: 300;
-    
+    text-decoration: none !important;
 }
 @media screen and (max-width: 963px) {
 .card span.card-title {
@@ -557,6 +641,7 @@ melement:hover {
   bottom: 0;
   left: 0;
   padding: 16px;
+  text-decoration: none !important;
 }
 .card .card-content {
   padding: 16px;
@@ -571,6 +656,7 @@ melement:hover {
 .card .card-content span.card-title {
   line-height: 48px;
   color: black;
+  text-decoration: none !important;
 }
 .card .card-action {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
@@ -580,10 +666,11 @@ melement:hover {
   color: #ffab40;
   margin-right: 16px;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 .card .card-action a:hover {
   color: #ffd8a6;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .card {
@@ -597,6 +684,11 @@ melement:hover {
 .card:hover {
     opacity: 0.7; /* css standard */
     /*filter: alpha(opacity=100); /* internet explorer */
+    text-decoration: none !important;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
 }
 
 #container {
@@ -633,16 +725,16 @@ melement:hover {
     background-color: rgba(255, 0, 0, 0.67) /* Green */
 }
 
-#googlemaps { 
-  height: 100%; 
-  width: 100%; 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
+#googlemaps {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   overflow-y: hidden;
 }
- 
-#contactform { 
+
+#contactform {
   z-index: 1; /* The z-index should be higher than Google Maps */
 }
 
@@ -687,7 +779,7 @@ melement:hover {
 }
 
 .search-query:focus + button {
-    z-index: 3;   
+    z-index: 3;
 }
 
 .top5 {
@@ -761,3 +853,7 @@ melement:hover {
 .dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
 .dropdown-submenu:hover>a:after{border-left-color:#555;}
 .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
+.plopper {
+    display: inline-block;
+}

@@ -14,13 +14,13 @@
     </script>
   <!--End Google Analytics Tag-->
 
-  	<link rel="icon" 
-      type="image/png" 
+      <link rel="icon"
+      type="image/png"
       href="images/favicon/baxicon.png">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
         <title>Student Dashboard</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -108,7 +108,8 @@
               <div class="panel panel-primary">
                   <div class="panel-heading text-center"><h1 id="dashheader">Open Campus</h1></div>
                   <div class="panel-body dashpanel">
-                    <iframe width="100%" height="100%" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/baxter-boundaries_70733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false#14/43.6542/-70.2564"></iframe>
+                    <!--iframe width="100%" height="100%" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/baxter-boundaries_70733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false#14/43.6542/-70.2564"></iframe-->
+                    <iframe width="100%" height="100%" frameborder="0" src="https://widgets.scribblemaps.com/sm/?d=true&z=true&lat=43.655515222619364&lng=-70.25721430778503&vz=14&type=osm_cycle&width=550&height=400&id=baxteropencampus" style="border:0" allowfullscreen></iframe>
                   </div>
                 </div>
                 </a>
@@ -155,17 +156,12 @@
 </div>
 </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-  <script src="js/jquery-1.11.2.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/plugins/owl.carousel.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-  <script>
-    $(document).ready(function () {
-        
-    });
-  </script>
 
 <!--FancyBox-->
         <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
@@ -174,20 +170,20 @@
             $(document).ready(function() {
                 $(".various").fancybox({
                     modal       : false,
-                    maxWidth	: 1280,
-                    maxHeight	: 720,
-                    fitToView	: false,
-                    width		: '80%',
-                    height		: '80%',
-                    autoSize	: false,
-                    closeClick	: false,
-                    openEffect	: 'none',
-                    closeEffect	: 'none',
+                    maxWidth    : 1280,
+                    maxHeight    : 720,
+                    fitToView    : false,
+                    width        : '80%',
+                    height        : '80%',
+                    autoSize    : false,
+                    closeClick    : false,
+                    openEffect    : 'none',
+                    closeEffect    : 'none',
                     closeBtn    : true
                 });
             });
         </script>
-      
+
 </body>
 </html>
 <?php COUCH::invoke(); ?>

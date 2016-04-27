@@ -14,10 +14,10 @@ section, .history {
   padding: 0rem;
 }
 
-section, .mobile {
+section, .mobilesec {
   box-sizing: border-box; /* or not */
   margin: 0 auto;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
   width:  100%;
   padding: 1rem;
 }

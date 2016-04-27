@@ -19,7 +19,7 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baxtitution and Baxpectations - Baxter Academy</title>
+    <title>Baxtitution - Baxter Academy</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
@@ -41,20 +41,12 @@
     <h2 class="fullwidthhistory">Baxtitution</h2>
 </section>
 
-<div class="container-fluid">
 <div class="row">
-    <div class="col-lg-1"></div>
-    <div class="col-lg-10">
-        <object data='documents/Baxtitution.pdf' 
-        type='application/pdf'
-        style="height:1200px">
-            <p>It appears your Web browser is not configured to display PDF files. 
-            No worries, just<br/> <a href='documents/Baxtitution.pdf'>   Click here to download the PDF file.</a></p><br/>
-            <a href='https://drive.google.com/file/d/0B4GBHfRscdXsdFBfQ2FJcVg3RktmcFdrZXlhLUhKZnJiNE80/view?usp=sharing'>   Or here to view it in Google Drive without downloading.</a>
-        </object>
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+        <img class="img-responsive" alt="" src="documents/Baxtitution.png">
     </div>
-    <div class="col-lg-1"></div>
-</div>
+    <div class="col-lg-3"></div>
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 

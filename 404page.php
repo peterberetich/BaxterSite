@@ -12,23 +12,23 @@
       ga('send', 'pageview');
     </script>
   <!--End Google Analytics Tag-->
-  	<link rel="icon" 
-      type="image/png" 
+      <link rel="icon"
+      type="image/png"
       href="images/favicon/baxicon.png">
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Error Baxter Academy</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/default.css" rel="stylesheet">
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 <style>
 h1 {
     text-align: center;
@@ -47,11 +47,15 @@ h2 {
 <?php include('header.html'); ?>
 <!--End of Navbar-->
 <br/><br/>
-<h1>Sorry!</h1> 
-<h2>The page you requested probably hasn't been created yet.</h2>
+<?php
+            $strings= array('I am a MESS!', 'Excuse me!', 'Please clap.', 'Slow and steady wins the race.');
+            $random_str = $strings[array_rand($strings)];
+          ?>
+<h1><?php echo $random_str; ?></h1>
+<h2>The page you requested probably hasn't been created yet.<br><br>(404)</h2>
 <br/><br/><br/><br/><br/><br/>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/plugins/owl.carousel.min.js"></script>

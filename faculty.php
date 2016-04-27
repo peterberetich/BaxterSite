@@ -13,24 +13,24 @@
       ga('send', 'pageview');
     </script>
   <!--End Google Analytics Tag-->
-  	<link rel="icon" 
-      type="image/png" 
+    <link rel="icon"
+      type="image/png"
       href="images/favicon/baxicon.png">
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faculty - Baxter Academy</title>
     <!-- Bootstrap -->
-	<link href="css/bootstrap_faculty.css" rel="stylesheet">
+    <link href="css/bootstrap_faculty.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
-      <link href="css/history.css" rel="stylesheet">
+    <link href="css/history.css" rel="stylesheet">
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
   </head>
 <body id="top">
 <div class="snaptop">
@@ -42,22 +42,24 @@
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
-<br/>
 <!--cms:editable name='main_content' no_xss_check='1' type='textarea'-->
 
-<h1 style="text-align:center">Faculty and Staff</h1>
+<section class="history">
+    <h2 id="mission" class="fullwidthmission">Faculty and Staff</h2>
+</section>
+<h3 style="text-align:center">Baxter is 320 students from 66 Maine towns and these amazing teachers and leaders: </h3>
 <br/>
 <div class="image" style="background-image: url('images/headerimages/staffheader.jpg'); background-position: center"></div>
 <br/>
-<div class="row">
-	<div class="col-lg-2">
-        <div id="" style="overflow-y: scroll; height:80vh;">
+<div class="row centerednav">
+    <div class="col-lg-2">
+        <div class="centereddiv" style="overflow-y: scroll; height:80vh">
             <div class="panelnoborder panel-default" style="margin-left:10%; margin-right:10%">
                 <div class="form-group">
                   <input style="text-align:center" type="text" class="form-control" id="box" placeholder="Find Teachers">
                 </div>
                 <ul class=navList>
-                    <li><a id="popoverData" class="btn" style="margin-left:auto; margin-right:auto" href="#jamory" data-content="Engineering/Robotics" rel="popover" data-trigger="hover"><h4>Amory, Jon</h4></a></li>
+                    <li><a id="popoverData" class="btn" style="margin-left:auto; margin-right:auto" href="#jamory" data-toggle="popover" data-content="Engineering/Robotics" rel="popover" data-trigger="hover"><h4>Amory, Jon</h4></a></li>
                     <li><a id="popoverData2" class="btn" style="margin-left:auto; margin-right:auto" href="#mbarnes" data-content="Art & Design" rel="popover" data-trigger="hover"><h4>Barnes, Matt </h4></a></li>
                     <li><a id="popoverData3" class="btn" style="margin-left:auto; margin-right:auto" href="#sbuhlman" data-content="Instructional Specialist" rel="popover" data-trigger="hover"><h4>Buhlman, Sarah</h4></a></li>
                     <li><a id="popoverData4" class="btn" style="margin-left:auto; margin-right:auto" href="#hdippolito" data-content="Humanities" rel="popover" data-trigger="hover"><h4>D'Ippolito, Heather</h4></a></li>
@@ -113,7 +115,7 @@ Mr. Amory also has a background in naval architecture and philosophy, which he s
 Mr. Amory worked to design Baxter Academy’s unique Flex Friday program. Mr. Amory grew up in Portland, attending Waynflete. He lives here with his family.
 <br/><br/>
 Fun facts about Mr. Amory:  He has sailed to Norway. He has climbed mountains on every continent except South America and Antarctica. He is an outlier when it comes to math and music: “I butcher every instrument I touch, but I can press play on a CD play, iPod and cassette deck."
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -139,7 +141,7 @@ Mr. Barnes has a bachelor’s degree in education from Notre Dame College in Man
 Baxter has brought him back to the mainland and to the classroom.  He remembers his first visit to the school: “People were excited to be there. They WANTED to be there and it showed in everything I saw. Students helped students in unselfish, uncritical ways and supported one another. Teachers were part of their classes and waded directly into whatever was going on rather than hovering on the edges. The mantra of "Let's try it" elevated everything happening at Baxter and for me, it was like Dorothy stepping into the colored world of Oz. I spent a long time thinking, ‘This can't be actually happening,’ but it is, and I can't wait to start.”
 <br/><br/>
 Fun facts about Mr. Barnes: He’s a pilot, a scuba diver, and the cemetery keeper for Brackett Memorial Cemetery on Peaks. He can write with either hand and walk across the bottom of a pond. Ticks freak him out. He loves the Hitchhiker’s Guide to the Galaxy series and can quote anything from Monty Python (but please don’t ask him to do that in front of his family because it embarrasses them).
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -165,7 +167,7 @@ She has a Bachelor of Science degree in biology (botany and ecology track) from 
 Ms. Buhlman worked at the REAL School on Mackworth Island last year but wanted to establish a longer lasting relationship with a Maine school. “After spending only a day with the Baxter students and staff, I could see this was the type of school I could make a home in: Someplace where the students are valued as people and not just as a number that takes a test. Where the staff is encouraged to be creative and inspire the students to discover their love of learning.”
 <br/><br/>
 Fun facts about Ms. Buhlman: She once had a job preparing three meals a day for 100 campers and staff at Camp Dark Waters. She attended a Quaker high school. She works two nights a week at Trader Joe’s, and if she’s not working, she’s over at Back Cove Crossift picking up heavy things and putting them back down again at varying rates of intensity. Sailing on the schooner Woodwind, she and her fellow sailors came in second in the Great Chesapeake Bay Schooner Race. Her friends call her eSBee.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -196,7 +198,7 @@ Why does she want to be part of Baxter? “This is a great time to call Portland
 <br/><br/>
 Fun facts about Ms. D’Ippolito:  If she weren’t a teacher, she’d probably be a pastry chef. (Her favorite iced treat she’s made to date: vanilla bean ice cream pie with raspberry compote and fudge swirl...in a graham cracker crust.) She has knitted since high school and recently started avidly watching birds.
 
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -217,11 +219,11 @@ Fun facts about Ms. D’Ippolito:  If she weren’t a teacher, she’d probably 
 <br/>
 Mr. Doughty has been a science teacher for 12 years, teaching at both a private middle school and several public high schools in Maine. He is teaching science at Baxter. He has taught a wide range of physical and life science classes including physics, geology, chemistry, and biology. Mr. Doughty believes “that good science education--like good science--starts with inquiry, travels through data and analysis, and reaches conclusions that lead inevitably to new questions.
 <br/><br/>
-He received his BA in geology and biology from Brown University. In addition to his teaching experience, Mr. Doughty is the father of two little girls, the Treasurer for the Maine Science Teachers Association, a fencing instructor, and a medieval re-enactor.  
+He received his BA in geology and biology from Brown University. In addition to his teaching experience, Mr. Doughty is the father of two little girls, the Treasurer for the Maine Science Teachers Association, a fencing instructor, and a medieval re-enactor.
 <br/><br/>
 Fun Fact: When in Madagascar, Mr. Doughty was at one point taught to sail a dugout canoe by a group of young people who were amazed at the color of his hair.
 
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -246,7 +248,7 @@ Mr. Edmunds has personal reasons for wanting to come back to Maine to teach at B
 <br/><br/>
 Fun facts about Mr. Edmunds: He is building an 18.3-foot cedar-strip kayak, working on a series of crochet sculptures, and writing a novel. He has the tenor saxophone leftover from his grandfather’s army days. And he has percussion training in Haitian and West African Conga. He is conversant in Ukrainian, competent in Russian, and has spent time studying Japanese and Arabic among native speakers.
 
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -267,7 +269,7 @@ Fun facts about Mr. Edmunds: He is building an 18.3-foot cedar-strip kayak, work
          <p>
 <br/>
 Bio coming soon!
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -295,7 +297,7 @@ Mr. Gilman says, “I have always been a firm believer in democratic learning an
 Mr. Gilman has a B.A. in history and an M.A. in African Studies, both from UCLA.
 <br/><br/>
 Fun facts about Mr. Gilman: He’s been to thirty countries (and counting). He taught himself chess, drums, and guitar, and he has also recently learned to love running. He once worked as a rare-book supervisor, and he collects both books and LPs.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -323,7 +325,7 @@ In addition to his French degree, he also has a degree in music from USM. He is 
 He feels fortunate to begin teaching at Baxter because of the enthusiasm of its community:  “Every student and teacher I’ve met is thrilled to be here.”
 <br/><br/>
 Fun facts about Mr. Guerette: He is part of a heavy metal band that sells albums not only in the U.S. but abroad. He has never met an animal he didn’t love and especially loves cats, though he is allergic to them. He knows how to brew cider. And every morning he brews himself good coffee in his own French press.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -349,7 +351,7 @@ He earned his B.S. in Mechanical Engineering at the University of Massachusetts,
 Baxter Quote:  "I am very excited to have this opportunity  to increase perception and understanding of how mechanical, structural and energy based systems work while also introducing a critical thinking process that has great value whether one decides to become and engineer or not....my hope is many students leaving Baxter will choose this diverse fascinating discipline that directly impacts the quality of our human existence!"
 <br/><br/>
 Fun Fact:  I love simple living, my kids, (three, two are in high school!) the sea, working with my hands,  playing the banjo with friends and exercising. I like to laugh and tell jokes and greatly enjoy working with teams of creative, compassionate people to accomplish interesting and challenging work.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -372,8 +374,8 @@ Ms Howe joins us from the Yarmouth School Department, where she worked for ten y
 <br/><br/>
 “My favorite part about Baxter is the community feel,” Ms Howe reflects. “On my very first day here, I actually felt like I had found my place… This is one of the most fascinating journeys I have ever been on, and I am loving every single second of it!”
 <br/><br/>
-Fun facts: Ms Howe is a taphophile* (definition: someone who takes interest in cemeteries, tombstones, graves, funerals, or memories of past lives). She works as a Paranormal Investigator and has been interviewed by Downeast Magazine for an article on her cemetery restoration work with the town of Durham. 
-		</p>
+Fun facts: Ms Howe is a taphophile* (definition: someone who takes interest in cemeteries, tombstones, graves, funerals, or memories of past lives). She works as a Paranormal Investigator and has been interviewed by Downeast Magazine for an article on her cemetery restoration work with the town of Durham.
+        </p>
        </div>
      </div>
    </div>
@@ -398,10 +400,10 @@ He brings with him a wealth of experience from working in the industry, most rec
 <br/><br/>
 His understanding of design and technology is wide and varied. He co-founded a design studio and developed an award-winning indie video game, Jamestown: Legend of the Lost Colony (set in British Colonial Mars).  He has experience with Javascript, Unity, game design, website design, and curriculum design (to name a few).
 <br/><br/>
-Mr Larsson earned a B.S. in religious studies from Haverford College and a M.S. from Stanford University School of Education. 
+Mr Larsson earned a B.S. in religious studies from Haverford College and a M.S. from Stanford University School of Education.
 <br/><br/>
 Fun Fact: Mr. Larsson spent a year after college in a Clinical Pastoral Education program, training and serving as a non-denominational hospital chaplain.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -427,7 +429,7 @@ Ms. Lawrence is a graduate of Gorham High School and the University of Southern 
 “I want my Spanish class to be a setting that will allow students to listen and respond to each other, that will inspire them to read, write, create, and think for themselves,” says Ms. Lawrence. “At Baxter, the interest the students display in what they're doing is palpable and exciting. On the day I interviewed at the school, they were curious and enthused, and that excited my ambitions for what we can accomplish in the classroom.”
 <br/><br/>
 Fun facts about Ms. Lawrence: She raised sheep when she was growing up. She reads every chance she gets; memoirs are her favorites. She writes short stories in Spanish. She has skied the Pyrenees and hopes, someday, to ski the Alps. She loves maps and globes but claims to be a terrible navigator.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -454,7 +456,7 @@ Her emphasis is on encouraging lively, colloquial dialogue and introducing stude
 She lives in Scarborough with her husband and young son.
 <br/><br/>
 Fun facts about Ms. Li: She has done research in Chinese calligraphy and grammar. She plays the piano and is interested in reading, running, and some cooking. Shehas reviewed most books related to China and Mandarin language in Maine's libraries. She was born in the Year of the Snake; in honor of that, you'll see her wearing lucky red all year.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -474,7 +476,7 @@ Fun facts about Ms. Li: She has done research in Chinese calligraphy and grammar
          <p>
 <br/>
 Bio coming soon!
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -496,12 +498,12 @@ Bio coming soon!
 <br/>
 Ms. Medeiros comes to Baxter from Gray-New Gloucester HIgh School where she was the director of guidance. She earned her M.S. in Counseling at the University of Southern Maine and her B.A. in Theatre and Creative Writing at Hampshire College.
 <br/><br/>
-Ms. Medeiros was drawn to Baxter’s student-centered approach to learning: “I believe students learn the most when they feel a sense of ownership around their learning.  When students can identify their own interests and then find the support and resources they need to purse them, they are well on their way to creating the most challenging, engaging, and rewarding academic careers.  The skills they learn in doing this are essential outside of high school, as well, and become the foundation of lifelong learning and growth.  I'm delighted to be at Baxter and seeing that process play out for our students every day!“ 
+Ms. Medeiros was drawn to Baxter’s student-centered approach to learning: “I believe students learn the most when they feel a sense of ownership around their learning.  When students can identify their own interests and then find the support and resources they need to purse them, they are well on their way to creating the most challenging, engaging, and rewarding academic careers.  The skills they learn in doing this are essential outside of high school, as well, and become the foundation of lifelong learning and growth.  I'm delighted to be at Baxter and seeing that process play out for our students every day!“
 <br/><br/>
 Ms. Medeiros has a strong knowledge of proficiency-based curriculum and presented her work at the Maine Association for Supervision and Curriculum Development. Her experience includes work as a Civil Rights Team Leader and counselor for at risk students.  “Helping students in transition - whether into or out of high school, or in other moments of their lives - is a major part of being a school counselor and is something I love to do,” Ms. Medeiros says. “ I think young people are best served by helping them help themselves so they can develop the skills they need to enjoy and be successful in school, on the job, or anywhere in their lives.  I am constantly amazed by the unique strengths each student has, and am honored to be a part of helping them grow.”
 <br/><br/>
 Fun Fact: Ms. Medeiros  is a playwright in her spare time, and enjoys having her plays produced and participating in the vibrant local theater community. At Hampshire College as an undergraduate she created my own program of study, which culminated in a full-length play about Benjamin Rush, one of the founders of American psychiatry.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -525,7 +527,7 @@ Dr. Moxhay will be familiar to students who participated in his Arduino and Rasp
 He’s long seen the need for a STEM school in southern Maine and is pleased that Baxter will also have an incredibly strong humanities and arts component. He says, “I like the prospective focus on enabling students to build interesting stuff with their hands. I expect that letting students work on practical projects of their own devising will develop student motivation in a big way." Dr. Moxhay lives on Peaks Island with his family.
 <br/><br/>
 Fun facts about Dr. Moxhay: He has done research in elementary particle physics, string theory, and quantum field theory. His languages are Russian and French, and he plays old-time fiddle.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -551,7 +553,7 @@ His academic passions are focused on the relationships between teenagers, school
 Mr. Nunez is a graduate of Hampshire College and has a master’s degree in education from the University of Southern Maine. He is currently working on a second masters in Special Education administration. At Baxter, he will be spearheading the Special Education services, as well as supporting his fellow teachers on effective student engagement strategies. He’ll also teach a course or two. He lives in Portland with his wife (and brilliant sculptor) Christine. Mr. Nunez says, “I am beyond excited to join this team and grow this school!”
 <br/><br/>
 Fun facts about Mr. Nunez: Everyone calls him Mo. His first language is Spanish. He produces music and performs under the name mosart212.  He has a dog named Count Basie Caswell Nunez.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -574,14 +576,14 @@ Brian Olson brings to Baxter Academy wide experience with alternative learning p
 <br/><br/>
 Mr. Olson says, "I actively seek chances to impact the lives of our youth. I search out opportunities to serve as a catalyst for students pursuing their passions."
 <br/><br/>
-At Baxter, Brian assists the special education department, co-guides the student senate, teaches a cultural geography class, and facilitates music, art and gaming clubs. He draws on his background in print media, athletic organization, community activism, holistic wellness, martial arts, fiction writing, and outdoor education to build on the enrichment ideas of the community. He spearheads arts and athletic outreach.   
+At Baxter, Brian assists the special education department, co-guides the student senate, teaches a cultural geography class, and facilitates music, art and gaming clubs. He draws on his background in print media, athletic organization, community activism, holistic wellness, martial arts, fiction writing, and outdoor education to build on the enrichment ideas of the community. He spearheads arts and athletic outreach.
 <br/><br/>
 He holds a degree in writing from Western Washington University, a Global Literacy teaching certificate from the New College of California, and an Educational Leadership CAS from USM. Brian has founded ten athletic teams, coaching five different sports for over 15 years.
 <br/><br/>
 Mr. Olson lives with his wife and two children in Portland.
 <br/><br/>
 Fun facts about Mr. Olson: He likes juicing and children's books, beat-boxing and kites. He can pull off a no-look pass. He is currently planning his Viking repatriation and perfecting his recipe for breakfast Dutch babies. He has more freckles than passport stamps, but just barely.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -600,14 +602,14 @@ Fun facts about Mr. Olson: He likes juicing and children's books, beat-boxing an
          <a href="mailto:sean.pw@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">sean.pw@baxter-academy.org</button></a>
          <p>
 <br/>
-Mr. Parrott-Wolfe graduated from the University of Southern Maine in 2014 with a degree in mathematics and physics. He is  teaching math this year. His research interests include mathematical physics, general relativity, quantum field theory, and theories of quantum gravity. 
+Mr. Parrott-Wolfe graduated from the University of Southern Maine in 2014 with a degree in mathematics and physics. He is  teaching math this year. His research interests include mathematical physics, general relativity, quantum field theory, and theories of quantum gravity.
 <br/><br/>
-At USM, Mr. Parrott-Wolfe founded the USM Mathematical Society and served as a student representative for the USM Mathematics Curriculum Planning Committee where he represented the academic needs and desires of mathematics students. In addition, he served as a mathematics tutor for undergraduate students at all levels from pre-algebra to multivariate calculus. 
+At USM, Mr. Parrott-Wolfe founded the USM Mathematical Society and served as a student representative for the USM Mathematics Curriculum Planning Committee where he represented the academic needs and desires of mathematics students. In addition, he served as a mathematics tutor for undergraduate students at all levels from pre-algebra to multivariate calculus.
 <br/><br/>
-Mr. Parrott-Wolfe says,  “I believe  mathematics is an art and that investigations in mathematics stem from creativity and curiosity. Mathematics isn’t always about getting the right answer, but about the ongoing process of problem-solving.” Mr. Parrott-Wolfe wants his classroom always to be inquiry-led and expects hand-on-involvement from his students. 
+Mr. Parrott-Wolfe says,  “I believe  mathematics is an art and that investigations in mathematics stem from creativity and curiosity. Mathematics isn’t always about getting the right answer, but about the ongoing process of problem-solving.” Mr. Parrott-Wolfe wants his classroom always to be inquiry-led and expects hand-on-involvement from his students.
 <br/><br/>
 Fun facts:  Mr. Parrott-Wolfe has been a barista, paperboy, audio engineer, welder, recycling plant sorter, baker, bike mechanic, and a dockhand.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -635,7 +637,7 @@ Ms. Perks has a masters in environmental studies from Antioch New England and ha
 Ms. Perks lives in Portland, which she especially loves in winter, with her family, which includes three young sons.
 <br/><br/>
 Fun facts about Ms. Perks: She moved to Maine from New Jersey to be a chef at an off-the-grid lighthouse inn on Isle au Haut. She loves skiing down Portland streets in a snowstorm. And, because she’s crazy about birds, she always has a pair of binoculars in her car.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -655,7 +657,7 @@ Fun facts about Ms. Perks: She moved to Maine from New Jersey to be a chef at an
          <p>
 <br/>
 Bio coming soon!
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -683,7 +685,7 @@ Mr. Rawson is a graduate of the University of Maine, where he earned double majo
 The promise and the challenge afforded as one of the trailblazers making a path for the success of Baxter Academy, its students, its community, and its spirit, posed an opportunity too difficult to resist. The prospect of crafting effective individualized education around math and science is too thrilling to ignore. Helping the collective Baxter community figure out how to accomplish such a seemingly simple (yet inestimably complex) problem – now that is a noble quest!
 <br/><br/>
 Fun facts about Mr. Rawson: Neither the piano nor the clarinet (or even, during a disastrous spring, the drums) has yet succumbed to his efforts at mastery – or, to be fair, even competency. Seeking an outlet for music has instead lead to years as a choral singer (Messiah singalong, anyone?) and to all sides of the stage apron, where he has performed in and directed community theatre productions, high school theatre, and assisted local theaters with their technical lighting needs. An avid writer, he is also the author of Murder on Mount Desert.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -712,7 +714,7 @@ Ms Rawson is a graduate of the University of Lowell and has a Bachelor of Scienc
 Ms Rawson is excited to be a member of the Baxter inaugural faculty and looks forward to being amazed by her colleagues and students. She is especially excited to be returning to teach in Portland, where her career began. In her first year of teaching at Portland High School, she teamed her geometry class with an art class to create an architecture unit, culminating with a walking tour of downtown Portland.
 <br/><br/>
 Fun facts about Ms Rawson: She plays many instruments, but none of them very well. She has a passion for musical theater and has been on stage and behind the scenes at many community theaters in southern Maine. She has spent the last decade tracing her family roots and has made some interesting discoveries.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -732,7 +734,7 @@ Fun facts about Ms Rawson: She plays many instruments, but none of them very wel
          <p>
 <br/>
 Bio Coming Soon!
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -752,7 +754,7 @@ Bio Coming Soon!
          <p>
 <br/>
 Bio Coming Soon!
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -780,7 +782,7 @@ Mr. Scogin says: “I see my job as a humanities teacher as one where I strive t
 At MCI, Mr. Scogin advised the school’s faculty about using technology in the classroom and was a dorm parent to international students. He advised the Model United Nations and coached the soccer, cross country, and rifle teams.
 <br/><br/>
 Fun facts about Mr. Scogin: He spends at least one week a year alone in the backcountry and so he’s hiked almost all of the Appalachian Trail. He wants to paddle the Northern Forest Canoe Trail and would love to fly fish in Mongolia.  He is an amateur woodworker, a hobby diesel mechanic and grease-car conversion specialist, and an organic gardener. He hates mayonnaise and is learning how to be a sushi chef.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -806,7 +808,7 @@ Ms. Starr  graduated from Colby College with a B.A. in English and Education, an
 Ms. Starr  is excited to learn from her students and co-workers at Baxter. She says; "I am continually impressed by students' ability to drive their own learning and love the natural curiosity they bring to the classroom."
 <br/><br/>
 Fun Fact:  Ms. Starr grew up in the smallest U.S. state capital which also happens to be the only one without a McDonald's. She loves manatees and is a master parallel parker. She can guess people's Meyers Briggs profiles on the first try.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -834,7 +836,7 @@ Mr. Stutzman has also coached the Science Olympiad and has served as assistant d
 He has a bachelors degree in Business/Economics from the University of Maine at Farmington, and an associates degree in specialized technology from the Art Institute of Pittsburgh, where he majored in industrial design technology. He’s done industrial design for L.L. Bean, Maine Discovery Museum, and Moosehead Manufacturing, among others.
 <br/><br/>
 Fun facts about Mr. Stutzman: He surfs year-round in Maine’s coastal waters. He’s been a professional musician since age 11 and plays the saxophone, upright bass, harmonica, guitar, cello, fiddle, didgeridoo. Plus he sings. He gained important experience maintaining small engines through his hobby of hang gliding—using a harness outfitted with a small two-stroke high-performance engine attached to a folding propeller.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -862,7 +864,7 @@ Ms. Taylor says, “I am excited to teach at Baxter because I think embracing co
 Ms. Taylor grew up in southern California and now lives with her family in Raymond, Maine.
 <br/><br/>
 Fun facts about Ms. Taylor:  She was in the Navy but gets seasick. She thought she didn’t like cats but is now in love with one named Picasso.  She loves hot weather, even though she doesn’t get much of it in Maine.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -891,8 +893,8 @@ As an English teacher, Ms. Virmalo’s goals are to strengthen communication ski
 <br/><br/>
 Ms. Virmalo says, “I am thrilled to be a member of Baxter Academy where talented educators collaborate with students, parents, and the community to build a school where learning is innovative, meaningful, and relevant to our ever- evolving world.  My work with diverse populations, from at-risk youth to international students, has demonstrated that everyone learns differently. Baxter Academy is a school where all learners will be challenged and engaged.”
 <br/><br/>
-Fun facts about Ms. Virmalo: She is a traveler, reader, baker, seamstress, yogi, and mother.  She has taken class with the Croatian National Ballet and walked the Great Wall. She uses the Oxford comma. 
-		</p>
+Fun facts about Ms. Virmalo: She is a traveler, reader, baker, seamstress, yogi, and mother.  She has taken class with the Croatian National Ballet and walked the Great Wall. She uses the Oxford comma.
+        </p>
        </div>
      </div>
    </div>
@@ -911,14 +913,14 @@ Fun facts about Ms. Virmalo: She is a traveler, reader, baker, seamstress, yogi,
          <a href="mailto:antonia.winter@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">antonia.winter@baxter-academy.org</button></a>
          <p>
 <br/>
-Ms. Winter comes to Baxter from Riverton School in Portland where she was an ELL teacher. She also works as an instructor of language arts at Portland Adult Ed.  In addition to her public education experience, Antonia has privately tutored students aging from 5-16 and conducted Yoga instruction for K-1 students and adults. 
+Ms. Winter comes to Baxter from Riverton School in Portland where she was an ELL teacher. She also works as an instructor of language arts at Portland Adult Ed.  In addition to her public education experience, Antonia has privately tutored students aging from 5-16 and conducted Yoga instruction for K-1 students and adults.
 <br/><br/>
 Ms. Winter says, "I find Baxter to be a dynamic educational setting because of the commitment to the Socratic method, the focus on STEM, and the curricular foundation of project-based experimentation.”
 <br/><br/>
 She earned her M.S. in Elementary Education from Wheelock College and earned her B.A. in American Studies at Wesleyan University.
 <br/><br/>
 Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwheels on the beach.
-		</p>
+        </p>
        </div>
      </div>
    </div>
@@ -926,12 +928,12 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
 </div>
 </div>
 <!--/cms:editable-->
-        
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-1.11.2.min.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/plugins/owl.carousel.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
 
 <script>
@@ -944,7 +946,7 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
         $('.snaptop').fadeOut();
       }
     });
-    
+
     $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

@@ -1,0 +1,142 @@
+/*BUTTON-MAROON*/
+.btn-maroon { 
+  color: #ffffff; 
+  background-color: #BD1B51; 
+  border-color: #BD1B51; 
+} 
+ 
+.btn-maroon:hover, 
+.btn-maroon:focus, 
+.btn-maroon:active, 
+.btn-maroon.active, 
+.open .dropdown-toggle.btn-maroon { 
+  color: #ffffff; 
+  background-color: #991641; 
+  border-color: #BD1B51; 
+} 
+ 
+.btn-maroon:active, 
+.btn-maroon.active, 
+.open .dropdown-toggle.btn-maroon { 
+  background-image: none; 
+} 
+ 
+.btn-maroon.disabled, 
+.btn-maroon[disabled], 
+fieldset[disabled] .btn-maroon, 
+.btn-maroon.disabled:hover, 
+.btn-maroon[disabled]:hover, 
+fieldset[disabled] .btn-maroon:hover, 
+.btn-maroon.disabled:focus, 
+.btn-maroon[disabled]:focus, 
+fieldset[disabled] .btn-maroon:focus, 
+.btn-maroon.disabled:active, 
+.btn-maroon[disabled]:active, 
+fieldset[disabled] .btn-maroon:active, 
+.btn-maroon.disabled.active, 
+.btn-maroon[disabled].active, 
+fieldset[disabled] .btn-maroon.active { 
+  background-color: #BD1B51; 
+  border-color: #BD1B51; 
+} 
+ 
+.btn-maroon .badge { 
+  color: #BD1B51; 
+  background-color: #ffffff; 
+}
+
+/*BUTTON-SOFTBLUE*/
+
+.btn-softblue { 
+  color: #ffffff; 
+  background-color: #1B69BD; 
+  border-color: #1B69BD; 
+}
+ 
+.btn-softblue:hover, 
+.btn-softblue:focus, 
+.btn-softblue:active, 
+.btn-softblue.active, 
+.open .dropdown-toggle.btn-softblue { 
+  color: #ffffff; 
+  background-color: #134F8F; 
+  border-color: #1B69BD; 
+} 
+ 
+.btn-softblue:active, 
+.btn-softblue.active, 
+.open .dropdown-toggle.btn-softblue { 
+  background-image: none; 
+} 
+ 
+.btn-softblue.disabled, 
+.btn-softblue[disabled], 
+fieldset[disabled] .btn-softblue, 
+.btn-softblue.disabled:hover, 
+.btn-softblue[disabled]:hover, 
+fieldset[disabled] .btn-softblue:hover, 
+.btn-softblue.disabled:focus, 
+.btn-softblue[disabled]:focus, 
+fieldset[disabled] .btn-softblue:focus, 
+.btn-softblue.disabled:active, 
+.btn-softblue[disabled]:active, 
+fieldset[disabled] .btn-softblue:active, 
+.btn-softblue.disabled.active, 
+.btn-softblue[disabled].active, 
+fieldset[disabled] .btn-softblue.active { 
+  background-color: #1B69BD; 
+  border-color: #1B69BD; 
+} 
+ 
+.btn-softblue .badge { 
+  color: #1B69BD; 
+  background-color: #ffffff; 
+}
+
+/*BUTTON-SOFTGREEN*/
+
+.btn-softgreen { 
+  color: #ffffff; 
+  background-color: #00B16A; 
+  border-color: #00B16A; 
+} 
+ 
+.btn-softgreen:hover, 
+.btn-softgreen:focus, 
+.btn-softgreen:active, 
+.btn-softgreen.active, 
+.open .dropdown-toggle.btn-softgreen { 
+  color: #ffffff; 
+  background-color: #009459; 
+  border-color: #00B16A; 
+} 
+ 
+.btn-softgreen:active, 
+.btn-softgreen.active, 
+.open .dropdown-toggle.btn-softgreen { 
+  background-image: none; 
+} 
+ 
+.btn-softgreen.disabled, 
+.btn-softgreen[disabled], 
+fieldset[disabled] .btn-softgreen, 
+.btn-softgreen.disabled:hover, 
+.btn-softgreen[disabled]:hover, 
+fieldset[disabled] .btn-softgreen:hover, 
+.btn-softgreen.disabled:focus, 
+.btn-softgreen[disabled]:focus, 
+fieldset[disabled] .btn-softgreen:focus, 
+.btn-softgreen.disabled:active, 
+.btn-softgreen[disabled]:active, 
+fieldset[disabled] .btn-softgreen:active, 
+.btn-softgreen.disabled.active, 
+.btn-softgreen[disabled].active, 
+fieldset[disabled] .btn-softgreen.active { 
+  background-color: #00B16A; 
+  border-color: #00B16A; 
+} 
+ 
+.btn-softgreen .badge { 
+  color: #00B16A; 
+  background-color: #ffffff; 
+}

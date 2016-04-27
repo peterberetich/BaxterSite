@@ -1,0 +1,87 @@
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.containerparallax {
+  margin: 0 auto;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (max-width: 1330px) {
+    section.module.parallax {
+        height: 400px;
+    }
+}
+
+section.module.parallax h1 {
+  color: #fdfdfd;
+  margin-top: 0px;
+  font-size: 10em;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1330px) {
+    section.module.parallax h1 {
+      font-size: 7em;
+      line-height: 400px;
+    }
+}
+
+@media (max-width: 940px) {
+    section.module.parallax h1 {
+      font-size: 5em;
+      line-height: 400px;
+    }
+}
+
+section.module.parallax-1 {
+  background-image: url("../images/headerimages/partnershipheader.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../images/headerimages/partnershipheader2.JPG");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/3.jpg");
+}
+
+section.module.ff1 {
+  background-image: url("../images/flexfriday/bikeff.JPG");
+}
+section.module.ff2 {
+  background-image: url("../images/flexfriday/fablabff.jpeg");
+}
+section.module.ff3 {
+  background-image: url("../images/flexfriday/singing.jpeg");
+}
+

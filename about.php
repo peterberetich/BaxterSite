@@ -1,4 +1,3 @@
-<!--?php require_once( 'couch/cms.php' ); ?-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,6 +26,8 @@
     <!--Lightbox css-->
     <link href="css/jquery.fancybox.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="plugins/animsition/css/animsition.css">
+
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
       
     <link href="css/jquery.bxslider.css" rel="stylesheet">
@@ -38,11 +39,11 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   </head>
-  <body>
+  <body style="min-height:100vh">
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
-<div class="centerednav">
+<div style="max-width: 1920; margin: 0 auto !important; float: none !important;">
 <ul class="bxslider">
   <li>
     <div class="slideimage" style="background-image: url('images/carousel/carouselhistory.jpg'); background-position: center;"></div>
@@ -55,7 +56,7 @@
     <div class="slideimage" style="background-image: url('images/carousel/facultycarousel.jpg'); background-position: center;"></div>
     <a href="faculty">
         <div class="textbox" id="staff" style="margin-left: auto; margin-right: auto">
-        Who works at Baxter?</div>
+        Who is Baxter?</div>
     </a>
   </li>
   <li>
@@ -69,65 +70,49 @@
 </div>
 
 <br/>
-      
 <div class="row">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
-    <div class="centerednav">
-        <div class="col-sm-4">
-            <div>
+<div class="col-md-2"></div>
+<div class="col-md-8 centered1000">
+    <div class="row">
+            <div class="col-sm-4 text-right">
               <a class="various fancybox.iframe" href="http://www.youtube.com/embed/ooV86nrVc_Y?autoplay=1&amp;rel=0&amp;showinfo=0">
-                <div class="panel panel-default" style="text-align:center; width:auto">
+                <div class="panel panel-default" style="text-align:center">
                     <div class="panel-body"><img src="images/aboutthumbs/studentdoc.jpg" alt="" width="100%"/></div>
-                    <div class="panel-footer"><p>Baxter Student Documentary</p></div>
+                    <div class="panel-footer"><p>Welcome to Baxter</p><span>Created by Baxter Students</span></div>
                 </div>
               </a>
             </div>
-        </div>
-        <div class="col-sm-4">
-            <div>
+        <div class="col-sm-4 text-center">
               <a class="various fancybox.iframe" href="http://www.youtube.com/embed/GobUJZrQdEc?autoplay=1&amp;rel=0&amp;showinfo=0">
-                <div class="panel panel-default" style="text-align:center; width:auto">
+                <div class="panel panel-default" style="text-align:center">
                     <div class="panel-body"><img src="images/aboutthumbs/oneminad.jpg" alt="" width="100%"/></div>
-                    <div class="panel-footer"><p>Student-made 1 Minute Ad</p></div>
+                    <div class="panel-footer"><p>1 Minute Ad</p><span>Created by Baxter Students</span></div>
                 </div>
               </a>
-            </div>
         </div>
-        <div class="col-sm-4">
-            <div>
+        <div class="col-sm-4 text-left">
               <a class="various fancybox.iframe" href="http://www.youtube.com/embed/nEoZpADixEo?autoplay=1&amp;rel=0&amp;showinfo=0">
-                <div class="panel panel-default" style="text-align:center; width:auto">
+                <div class="panel panel-default" style="text-align:center">
                     <div class="panel-body"><img src="images/aboutthumbs/whatwelearned.jpg" alt="" width="100%" /></div>
-                    <div class="panel-footer"><p>What We Learned At Baxter</p></div>
+                    <div class="panel-footer"><p>What We've Learned</p><span>Created by Baxter Students</span></div>
                 </div>
               </a>
-            </div>
         </div>
     </div>
-    </div>
-    <div class="col-sm-1"></div>
 </div>
-
-
-<br/><br/><br/>
-      
+<div class="col-md-2"></div>
+</div>
+<div class="text-center">
+<a href="prospectivedash" class="btn btn-primary"><span>Plan your application!</span><br><span style="margin-top:3px" class="glyphicon glyphicon-th"></span></a>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-      <script src="js/jquery-1.11.2.min.js"></script>
+      <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
       <script src="js/plugins/jquery.capSlide.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/custom.js"></script>
       <script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <!--FancyBox-->
         <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $(".fancybox").fancybox({
-                    type :"image"
-                    });
-            });
-        </script>
       
         <script type="text/javascript">
             $(document).ready(function() {
@@ -165,4 +150,3 @@
 
 </body>
 </html>
-<?php COUCH::invoke(); ?>

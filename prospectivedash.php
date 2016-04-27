@@ -14,13 +14,13 @@
     </script>
   <!--End Google Analytics Tag-->
 
-  	<link rel="icon" 
-      type="image/png" 
+      <link rel="icon"
+      type="image/png"
       href="images/favicon/baxicon.png">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
         <title>Prospective Family Dashboard</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -38,8 +38,8 @@
 </section>
 <div class="centerednav">
 <div class="row">
-    <div class="col-lg-1"></div>
-    <div class="col-lg-10">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
         <div class="col-sm-6">
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Events</h1></div>
@@ -50,7 +50,7 @@
             </div>
         <div class="col-sm-6">
                 <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Checklist</h1></div>
+                  <div class="panel-heading text-center"><h1 id="dashheader">Enrollment Checklist</h1></div>
                   <div class="panel-body dashpanel scroll-y">
                     <form action="">
                         <div class="checkbox">
@@ -58,10 +58,10 @@
                         </div>
                         <div class="checkbox">
                             <label><input type="checkbox" name="optionsCheckboxList[]" value="2"><b>Step 2:</b> Complete Letter of Intent </label>
-                        </div> 
+                        </div>
                         <div class="checkbox">
                           <label><input type="checkbox" name="optionsCheckboxList[]" value="3"><b>Step 3:</b> Wait to be notified whether you have the right to enroll (may be determined by lottery). </label>
-                        </div> 
+                        </div>
                         <div class="checkbox">
                           <label><input type="checkbox" name="optionsCheckboxList[]" value="4"><b>Step 4:</b> After being notified, file the committment to enroll within 14 days. </label>
                         </div>
@@ -73,17 +73,17 @@
                     </form>
                   </div>
                 </div>
-              
+
         </div>
-    <div class="col-lg-1"></div>
+    <div class="col-lg-2"></div>
 </div>
 </div>
 <div class="row">
-    <div class="col-lg-1"></div>
-    <div class="col-lg-10">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
         <div class="col-lg-6">
               <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Enroll</h1></div>
+                  <div class="panel-heading text-center"><h1 id="dashheader">How to Enroll</h1></div>
                   <div class="panel-body dashpanel scroll-y">
                     <cms:editable name='enrollmentforms' type='richtext'>
                         <p>Hello</p>
@@ -101,12 +101,12 @@
                   </div>
                 </div>
         </div>
-    <div class="col-lg-1"></div>
+    <div class="col-lg-2"></div>
 </div>
 </div>
 </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/webforms.save-restore.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
@@ -115,7 +115,7 @@
     <script src="js/custom.js"></script>
   <script>
     $(document).ready(function () {
-        
+
     });
   </script>
 
@@ -126,15 +126,15 @@
             $(document).ready(function() {
                 $(".various").fancybox({
                     modal       : false,
-                    maxWidth	: 1280,
-                    maxHeight	: 720,
-                    fitToView	: false,
-                    width		: '80%',
-                    height		: '80%',
-                    autoSize	: false,
-                    closeClick	: false,
-                    openEffect	: 'none',
-                    closeEffect	: 'none',
+                    maxWidth    : 1280,
+                    maxHeight    : 720,
+                    fitToView    : false,
+                    width        : '80%',
+                    height        : '80%',
+                    autoSize    : false,
+                    closeClick    : false,
+                    openEffect    : 'none',
+                    closeEffect    : 'none',
                     closeBtn    : true
                 });
             });
