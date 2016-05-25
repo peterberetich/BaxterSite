@@ -34,6 +34,12 @@
 		b.parentNode.insertBefore(m,b)})("reEmbed","script",window,document,"api");
 	</script>
 
+<style>
+p {
+    font-size: 22px;
+}
+</style>
+
 	<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -44,11 +50,30 @@
 <?php include('header.html'); ?>
 <!--End of Navbar-->
 
-<section id="history">
-    <h2 class="fullwidthhistory">History</h2>
+<section>
+    <h2 class="fullwidthhistory">Mission</h2>
+<!--div class="image" style="background-image: url('images/carousel/carouselhistory.jpg'); background-position: bottom;"></div-->
 </section>
-<div class="image" style="background-image: url('images/carousel/carouselhistory.jpg'); background-position: bottom;"></div>
-<br/><br/>
+
+<div class="centeredtext">
+<cms:editable name='missioncontent' type='richtext'>
+Inquiry leads learning at Baxter Academy for Technology and Science, a public charter high school free to Maine students. Our project-based STEM curriculum emphasizes real-world problem solving and is paired with a humanities program that connects ideas across disciplines and cultivates strong communication skills. Students design innovative projects through Flex Friday, a unique program requiring initiative, perseverance, and collaboration, as well as reflection on the work and its impact in the community.
+</cms:editable>
+</div>
+<br/><br/><br/>
+<section>
+    <h2 id="vision" class="fullwidthmission">Vision</h2>
+</section>
+
+<div class="centeredtext">
+<cms:editable name='visioncontent' type='richtext'>
+Our students choose work that inspires their imaginations. They persevere through setbacks and innovate with curiosity, conscience, and creativity. They solve real-world problems. Our students matter not only to their school but also to a strong future for Maine.
+</cms:editable>
+</div>
+<section>
+    <h2 id="history" class="fullwidthvision">History</h2>
+</section>
+
 <div class="centeredtext">
 <cms:editable name='historycontent' type='richtext'>
     Baxter Academy was founded in response to a growing urgency among students and parents for greater access to high-quality STEM education. In the summer of 2012, a group of students, parents, educators, and community leaders united around the idea of a STEM-focused charter high school in Portland that would be open by lottery to any high school student in the state of Maine and would feature an innovative, project-based curriculum. A key feature of the school would be Flex Friday, a unique program designed to invest 20 percent of the week in yearlong student-driven projects solving real-world problems.  Baxter students would commute daily from a 25-mile catchment area to go to school in downtown Portland where they would be prepared for the best colleges and be plugged directly into the economic engine of the state through internships, mentorships, and industry partnerships. 
@@ -63,25 +88,6 @@ Baxter Academy has proven already to be a necessary option not only for its stud
 </cms:editable>
 </div>
 <br/><br/><br/>
-<section id="history">
-    <h2 id="mission" class="fullwidthmission">Mission</h2>
-</section>
-
-<div class="centeredtext">
-<cms:editable name='missioncontent' type='richtext'>
-Inquiry leads learning at Baxter Academy for Technology and Science, a public charter high school free to Maine students. Our project-based STEM curriculum emphasizes real-world problem solving and is paired with a humanities program that connects ideas across disciplines and cultivates strong communication skills. Students design innovative projects through Flex Friday, a unique program requiring initiative, perseverance, and collaboration, as well as reflection on the work and its impact in the community.
-</cms:editable>
-</div>
-<br/><br/><br/>
-<section id="history">
-    <h2 id="mission" class="fullwidthvision">Vision</h2>
-</section>
-
-<div class="centeredtext">
-<cms:editable name='visioncontent' type='richtext'>
-Our students choose work that inspires their imaginations. They persevere through setbacks and innovate with curiosity, conscience, and creativity. They solve real-world problems. Our students matter not only to their school but also to a strong future for Maine.
-</cms:editable>
-</div>
 
 <br/><br/><br/>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 

@@ -29,6 +29,10 @@ $(document).ready(function () {
     $('#popoverData27').popover();
     $('#popoverData28').popover();
     $('#popoverData29').popover();
+    $('#popoverData30').popover();
+    $('#popoverData31').popover();
+    $('#popoverData32').popover();
+    $('#popoverData33').popover();
 $('#popoverOption').popover({ trigger: "hover" });
 
 $("img.a").hover(

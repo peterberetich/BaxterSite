@@ -36,10 +36,6 @@
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
- 
-<section id="history">
-    <h2 class="fullwidthhistory">Baxtitution</h2>
-</section>
 
 <div class="row">
     <div class="col-lg-3"></div>

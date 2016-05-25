@@ -42,22 +42,6 @@ h2, .full-width {
   text-shadow:#4D4D4D;
 }
 
-h2, .fullwidthhistory {
-  position: relative; /* child absolute */
-  margin: 0 -9999rem;
-  /* add back section padding value */
-  padding: .25rem 9999rem;
-  padding-bottom: 0.7rem;
-  margin-bottom: 1em;
-  top: 0px;
-  background: #21418D; /* For browsers that do not support gradients */    
-  color: white;
-  text-align:center;
-  font-size: 4em;
-  font-family: 'Roboto', sans-serif; 
-  text-shadow:#4D4D4D;
-}
-
 h2, .fullwidthtopbar {
   position: relative; /* child absolute */
   margin: 0 -9999rem;
@@ -73,15 +57,31 @@ h2, .fullwidthtopbar {
   text-shadow:#4D4D4D;
 }
 
-h2, .fullwidthmission {
+h2, .fullwidthhistory {
   position: relative; /* child absolute */
-  margin: 0 -9999rem;
+  margin: 1em -9999rem 0;
   /* add back section padding value */
   padding: .25rem 9999rem;
   padding-bottom: 0.7rem;
   margin-bottom: 1em;
   top: 0px;
-  background: #3674e3; /* For browsers that do not support gradients */    
+  background: #21418D; /* For browsers that do not support gradients */    
+  color: white;
+  text-align:center;
+  font-size: 4em;
+  font-family: 'Roboto', sans-serif; 
+  text-shadow:#4D4D4D;
+}
+
+h2, .fullwidthmission {
+  position: relative; /* child absolute */
+  margin: 1em -9999rem 0;
+  /* add back section padding value */
+  padding: .25rem 9999rem;
+  padding-bottom: 0.7rem;
+  margin-bottom: 1em;
+  top: 0px;
+  background: #2c61bf; /* For browsers that do not support gradients */    
   color: white;
   text-align:center;
   font-size: 4em;
@@ -91,13 +91,13 @@ h2, .fullwidthmission {
 
 h2, .fullwidthvision {
   position: relative; /* child absolute */
-  margin: 0 -9999rem;
+  margin: 1em -9999rem 0;
   /* add back section padding value */
   padding: .25rem 9999rem;
   padding-bottom: 0.7rem;
   margin-bottom: 1em;
   top: 0px;
-  background: #F9690E; /* For browsers that do not support gradients */    
+  background: #3c78e3; /* For browsers that do not support gradients */    
   color: white;
   text-align:center;
   font-size: 4em;
@@ -107,7 +107,7 @@ h2, .fullwidthvision {
 
 h2, .fullwidthdashboard {
   position: relative; /* child absolute */
-  margin: 0 -9999rem;
+  margin: 0px -9999rem 0px;
   /* add back section padding value */
   padding: .25rem 9999rem;
   padding-bottom: 0.7rem;

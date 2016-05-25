@@ -31,6 +31,19 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        
+    <style>
+    .toc {
+        overflow-y: scroll; 
+        height:400px;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .toc {
+            height: 200px
+        }
+    }
+    </style>
   </head>
 <body id="top">
 <div class="snaptop">
@@ -47,54 +60,59 @@
 <section class="history">
     <h2 id="mission" class="fullwidthmission">Faculty and Staff</h2>
 </section>
-<h3 style="text-align:center">Baxter is 320 students from 66 Maine towns and these amazing teachers and leaders: </h3>
+<!--h3 class="text-center">Baxter is 320 students from 66 Maine towns and these amazing teachers and leaders: </h3>
 <br/>
-<div class="image" style="background-image: url('images/headerimages/staffheader.jpg'); background-position: center"></div>
+<div class="image" style="background-image: url('images/headerimages/staffheader.jpg'); background-position: center"></div-->
 <br/>
+<div class="container-fluid">
 <div class="row centerednav">
     <div class="col-lg-2">
-        <div class="centereddiv" style="overflow-y: scroll; height:80vh">
-            <div class="panelnoborder panel-default" style="margin-left:10%; margin-right:10%">
+    <div class="panel panel-primary center-block" style="max-width:400px">
+        <div class="panel-heading text-center"><p style="margin-bottom:0px">Table of Contents</p></div>
+        <div class="panel-body toc" style="">
+            <div style="margin-left:5%; margin-right:5%">
                 <div class="form-group">
-                  <input style="text-align:center" type="text" class="form-control" id="box" placeholder="Find Teachers">
+                  <input style="text-align:left" type="text" class="form-control" id="box" placeholder="Find Teachers">
                 </div>
                 <ul class=navList>
-                    <li><a id="popoverData" class="btn" style="margin-left:auto; margin-right:auto" href="#jamory" data-toggle="popover" data-content="Engineering/Robotics" rel="popover" data-trigger="hover"><h4>Amory, Jon</h4></a></li>
-                    <li><a id="popoverData2" class="btn" style="margin-left:auto; margin-right:auto" href="#mbarnes" data-content="Art & Design" rel="popover" data-trigger="hover"><h4>Barnes, Matt </h4></a></li>
-                    <li><a id="popoverData3" class="btn" style="margin-left:auto; margin-right:auto" href="#sbuhlman" data-content="Instructional Specialist" rel="popover" data-trigger="hover"><h4>Buhlman, Sarah</h4></a></li>
-                    <li><a id="popoverData4" class="btn" style="margin-left:auto; margin-right:auto" href="#hdippolito" data-content="Humanities" rel="popover" data-trigger="hover"><h4>D'Ippolito, Heather</h4></a></li>
-                    <li><a id="popoverData27" class="btn" style="margin-left:auto; margin-right:auto" href="#jdoughty" data-content="Science" rel="popover" data-trigger="hover"><h4>Doughty, Jonathan</h4></a></li>
-                    <li><a id="popoverData5" class="btn" style="margin-left:auto; margin-right:auto" href="#natdoug" data-content="Art & Design" rel="popover" data-trigger="hover"><h4>Edmunds, Nate </h4></a></li>
-                    <li><a id="popoverData6" class="btn" style="margin-left:auto; margin-right:auto" href="#dgagne" data-content="Social Work" rel="popover" data-trigger="hover"><h4>Gagne, Debra</h4></a></li>
-                    <li><a id="popoverData7" class="btn" style="margin-left:auto; margin-right:auto" href="#agilman" data-content="Humanities" rel="popover" data-trigger="hover"><h4>Gilman, Adam</h4></a></li>
-                    <li><a id="popoverData8" class="btn" style="margin-left:auto; margin-right:auto" href="#jguerette" data-content="French & Music" rel="popover" data-trigger="hover"><h4>Guerette, Jordan</h4></a></li>
-                    <li><a id="popoverData29" class="btn" style="margin-left:auto; margin-right:auto" href="#whodous" data-content="Engineering" rel="popover" data-trigger="hover"><h4>Hodous, Wells</h4></a></li>
-                    <li><a id="popoverData29" class="btn" style="margin-left:auto; margin-right:auto" href="#thowe" data-content="Admissions, Front Office" rel="popover" data-trigger="hover"><h4>Howe, Tia</h4></a></li>
-                    <li><a id="popoverData9" class="btn" style="margin-left:auto; margin-right:auto" href="#hlarsson" data-content="Programming" rel="popover" data-trigger="hover"><h4>Larsson, Halsted </h4></a></li>
-                    <li><a id="popoverData10" class="btn" style="margin-left:auto; margin-right:auto" href="#mlawrence" data-content="Spanish" rel="popover" data-trigger="hover"><h4>Lawrence, Megan</h4></a></li>
-                    <li><a id="popoverData11" class="btn" style="margin-left:auto; margin-right:auto" href="#eli" data-content="Mandarin Chinese" rel="popover" data-trigger="hover"><h4>Li, Enyue      </h4></a></li>
-                    <li><a id="popoverData28" class="btn" style="margin-left:auto; margin-right:auto" href="#alukas" data-content="-" rel="popover" data-trigger="hover"><h4>Lukas, Alan</h4></a></li>
-                    <li><a id="popoverData12" class="btn" style="margin-left:auto; margin-right:auto" href="#lmedeiros" data-content="Guidance Counselor" rel="popover" data-trigger="hover"><h4>Medeiros, Laurie </h4></a></li>
-                    <li><a id="popoverData13" class="btn" style="margin-left:auto; margin-right:auto" href="#pmoxhay" data-content="Physics and Math" rel="popover" data-trigger="hover"><h4>Moxhay, Peter </h4></a></li>
-                    <li><a id="popoverData14" class="btn" style="margin-left:auto; margin-right:auto" href="#mnunez" data-content="Director of Student Services" rel="popover" data-trigger="hover"><h4>Nunez, Moises </h4></a></li>
-                    <li><a id="popoverData15" class="btn" style="margin-left:auto; margin-right:auto" href="#bolson" data-content="Geography and Special Education" rel="popover" data-trigger="hover"><h4>Olson, Brian </h4></a></li>
-                    <li><a id="popoverData16" class="btn" style="margin-left:auto; margin-right:auto" href="#sparwol" data-content="Mathematics" rel="popover" data-trigger="hover"><h4>Parrott-Wolfe, Sean </h4></a></li>
-                    <li><a id="popoverData18" class="btn" style="margin-left:auto; margin-right:auto" href="#apfeifer" data-content="Instructional Specialist" rel="popover" data-trigger="hover"><h4>Pfeifer, Alice </h4></a></li>
-                    <li><a id="popoverData19" class="btn" style="margin-left:auto; margin-right:auto" href="#drawson" data-content="Math, Science & Technology" rel="popover" data-trigger="hover"><h4>Rawson, David </h4></a></li>
-                    <li><a id="popoverData20" class="btn" style="margin-left:auto; margin-right:auto" href="#prawson" data-content="Mathematics" rel="popover" data-trigger="hover"><h4>Rawson, Pamela </h4></a></li>
-                    <li><a id="popoverData21" class="btn" style="margin-left:auto; margin-right:auto" href="#scogin" data-content="Humanities" rel="popover" data-trigger="hover"><h4>Scogin, Sam </h4></a></li>
-                    <li><a id="popoverData22" class="btn" style="margin-left:auto; margin-right:auto" href="#astarr" data-content="Humanities" rel="popover" data-trigger="hover"><h4>Starr, Aleah </h4></a></li>
-                    <li><a id="popoverData23" class="btn" style="margin-left:auto; margin-right:auto" href="#sstutzman" data-content="Fabrication & Engineering" rel="popover" data-trigger="hover"><h4>Stutzman, Sunny </h4></a></li>
-                    <li><a id="popoverData24" class="btn" style="margin-left:auto; margin-right:auto" href="#ataylor" data-content="Humanities" rel="popover" data-trigger="hover"><h4>Taylor, Angela </h4></a></li>
-                    <li><a id="popoverData25" class="btn" style="margin-left:auto; margin-right:auto" href="#kvirmalo" data-content="Humanities" rel="popover" data-trigger="hover"><h4>Virmalo, Katelyn </h4></a></li>
-                    <li><a id="popoverData26" class="btn" style="margin-left:auto; margin-right:auto" href="#awinter" data-content="Educational Technician" rel="popover" data-trigger="hover"><h4>Winter, Antonia </h4></a></li>
+                    <li><a id="popoverData" style="margin-left:auto; margin-right:auto" href="#jamory" data-toggle="popover" data-content="Engineering/Robotics" rel="popover" data-trigger="hover"><p>Amory, Jon</p></a></li>
+                    <li><a id="popoverData2" style="margin-left:auto; margin-right:auto" href="#mbarnes" data-content="Art & Design" rel="popover" data-trigger="hover"><p>Barnes, Matt </p></a></li>
+                    <li><a id="popoverData3" style="margin-left:auto; margin-right:auto" href="#sbuhlman" data-content="Instructional Specialist" rel="popover" data-trigger="hover"><p>Buhlman, Sarah</p></a></li>
+                    <li><a id="popoverData4" style="margin-left:auto; margin-right:auto" href="#hdippolito" data-content="Humanities" rel="popover" data-trigger="hover"><p>D'Ippolito, Heather</p></a></li>
+                    <li><a id="popoverData5" style="margin-left:auto; margin-right:auto" href="#jdoughty" data-content="Science" rel="popover" data-trigger="hover"><p>Doughty, Jonathan</p></a></li>
+                    <li><a id="popoverData6" style="margin-left:auto; margin-right:auto" href="#natdoug" data-content="Art & Design" rel="popover" data-trigger="hover"><p>Edmunds, Nate </p></a></li>
+                    <li><a id="popoverData7" style="margin-left:auto; margin-right:auto" href="#dgagne" data-content="Social Work" rel="popover" data-trigger="hover"><p>Gagne, Debra</p></a></li>
+                    <li><a id="popoverData8" style="margin-left:auto; margin-right:auto" href="#agilman" data-content="Humanities" rel="popover" data-trigger="hover"><p>Gilman, Adam</p></a></li>
+                    <li><a id="popoverData9" style="margin-left:auto; margin-right:auto" href="#jguerette" data-content="French & Music" rel="popover" data-trigger="hover"><p>Guerette, Jordan</p></a></li>
+                    <li><a id="popoverData10" style="margin-left:auto; margin-right:auto" href="#whodous" data-content="Engineering" rel="popover" data-trigger="hover"><p>Hodous, Wells</p></a></li>
+                    <li><a id="popoverData11" style="margin-left:auto; margin-right:auto" href="#thowe" data-content="Admissions, Front Office" rel="popover" data-trigger="hover"><p>Howe, Tia</p></a></li>
+                    <li><a id="popoverData12" style="margin-left:auto; margin-right:auto" href="#hlarsson" data-content="Programming" rel="popover" data-trigger="hover"><p>Larsson, Halsted </p></a></li>
+                    <li><a id="popoverData13" style="margin-left:auto; margin-right:auto" href="#mlawrence" data-content="Spanish" rel="popover" data-trigger="hover"><p>Lawrence, Megan</p></a></li>
+                    <li><a id="popoverData14" style="margin-left:auto; margin-right:auto" href="#eli" data-content="Mandarin Chinese" rel="popover" data-trigger="hover"><p>Li, Enyue      </p></a></li>
+                    <li><a id="popoverData15" style="margin-left:auto; margin-right:auto" href="#alukas" data-content="-" rel="popover" data-trigger="hover"><p>Lukas, Alan</p></a></li>
+                    <li><a id="popoverData16" style="margin-left:auto; margin-right:auto" href="#lmedeiros" data-content="Guidance Counselor" rel="popover" data-trigger="hover"><p>Medeiros, Laurie </p></a></li>
+                    <li><a id="popoverData17" style="margin-left:auto; margin-right:auto" href="#pmoxhay" data-content="Physics and Math" rel="popover" data-trigger="hover"><p>Moxhay, Peter </p></a></li>
+                    <li><a id="popoverData19" style="margin-left:auto; margin-right:auto" href="#bolson" data-content="Geography and Special Education" rel="popover" data-trigger="hover"><p>Olson, Brian </p></a></li>
+                    <li><a id="popoverData20" style="margin-left:auto; margin-right:auto" href="#sparwol" data-content="Mathematics" rel="popover" data-trigger="hover"><p>Parrott-Wolfe, Sean </p></a></li>
+                    <li><a id="popoverData21" style="margin-left:auto; margin-right:auto" href="#apfeifer" data-content="Instructional Specialist" rel="popover" data-trigger="hover"><p>Pfeifer, Alice </p></a></li>
+                    <li><a id="popoverData22" style="margin-left:auto; margin-right:auto" href="#drawson" data-content="Math, Science & Technology" rel="popover" data-trigger="hover"><p>Rawson, David </p></a></li>
+                    <li><a id="popoverData23" style="margin-left:auto; margin-right:auto" href="#prawson" data-content="Mathematics" rel="popover" data-trigger="hover"><p>Rawson, Pamela </p></a></li>
+                    <li><a id="popoverData24" style="margin-left:auto; margin-right:auto" href="#scogin" data-content="Humanities" rel="popover" data-trigger="hover"><p>Scogin, Sam </p></a></li>
+                    <li><a id="popoverData25" style="margin-left:auto; margin-right:auto" href="#astarr" data-content="Humanities" rel="popover" data-trigger="hover"><p>Starr, Aleah </p></a></li>
+                    <li><a id="popoverData26" style="margin-left:auto; margin-right:auto" href="#sstutzman" data-content="Fabrication & Engineering" rel="popover" data-trigger="hover"><p>Stutzman, Sunny </p></a></li>
+                    <li><a id="popoverData27" style="margin-left:auto; margin-right:auto" href="#ataylor" data-content="Humanities" rel="popover" data-trigger="hover"><p>Taylor, Angela </p></a></li>
+                    <li><a id="popoverData28" style="margin-left:auto; margin-right:auto" href="#avickerson" data-content="Special Ed" rel="popover" data-trigger="hover"><p>Vickerson, Amanda </p></a></li>
+                    <li><a id="popoverData29" style="margin-left:auto; margin-right:auto" href="#kvirmalo" data-content="Humanities" rel="popover" data-trigger="hover"><p>Virmalo, Katelyn </p></a></li>
+                    <li><a id="popoverData30" style="margin-left:auto; margin-right:auto" href="#awinter" data-content="Educational Technician" rel="popover" data-trigger="hover"><p>Winter, Antonia </p></a></li>
+                    <li><a id="popoverData31" style="margin-left:auto; margin-right:auto" href="#awinter" data-content="Math" rel="popover" data-trigger="hover"><p>Yock, Gretchen </p></a></li>
                 </ul>
         </div>
         </div>
         <br/>
+        </div>
     </div>
-<div class="col-lg-10">
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="col-lg-10 nopadding">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jamory" class="panel-title" style="text-align:center">Jonathan Amory - Engineering/Robotics Teacher</h1>
    </div>
@@ -103,9 +121,13 @@
        <div class="col-md-3">
          <img src="images/faculty/jamory.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
-       <div class="col-md-9">
-         <a href="mailto:jon.amory@baxter-academy.org" target="_top"><button type="button" class="btn btn-info">jon.amory@baxter-academy.org</button></a>
-           <a href="https://sites.google.com/a/baxter-academy.org/engineering/home" target="_blank"><button type="button" class="btn btn-info pull-right">Website</button></a>
+       <div class="col-md-9"><br/>
+            <div class="text-left">
+            <div class="btn-group">
+                <a href="mailto:jon.amory@baxter-academy.org" target="_top" class="btn btn-primary">jon.amory@baxter-academy.org</a>
+                <a href="https://sites.google.com/a/baxter-academy.org/engineering/home" target="_blank" class="btn btn-primary">Website</a>
+            </div>
+            </div>
          <p>
 <br/>
 Mr. Amory was an advanced robotics engineer for five years at Boston Dynamics, where he helped design a number of robots, including BigDog, RiSE, RHex, and LittleDog.  He had always been interested in education and had been helping students in local schools with their engineering projects. Working with kids, he began to realize that the skills that made him a successful engineer were not the skills he had learned in high school or that he saw being taught in high schools.  This realization moved him to teach. And he has now been teaching engineering for four years in Freeport (one year in middle school, three in high school). He has focused on building skills through large-scale, student-led, real world projects, such as a wind tunnel that clocked the highest wind speeds ever recorded in Maine.
@@ -121,7 +143,7 @@ Fun facts about Mr. Amory:  He has sailed to Norway. He has climbed mountains on
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="mbarnes" class="panel-title" style="text-align:center">Matthew Barnes - Art & Design Teacher</h1>
    </div>
@@ -131,7 +153,7 @@ Fun facts about Mr. Amory:  He has sailed to Norway. He has climbed mountains on
          <img src="images/faculty/mbarnes.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:matthew.barnes@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">matthew.barnes@baxter-academy.org</button></a>
+         <a href="mailto:matthew.barnes@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">matthew.barnes@baxter-academy.org</button></a>
          <p>
 <br/>
 Mr. Barnes’s personal motto is: “He who dies with the most tools wins.” He uses his tools to hand-carve slate tombstones, to motorize toy airplanes, to add micro-cameras to Estes rockets, and to repurpose 1950s rotary phones into his home’s intercom system. He knows how to cast metal, solder wire, and weld sheet steel. He can run a lathe and drill through glass and design a textbook. (Want to see more of what he can do? Go to mattmakes.weebly.com.)
@@ -147,7 +169,7 @@ Fun facts about Mr. Barnes: He’s a pilot, a scuba diver, and the cemetery keep
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="sbuhlman" class="panel-title" style="text-align:center">Sarah Buhlman - Instructional Specialist</h1>
    </div>
@@ -157,7 +179,7 @@ Fun facts about Mr. Barnes: He’s a pilot, a scuba diver, and the cemetery keep
          <img src="images/faculty/sbuhlman.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:sarah.buhlman@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">sarah.buhlman@baxter-academy.org</button></a>
+         <a href="mailto:sarah.buhlman@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">sarah.buhlman@baxter-academy.org</button></a>
          <p>
 <br/>
 Ms. Buhlman comes to the Baxter adventure from a life of adventure. She grew up on a Maryland horse farm, played rugby, and spent a college semester sailing from Tahiti to Hawaii with the Sea Education Association. She fell in love with teaching while sailing on a 74-foot schooner out of Annapolis, Maryland, and she’s since been an outdoor educator in Alaska and Maine, where she spends her summers as an sailing, canoeing, and backpacking instructor for Hurricane Island Outward Bound School in Rockland. She’s spent the last two years as an AmeriCorps volunteer specializing in adventure education.
@@ -173,7 +195,7 @@ Fun facts about Ms. Buhlman: She once had a job preparing three meals a day for 
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="hdippolito" class="panel-title" style="text-align:center">Heather D'Ippolito - Humanities Teacher</h1>
    </div>
@@ -183,7 +205,7 @@ Fun facts about Ms. Buhlman: She once had a job preparing three meals a day for 
          <img src="images/faculty/hdippolito.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:heather.dippolito@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">heather.dippolito@baxter-academy.org</button></a>
+         <a href="mailto:heather.dippolito@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">heather.dippolito@baxter-academy.org</button></a>
          <p>
 <br/>
 Ms. D’Ippolito is a fifth-generation Mainer who last year returned home after a long stint teaching in New York City—five years in Brooklyn and three in the Bronx. At the Bushwick School for Social Justice, she was a tenth-grade English teacher who used project-based learning to explore texts ranging from Persepolis to Senegalese poetry to news articles on how social media played a role in the Egyptian revolution.
@@ -204,7 +226,7 @@ Fun facts about Ms. D’Ippolito:  If she weren’t a teacher, she’d probably 
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jdoughty" class="panel-title" style="text-align:center">Jonathan Doughty - Science Teacher</h1>
    </div>
@@ -214,7 +236,7 @@ Fun facts about Ms. D’Ippolito:  If she weren’t a teacher, she’d probably 
          <img src="images/faculty/jdoughty.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:jonathan.doughty@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">jonathan.doughty@baxter-academy.org</button></a>
+         <a href="mailto:jonathan.doughty@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">jonathan.doughty@baxter-academy.org</button></a>
          <p>
 <br/>
 Mr. Doughty has been a science teacher for 12 years, teaching at both a private middle school and several public high schools in Maine. He is teaching science at Baxter. He has taught a wide range of physical and life science classes including physics, geology, chemistry, and biology. Mr. Doughty believes “that good science education--like good science--starts with inquiry, travels through data and analysis, and reaches conclusions that lead inevitably to new questions.
@@ -229,7 +251,7 @@ Fun Fact: When in Madagascar, Mr. Doughty was at one point taught to sail a dugo
    </div>
 </div>
 <br/>
-    <div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+    <div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="natdoug" class="panel-title" style="text-align:center">Nate Edmunds - Art & Design Teacher</h1>
    </div>
@@ -239,7 +261,7 @@ Fun Fact: When in Madagascar, Mr. Doughty was at one point taught to sail a dugo
          <img src="images/faculty/natdoug.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:nate.edmunds@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">nate.edmunds@baxter-academy.org</button></a>
+         <a href="mailto:nate.edmunds@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">nate.edmunds@baxter-academy.org</button></a>
          <p>
 <br/>
 Mr. Edmunds arrives at Baxter fresh from the Peace Corps. He spent two years in Ukraine teaching English at a local high school, mentoring students in creative writing, and organizing youth leadership events. He has also taught in Tokyo and Jerusalem. In 2005, he graduated with a BFA from the Maine College of Art, where he majored in New Media and minored in Art History. He has exhibited his work at Las Cruces Museum of Art, Mass MOCA, and The Black Factory National Tour.
@@ -254,7 +276,7 @@ Fun facts about Mr. Edmunds: He is building an 18.3-foot cedar-strip kayak, work
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="dgagne" class="panel-title" style="text-align:center">Debra Gagne - Social Worker</h1>
    </div>
@@ -264,8 +286,12 @@ Fun facts about Mr. Edmunds: He is building an 18.3-foot cedar-strip kayak, work
          <img src="images/faculty/dgagne.png" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:debra.gagne@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">debra.gagne@baxter-academy.org</button></a>
-           <a href="https://sites.google.com/a/baxter-academy.org/social-work/" target="_blank"><button type="button" class="btn btn-info pull-right">Website</button></a>
+            <div class="text-left">
+            <div class="btn-group">
+                <a class="btn btn-primary" href="mailto:debra.gagne@baxter-academy.org" target="_top">debra.gagne@baxter-academy.org</a>
+                <a class="btn btn-primary" href="https://sites.google.com/a/baxter-academy.org/social-work/" target="_blank">Website</a>
+            </div>
+            </div>
          <p>
 <br/>
 Bio coming soon!
@@ -275,7 +301,7 @@ Bio coming soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="agilman" class="panel-title" style="text-align:center">Adam Gilman - Humanities Teacher</h1>
    </div>
@@ -285,7 +311,7 @@ Bio coming soon!
          <img src="images/faculty/agilman.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:adam.gilman@baxter-academy.org " target="_top"><button type="button" class="btn btn-info" style="text-align: left">adam.gilman@baxter-academy.org </button></a>
+         <a href="mailto:adam.gilman@baxter-academy.org " target="_top"><button type="button" class="btn btn-primary" style="text-align: left">adam.gilman@baxter-academy.org </button></a>
          <p>
 <br/>
 Adam Gilman is relocating to Baxter from Preparatory Charter High School in Philadelphia, where he has taught ninth-grade world history, tenth-grade U.S. history and twelfth-grade government and global studies (and a little algebra, too), and where he piloted an AP U.S. Government Club, coached the chess team and co-founded the Prep Charter Reading Task Force to improve reading comprehension and foster a pro-reading school culture.
@@ -302,7 +328,7 @@ Fun facts about Mr. Gilman: He’s been to thirty countries (and counting). He t
      </div>
    </div>
 </div>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jguerette" class="panel-title" style="text-align:center">Jordan Guerette - French & Music Teacher</h1>
    </div>
@@ -312,8 +338,12 @@ Fun facts about Mr. Gilman: He’s been to thirty countries (and counting). He t
          <img src="images/faculty/jguerette.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:jordan.guerette@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">jordan.guerette@baxter-academy.org</button></a>
-           <a href="https://sites.google.com/a/baxter-academy.org/jordan_guerette/" target="_blank"><button type="button" class="btn btn-info pull-right">Website</button></a>
+        <div class="text-left">
+        <div class="btn-group">
+            <a class="btn btn-primary" href="mailto:jordan.guerette@baxter-academy.org" target="_top">jordan.guerette@baxter-academy.org</a>
+           <a class="btn btn-primary" href="https://sites.google.com/a/baxter-academy.org/jordan_guerette/" target="_blank">Website</a>
+           </div>
+           </div>
          <p>
 <br/>
 Mr. Guerette reclaimed the French language for himself. He found the language of his paternal grandparents beautiful. “Unfortunately, like many immigrants from Québec who settled in Maine, they chose to not teach their children French as at that time it was seen as the language of lower-class people,” he says. “I never got a chance to learn French from them either, so I decided to formally study it and reclaim the language of my family.”
@@ -331,7 +361,7 @@ Fun facts about Mr. Guerette: He is part of a heavy metal band that sells albums
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="whodous" class="panel-title" style="text-align:center">Wells Hodous - Engineering Teacher</h1>
    </div>
@@ -341,7 +371,7 @@ Fun facts about Mr. Guerette: He is part of a heavy metal band that sells albums
          <img src="images/faculty/whodous.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:wells.hodous@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">wells.hodous@baxter-academy.org</button></a>
+         <a href="mailto:wells.hodous@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">wells.hodous@baxter-academy.org</button></a>
          <p>
 <br/>
 Wells Hodous comes out of industry to teach engineering at Baxter. As a Mechanical Design Engineer, he has a diverse background in product development and expertise in integrating design specifications, analysis requirements and manufacturing capabilities to generate successful designs. He intends to help Baxter students acquire a proficiency in the skills and awareness required to succeed as working engineers and designers.
@@ -357,7 +387,7 @@ Fun Fact:  I love simple living, my kids, (three, two are in high school!) the s
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="thowe" class="panel-title" style="text-align:center">Tia Howe - Admissions & Front Office Manager</h1>
    </div>
@@ -367,7 +397,7 @@ Fun Fact:  I love simple living, my kids, (three, two are in high school!) the s
          <img src="images/faculty/thowe.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:tia.howe@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">tia.howe@baxter-academy.org</button></a>
+         <a href="mailto:tia.howe@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">tia.howe@baxter-academy.org</button></a>
          <p>
 <br/>
 Ms Howe joins us from the Yarmouth School Department, where she worked for ten years as the Special Education Assistant in their central office. Before working in Yarmouth, Ms Howe spent five years as an administrative assistant at a fabrication mill in Lisbon Falls working on environmental protection and safety procedures. She brings with her a wealth of experience in business and technology. She graduated from Beal College in Bangor with an AS degree in Travel and Tourism.
@@ -381,7 +411,7 @@ Fun facts: Ms Howe is a taphophile* (definition: someone who takes interest in c
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="hlarsson" class="panel-title" style="text-align:center">Halsted Larsson - Programming Teacher</h1>
    </div>
@@ -391,7 +421,7 @@ Fun facts: Ms Howe is a taphophile* (definition: someone who takes interest in c
          <img src="images/faculty/hlarsson.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:halsted.larsson@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">halsted.larsson@baxter-academy.org</button></a>
+         <a href="mailto:halsted.larsson@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">halsted.larsson@baxter-academy.org</button></a>
          <p>
 <br/>
 Mr. Larsson moved from Pennsylvania to teach at Baxter after hearing about Baxter’s approach to student ownership of learning. He teaches computer science at Baxter.
@@ -409,7 +439,7 @@ Fun Fact: Mr. Larsson spent a year after college in a Clinical Pastoral Educatio
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="mlawrence" class="panel-title" style="text-align:center">Megan Lawrence - Spanish Teacher</h1>
    </div>
@@ -419,7 +449,7 @@ Fun Fact: Mr. Larsson spent a year after college in a Clinical Pastoral Educatio
          <img src="images/faculty/mlawrence.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:megan.lawrence@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">megan.lawrence@baxter-academy.org</button></a>
+         <a href="mailto:megan.lawrence@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">megan.lawrence@baxter-academy.org</button></a>
          <p>
 <br/>
 In teaching Spanish, Megan Lawrence brings to bear a masters degree in Spanish from Middlebury College—and a world of experience. She’s lived and taught or studied in Spain, Costa Rica, and Sweden. And she’s also a hundred-ton master merchant mariner who earned her captain’s license in 2013.
@@ -435,7 +465,7 @@ Fun facts about Ms. Lawrence: She raised sheep when she was growing up. She read
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="eli" class="panel-title" style="text-align:center">Enyue Li - Mandarin Chinese Teacher</h1>
    </div>
@@ -445,8 +475,12 @@ Fun facts about Ms. Lawrence: She raised sheep when she was growing up. She read
          <img src="images/faculty/eli.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:enyue.li@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">enyue.li@baxter-academy.org</button></a>
-         <a href="https://sites.google.com/a/baxter-academy.org/mandarin-chinese/home" target="_blank"><button type="button" class="btn btn-info pull-right">Website</button></a>
+            <div class="text-left">
+            <div class="btn-group">
+             <a class="btn btn-primary" href="mailto:enyue.li@baxter-academy.org" target="_top">enyue.li@baxter-academy.org</a>
+             <a class="btn btn-primary" href="https://sites.google.com/a/baxter-academy.org/mandarin-chinese/home" target="_blank">Website</a>
+             </div>
+             </div>
          <p>
 <br/>
 Before moving to the United States, Enyue Li earned her master's degree in education and taught for seven years in her hometown, Xi'an, China, where she won numerous awards, including the prestigious National Chinese Teachers' Award for Fundamental Knowledge of Chinese Language/Literature Competition of China. In the Bei-Lin district-wide awards, she was recognized for Excellence in Teaching, Outstanding Coach, and Highest Ranking Class. Since arriving in Maine, she has taught Mandarin for eight years to students ranging in age from five to adult. She anchors the elementary-age program at Portland's CAFAM Chinese School.
@@ -462,7 +496,7 @@ Fun facts about Ms. Li: She has done research in Chinese calligraphy and grammar
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="alukas" class="panel-title" style="text-align:center">Alan Lukas</h1>
    </div>
@@ -472,7 +506,7 @@ Fun facts about Ms. Li: She has done research in Chinese calligraphy and grammar
          <img src="images/faculty/alukas.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:alan.lukas@baxter-academy.org " target="_top"><button type="button" class="btn btn-info" style="text-align: left">alan.lukas@baxter-academy.org </button></a>
+         <a href="mailto:alan.lukas@baxter-academy.org " target="_top"><button type="button" class="btn btn-primary" style="text-align: left">alan.lukas@baxter-academy.org </button></a>
          <p>
 <br/>
 Bio coming soon!
@@ -482,7 +516,7 @@ Bio coming soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="lmedeiros" class="panel-title" style="text-align:center">Laurie Medeiros - Guidance Counselor</h1>
    </div>
@@ -492,8 +526,12 @@ Bio coming soon!
          <img src="images/faculty/lmedeiros.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:laurie.medeiros@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">laurie.medeiros@baxter-academy.org</button></a>
-           <a href="http://baxterguidance.weebly.com/" target="_blank"><button type="button" class="btn btn-info pull-right">Website</button></a>
+            <div class="text-left">
+            <div class="btn-group">
+                <a class="btn btn-primary" href="mailto:laurie.medeiros@baxter-academy.org" target="_top">laurie.medeiros@baxter-academy.org</a>
+                <a class="btn btn-primary" href="http://baxterguidance.weebly.com/" target="_blank">Website</a>
+                </div>
+                </div>
          <p>
 <br/>
 Ms. Medeiros comes to Baxter from Gray-New Gloucester HIgh School where she was the director of guidance. She earned her M.S. in Counseling at the University of Southern Maine and her B.A. in Theatre and Creative Writing at Hampshire College.
@@ -509,7 +547,7 @@ Fun Fact: Ms. Medeiros  is a playwright in her spare time, and enjoys having her
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="pmoxhay" class="panel-title" style="text-align:center">Peter Moxhay - Physics & Math Teacher</h1>
    </div>
@@ -519,7 +557,7 @@ Fun Fact: Ms. Medeiros  is a playwright in her spare time, and enjoys having her
          <img src="images/faculty/pmoxhay.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:peter.moxhay@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">peter.moxhay@baxter-academy.org</button></a>
+         <a href="mailto:peter.moxhay@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">peter.moxhay@baxter-academy.org</button></a>
          <p>
 <br/>
 Dr. Moxhay will be familiar to students who participated in his Arduino and Raspberry Pi programming classes at Baxter last fall. He’s been a math and physics teacher at Portland High School and King Middle School, and math and physics are the subjects he’ll be teaching at Baxter along with computer programming. He’s a former theoretical physicist (high-energy particle physics) with degrees from Brown University and the University of Minnesota. When he became interested in education, he got deeply involved in international projects with math and science educators from Russia, Bulgaria, and Romania.
@@ -533,33 +571,7 @@ Fun facts about Dr. Moxhay: He has done research in elementary particle physics,
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
-   <div class="panel-heading">
-     <h1 id="mnunez" class="panel-title" style="text-align:center">Moises Nunez - Director of Student Services</h1>
-   </div>
-   <div class="panel-body">
-     <div class="row">
-       <div class="col-md-3">
-         <img src="images/faculty/mnunez.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
-       </div>
-       <div class="col-md-9">
-         <a href="mailto:mo.nunez@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">mo.nunez@baxter-academy.org</button></a>
-         <p>
-<br/>
-Mr. Nunez has been teaching for over ten years. Most of his work has been with disadvantaged youth, and with special needs students. He comes to Baxter directly from Spurwink Services, where he has been a special ed teacher and case manager. Past positions for Mr. Nunez include being a faculty member of the English department at the Cambridge School of Weston, an instructor at the University of Massachusetts in Boston, and a guest lecturer at the University of Rochester. Mr. Nunez has also worked for the Department of Labor, has written for the National Academy of Sciences, and has consulted for several city/county school districts on issues related to youth violence.
-<br/><br/>
-His academic passions are focused on the relationships between teenagers, schools, and their communities. While in Rochester, he designed, and oversaw Project New Beginnings, an academic program for incarcerated and at-risk youth, that continues to this day.
-<br/><br/>
-Mr. Nunez is a graduate of Hampshire College and has a master’s degree in education from the University of Southern Maine. He is currently working on a second masters in Special Education administration. At Baxter, he will be spearheading the Special Education services, as well as supporting his fellow teachers on effective student engagement strategies. He’ll also teach a course or two. He lives in Portland with his wife (and brilliant sculptor) Christine. Mr. Nunez says, “I am beyond excited to join this team and grow this school!”
-<br/><br/>
-Fun facts about Mr. Nunez: Everyone calls him Mo. His first language is Spanish. He produces music and performs under the name mosart212.  He has a dog named Count Basie Caswell Nunez.
-        </p>
-       </div>
-     </div>
-   </div>
-</div>
-<br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="bolson" class="panel-title" style="text-align:center">Brian Olson - Geography and Special Education Teacher</h1>
    </div>
@@ -569,7 +581,7 @@ Fun facts about Mr. Nunez: Everyone calls him Mo. His first language is Spanish.
          <img src="images/faculty/bolson.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:brian.olson@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">brian.olson@baxter-academy.org</button></a>
+         <a href="mailto:brian.olson@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">brian.olson@baxter-academy.org</button></a>
          <p>
 <br/>
 Brian Olson brings to Baxter Academy wide experience with alternative learning programs. From the classrooms of California's juvenile justice system to the APEX environment of RSU 14, Mr. Olson has been committed to helping create communities of learners. He has coached in Freeport, worked in social justice schools in Brooklyn, and volunteered for non-profit initiatives around after-school learning. He has taught in the Caribbean, Thailand, and Central America.
@@ -589,7 +601,7 @@ Fun facts about Mr. Olson: He likes juicing and children's books, beat-boxing an
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="sparwol" class="panel-title" style="text-align:center">Sean Parrott-Wolfe - Mathematics Teacher</h1>
    </div>
@@ -599,7 +611,7 @@ Fun facts about Mr. Olson: He likes juicing and children's books, beat-boxing an
          <img src="images/faculty/sparwol.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:sean.pw@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">sean.pw@baxter-academy.org</button></a>
+         <a href="mailto:sean.pw@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">sean.pw@baxter-academy.org</button></a>
          <p>
 <br/>
 Mr. Parrott-Wolfe graduated from the University of Southern Maine in 2014 with a degree in mathematics and physics. He is  teaching math this year. His research interests include mathematical physics, general relativity, quantum field theory, and theories of quantum gravity.
@@ -615,7 +627,7 @@ Fun facts:  Mr. Parrott-Wolfe has been a barista, paperboy, audio engineer, weld
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="eperks" class="panel-title" style="text-align:center">Elke Perks - Life Sciences Teacher</h1>
    </div>
@@ -625,10 +637,10 @@ Fun facts:  Mr. Parrott-Wolfe has been a barista, paperboy, audio engineer, weld
          <img src="images/faculty/eperks.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:elke.perks@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">elke.perks@baxter-academy.org</button></a>
+         <a href="mailto:elke.perks@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">elke.perks@baxter-academy.org</button></a>
          <p>
 <br/>
-Ms. Perks doesn’t just teach about the dirt; she gets out there with students into the dirt—or water. As a life science teacher, most recently at South Portland, and as a English major at Rutgers, she loves connecting things—the fall of Mayan civilization because of anomalies in climate patterns and how those climate trends might mean something now; or the history of Aztecs and chocolate and why it might inform thinking about contemporary water issues. Side-by-side with her students, she discovers meaningful stories through science.
+Ms. Perks doesn’t just teach about the dirt; she gets out there with students into the dirt—or water. As a life science teacher, most recently at South Portland, and as a English major at Rutgers, she loves connecting things—the fall of Mayan civilization because of anomalies in climate patterns and how those climate trends might mean something now; or the history of Aztecs and chocolate and why it might primaryrm thinking about contemporary water issues. Side-by-side with her students, she discovers meaningful stories through science.
 <br/><br/>
 “The world to me is a fluid system that connects everything in a complex community of interactions encompassing all disciplines,” says Ms. Perks. “The more I teach, the more connections I can see, and it inspires me to want to learn more.”
 <br/><br/>
@@ -643,7 +655,7 @@ Fun facts about Ms. Perks: She moved to Maine from New Jersey to be a chef at an
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="apfeifer" class="panel-title" style="text-align:center">Alice Pfeifer - Instructional Specialist</h1>
    </div>
@@ -653,7 +665,7 @@ Fun facts about Ms. Perks: She moved to Maine from New Jersey to be a chef at an
          <img src="images/faculty/apfeifer.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:alice.pfeifer@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">alice.pfeifer@baxter-academy.org</button></a>
+         <a href="mailto:alice.pfeifer@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">alice.pfeifer@baxter-academy.org</button></a>
          <p>
 <br/>
 Bio coming soon!
@@ -663,7 +675,7 @@ Bio coming soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="drawson" class="panel-title" style="text-align:center">David Rawson - Math, Science & Technology Teacher</h1>
    </div>
@@ -673,7 +685,7 @@ Bio coming soon!
          <img src="images/faculty/drawson.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:david.rawson@baxter-academy.org " target="_top"><button type="button" class="btn btn-info" style="text-align: left">david.rawson@baxter-academy.org </button></a>
+         <a href="mailto:david.rawson@baxter-academy.org " target="_top"><button type="button" class="btn btn-primary" style="text-align: left">david.rawson@baxter-academy.org </button></a>
          <p>
 <br/>
 Southern Maine has had to endure Mr. Rawson’s teaching for twenty-five years. He began his career at Wells High School, initially teaching Chemistry and Geometry. His subsequent teaching assignments spread to most of the curriculum in math and physical science, eventually expanding into technology as well. It was also there that he experienced his first forays into the wilds of school reform. Since 2001 he has been a member of the Poland Regional High School faculty, where he was a co-creator of an interdisciplinary individualized team, a faculty coach and mentor, and a long-serving member of the PRHS governance group. He has taught a wide range of courses, including Astronomy, Chemistry, and Physics; Statistics, Integrated Math, and Calculus; Digital Photography, Desktop Publishing, and AP Programming.
@@ -691,7 +703,7 @@ Fun facts about Mr. Rawson: Neither the piano nor the clarinet (or even, during 
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="prawson" class="panel-title" style="text-align:center">Pamela Rawson - Mathematics Teacher</h1>
    </div>
@@ -701,8 +713,12 @@ Fun facts about Mr. Rawson: Neither the piano nor the clarinet (or even, during 
          <img src="images/faculty/prawson.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:pam.rawson@baxter-academy.org " target="_top"><button type="button" class="btn btn-info" style="text-align: left">pam.rawson@baxter-academy.org </button></a>
-           <a href="https://sites.google.com/a/baxter-academy.org/rawsonmath/home" target="_blank"><button type="button" class="btn btn-info pull-right">Website</button></a>
+            <div class="text-left">
+            <div class="btn-group">
+                <a class="btn btn-primary" href="mailto:pam.rawson@baxter-academy.org " target="_top">pam.rawson@baxter-academy.org</a>
+                <a class="btn btn-primary" href="https://sites.google.com/a/baxter-academy.org/rawsonmath/home" target="_blank">Website</a>
+            </div>
+            </div>
          <p>
 <br/>
 Ms. Rawson has been teaching for 25 years. During her career, Ms. Rawson has taught all levels of high school mathematics from basic skills to Advanced Placement. She spent the last twelve years at Poland Regional High School working with an integrated mathematics program and developing cross-curricular projects. While at Poland, Ms Rawson worked with teams of at-risk students, co-taught an integrated math/physics course with Mr. Rawson, served as a teacher leader and mentor, and field-tested the use of TI-Nspire technology for learning mathematics. She is intrigued by the use of technology to teach conceptual understanding and has used a variety of tools, beginning with graphing calculators in 1990.
@@ -720,7 +736,7 @@ Fun facts about Ms Rawson: She plays many instruments, but none of them very wel
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="brosenbloom" class="panel-title" style="text-align:center">Ben Rosenbloom</h1>
    </div>
@@ -730,7 +746,7 @@ Fun facts about Ms Rawson: She plays many instruments, but none of them very wel
          <img src="images/faculty/brosenbloom.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:ben.rosenbloom@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">ben.rosenbloom@baxter-academy.org</button></a>
+         <a href="mailto:ben.rosenbloom@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">ben.rosenbloom@baxter-academy.org</button></a>
          <p>
 <br/>
 Bio Coming Soon!
@@ -740,7 +756,7 @@ Bio Coming Soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="dschwarz" class="panel-title" style="text-align:center">Donna Schwarz - Front Office Administrative Assistant</h1>
    </div>
@@ -750,7 +766,7 @@ Bio Coming Soon!
          <img src="images/faculty/dschwarz.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:donna.schwarz@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">donna.schwarz@baxter-academy.org</button></a>
+         <a href="mailto:donna.schwarz@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">donna.schwarz@baxter-academy.org</button></a>
          <p>
 <br/>
 Bio Coming Soon!
@@ -760,7 +776,7 @@ Bio Coming Soon!
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="scogin" class="panel-title" style="text-align:center">Samuel Scogin - Humanities Teacher</h1>
    </div>
@@ -770,7 +786,7 @@ Bio Coming Soon!
          <img src="images/faculty/scogin.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:sam.scogin@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">sam.scogin@baxter-academy.org</button></a>
+         <a href="mailto:sam.scogin@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">sam.scogin@baxter-academy.org</button></a>
          <p>
 <br/>
 Mr. Scogin has a bachelor’s degree in American studies and literature from Marlboro College and a master’s in education from Goddard College. For the past two years he’s been team-teaching honors courses at Maine Central Institute using a project- based model that integrates history and English.
@@ -788,7 +804,7 @@ Fun facts about Mr. Scogin: He spends at least one week a year alone in the back
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="astarr" class="panel-title" style="text-align:center">Aleah Starr - Humanities Teacher</h1>
    </div>
@@ -798,7 +814,7 @@ Fun facts about Mr. Scogin: He spends at least one week a year alone in the back
          <img src="images/faculty/astarr.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:aleah.starr@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">aleah.starr@baxter-academy.org</button></a>
+         <a href="mailto:aleah.starr@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">aleah.starr@baxter-academy.org</button></a>
          <p>
 <br/>
 Ms. Starr has spent the past three years teaching English to 9th and 10th graders at Boston Preparatory Charter Public School. While at Boston Prep, she advised the student mentoring club, partnered with WriteBoston to improve student composition, got 30  seconds of playing time in the student vs staff basketball game, and served as the 9th grade Grade Level leader.  She is teaching ninth-grade Humanities this year at Baxter.
@@ -814,7 +830,7 @@ Fun Fact:  Ms. Starr grew up in the smallest U.S. state capital which also happe
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="sstutzman" class="panel-title" style="text-align:center">Sunny Stutzman - Fabrication & Engineering Teacher</h1>
    </div>
@@ -824,7 +840,7 @@ Fun Fact:  Ms. Starr grew up in the smallest U.S. state capital which also happe
          <img src="images/faculty/sstutzman.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:sunny.stutzman@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">sunny.stutzman@baxter-academy.org</button></a>
+         <a href="mailto:sunny.stutzman@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">sunny.stutzman@baxter-academy.org</button></a>
          <p>
 <br/>
 Mr. Stutzman describes himself as a teacher, an industrial designer, a maker, a farmer, and a musician who wants to help build a program at Baxter that “embodies the spirit of making.” He arrives from Yarmouth High School, and his passion is sharing the knowledge he’s accumulated through years of product design. He introduces his students to new technologies and techniques that are relevant to today’s creative economy and that has helped them make everything from carbon fiber skateboards and surfboard to hovercrafts and human-powered vehicles. He himself once designed a prototype bicycle for use in Antarctica, and the project won a National Creative Genius Award.
@@ -842,7 +858,7 @@ Fun facts about Mr. Stutzman: He surfs year-round in Maine’s coastal waters. H
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="ataylor" class="panel-title" style="text-align:center">Angela Taylor - Humanities Teacher</h1>
    </div>
@@ -852,7 +868,7 @@ Fun facts about Mr. Stutzman: He surfs year-round in Maine’s coastal waters. H
          <img src="images/faculty/ataylor.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:angela.taylor@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">angela.taylor@baxter-academy.org</button></a>
+         <a href="mailto:angela.taylor@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">angela.taylor@baxter-academy.org</button></a>
          <p>
 <br/>
 Ms. Taylor comes to Baxter as not just an experienced high-school teacher and elementary principal but as a designer of new approaches to education. At Poland Regional High School, where she taught humanities for eleven years, she also designed the student judiciary board (the model for Baxter’s j-board). She proposed and designed an alternative school within the school that allowed students to work at their own pace while meeting the same standards as mainstream students. And she designed a standards-recovery program for students who didn’t meet course standards.
@@ -869,8 +885,30 @@ Fun facts about Ms. Taylor:  She was in the Navy but gets seasick. She thought s
      </div>
    </div>
 </div>
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
+   <div class="panel-heading">
+     <h1 id="ataylor" class="panel-title" style="text-align:center">Amanda Vickerson - Special Ed Teacher</h1>
+   </div>
+   <div class="panel-body">
+     <div class="row">
+       <div class="col-md-3">
+         <img src="images/faculty/avickerson.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
+       </div>
+       <div class="col-md-9">
+         <a href="mailto:amanda.vickerson@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">amanda.vickerson@baxter-academy.org</button></a>
+         <p>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+Ms Vickerson comes to Baxter’s special education department from Greely Middle School where she was a behavior strategist and special education case manager. Prior to her time at Greely, Ms Vickerson worked in the behavior programs at Gorham Middle and High Schools.<br/><br/>
+Ms Vickerson is a life-long Mainer! She has a BA from Colby College in Women's, Gender, & Sexuality Studies with a minor in Human Development and an MS from the University of Southern Maine in Special Education. In addition to her public school experience, she has been director of Gorham Recreation's Xtreme Teen summer camp for the past 4 years, where she gets kids adventuring and volunteering in the Greater Portland area.<br/><br/>
+Ms Vickerson believes strongly that students can and will achieve anything when given safe spaces, proper supports, and cheerleaders. She was drawn to Baxter's individualized approach with each student, location in the heart of Portland, and strong emphasis on learning through real-life experiences.<br/><br/>
+Fun Facts: Ms. Vickerson is a self-proclaimed cat lady (4 is not too many!), and she skates with Maine Roller Derby.
+        </p>
+       </div>
+     </div>
+   </div>
+</div>
+<br/>
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="kvirmalo" class="panel-title" style="text-align:center">Katelyn Virmalo - Humanities Teacher </h1>
    </div>
@@ -880,7 +918,7 @@ Fun facts about Ms. Taylor:  She was in the Navy but gets seasick. She thought s
          <img src="images/faculty/kvirmalo.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:katelyn.virmalo@baxter-academy.org " target="_top"><button type="button" class="btn btn-info" style="text-align: left">katelyn.virmalo@baxter-academy.org </button></a>
+         <a href="mailto:katelyn.virmalo@baxter-academy.org " target="_top"><button type="button" class="btn btn-primary" style="text-align: left">katelyn.virmalo@baxter-academy.org </button></a>
          <p>
 <br/>
 Ms. Virmalo is highly experienced in achieving remarkable results from challenging classroom circumstances. Until 2009, she was head of the English department at the Bushwick School for Social Justice in Brooklyn, New York, where she used creative writing, role-playing, and close relationships to provide unique learning opportunities—even for students who often spoke English as a second language. She received the Most Dedicated Teacher and the Most Creative Teacher awards while there.
@@ -900,7 +938,7 @@ Fun facts about Ms. Virmalo: She is a traveler, reader, baker, seamstress, yogi,
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="awinter" class="panel-title" style="text-align:center">Antonia Winter - Educational Technician </h1>
    </div>
@@ -910,7 +948,7 @@ Fun facts about Ms. Virmalo: She is a traveler, reader, baker, seamstress, yogi,
          <img src="images/faculty/awinter.png" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:antonia.winter@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">antonia.winter@baxter-academy.org</button></a>
+         <a href="mailto:antonia.winter@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">antonia.winter@baxter-academy.org</button></a>
          <p>
 <br/>
 Ms. Winter comes to Baxter from Riverton School in Portland where she was an ELL teacher. She also works as an instructor of language arts at Portland Adult Ed.  In addition to her public education experience, Antonia has privately tutored students aging from 5-16 and conducted Yoga instruction for K-1 students and adults.
@@ -925,8 +963,32 @@ Fun facts: Ms. Winter loves to teach Yoga and still likes to practice her cartwh
      </div>
    </div>
 </div>
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
+   <div class="panel-heading">
+     <h1 id="gyock" class="panel-title" style="text-align:center">Gretchen Yock - Math Teacher </h1>
+   </div>
+   <div class="panel-body">
+     <div class="row">
+       <div class="col-md-3">
+         <img src="images/faculty/gyock.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
+       </div>
+       <div class="col-md-9">
+         <a href="mailto:antonia.winter@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">gretchen.yock@baxter-academy.org</button></a>
+         <p>
+<br/>
+Ms. Yock teaches math at Baxter. 2015 marks her 20th year as a teacher.  Most recently, she taught math at Castle View High School in Colorado, where she was part of a committee that worked to establish a project-based learning curriculum. Before that, she served as the math department chair at South Portland High School. As chair, she adopted and facilitated the implementation of the Core-Plus Mathematics Project Curriculum and created common core standards for all courses.<br/><br/>
+Ms. Yock has also been involved in several mentoring programs and committees to improve school climate.<br/><br/>
+Ms. Yock says, “My goal is to provide the best possible education to 21st century students through the facilitation of rigorous and relevant pedagogy based on best practice. To most effectively accomplish my goal it is additionally vital to develop strong personal relationships and collaboration with students, colleagues, and parents.”<br/><br/>
+Ms. Yock holds a BA in Mathematics with a concentration in Asian Studies from St. Olaf College, as well as an M.ed in Education with an emphasis in Brain Research from St. Mary's University of MN.
+Fun Facts: She has two standard poodles named Phoebe and Lola. The only cars she has ever owned were Volkswagens. And she was an art major before she switched to be a math major.
+        </p>
+       </div>
+     </div>
+   </div>
 </div>
 </div>
+</div>
+</div>  
 <!--/cms:editable-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

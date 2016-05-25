@@ -24,7 +24,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Baxter Academy</title>
+    <title>Welcome to Baxter</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap_welcome.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
@@ -62,7 +62,7 @@
     <div class="col-lg-3"></div>
     <div class="col-lg-6 text-center">
         <div class="inlineblockeroo">
-              <a href="experience"><img class="center-block img-responsive curious" src="images/elements/Cu-Curious.png"><br/></a>
+              <a href="about"><img class="center-block img-responsive curious" src="images/elements/Cu-Curious.png"><br/></a>
         </div>
         <div class="inlineblockeroo">
               <a href="howtoapply"><img class="center-block img-responsive curious" src="images/elements/Al-Apply.png"><br/></a>
@@ -84,7 +84,9 @@
     <div class="col-lg-3"></div>
 </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<div style="position:fixed; left:10px; bottom: 10px; z-index:100; background-color:white; border-radius:3px"><div style="margin:10px; Color:red"><p>Attention: Nothing</p></div></div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/bootstrap.min.js"></script>

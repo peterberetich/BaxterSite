@@ -17,7 +17,6 @@ section.module h2 {
 }
 section.module p {
   margin-bottom: 40px;
-  font-size: 16px;
   font-weight: 300;
 }
 section.module p:last-child {
@@ -65,6 +64,13 @@ section.module.parallax h1 {
     }
 }
 
+@media (max-width: 480px) {
+    section.module.parallax h1 {
+      font-size: 3em;
+      line-height: 400px;
+    }
+}
+
 section.module.parallax-1 {
   background-image: url("../images/headerimages/partnershipheader.jpg");
 }
@@ -79,9 +85,9 @@ section.module.ff1 {
   background-image: url("../images/flexfriday/bikeff.JPG");
 }
 section.module.ff2 {
-  background-image: url("../images/flexfriday/fablabff.jpeg");
+  background-image: url("../images/flexfriday/singing.jpeg");
 }
 section.module.ff3 {
-  background-image: url("../images/flexfriday/singing.jpeg");
+  background-image: url("../images/flexfriday/cowisland.jpg");
 }
 

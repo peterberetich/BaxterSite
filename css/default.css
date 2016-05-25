@@ -1,4 +1,20 @@
 /* CSS Document */
+p {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.hyphenate {
+ -ms-word-break: break-all;
+     word-break: break-all;
+
+     // Non standard for webkit
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
 
 .container {
     max-width: 1000px;
@@ -266,7 +282,7 @@ h1#dashheader {
 }
 
 .form-control#box {
-    padding: 1px 4px;
+    padding-left: 10px;
     font-size: 1em;
 }
 
@@ -549,7 +565,7 @@ video.fillWidth {
     opacity: 1;
     height:28vh;
     max-height: 300px;
-    width: auto;
+    width: inherit;
     margin: auto 10px;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility:    hidden;
@@ -569,9 +585,9 @@ video.fillWidth {
 }
 
 .baxelements {
-    transition: all 0.2s ease;
+    
     opacity: 1;
-    height:28vh;
+    height:24vh;
     margin: -5px 3px;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility:    hidden;
@@ -582,13 +598,13 @@ video.fillWidth {
     box-shadow: 0px 0px 0px #fff;
 }
 
-.baxelements:hover {
+/*.baxelements:hover {*/
     /*opacity: 1;
     -moz-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
     -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
     box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);*/
-    transform: scale(0.9);
-}
+    /*transform: scale(0.9);*/
+/*}*/
 
 melement {
     width: 15rem;
@@ -746,7 +762,7 @@ melement:hover {
 
 #custom-search-form {
     margin:0;
-    margin-top: 10px;
+    margin-top: 8px;
     padding: 0;
 }
 
@@ -776,6 +792,14 @@ melement:hover {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+}
+
+.homeheader {
+    opacity: 1;
+}
+
+.homeheader:hover {
+    opacity: 0.8;
 }
 
 .search-query:focus + button {

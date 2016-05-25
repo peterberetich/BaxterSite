@@ -45,7 +45,7 @@
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Events</h1></div>
                   <div class="panel-body dashpanel">
-                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=baxter-academy.org_n8j1pe52cu4eii2nm0dtkfpcp4%40group.calendar.google.com&amp;color=%23691426&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23ECF0F1&amp;src=baxter-academy.org_n8j1pe52cu4eii2nm0dtkfpcp4%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
                 </div>
               </div>
             </div>
@@ -56,6 +56,7 @@
                         <a href="https://maine.infinitecampus.org/campus/baxter.jsp" target="_blank" class="appbutton"><button type="button" class="btn btn-ic">Infinite <br/>Campus</button></a>
                         <a href="https://classroom.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gc">Google <br/>Classroom</button></a>
                         <a href="https://mail.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gm">Gmail</button></a>
+                        <a href="https://baxterguidance.weebly.com" target="_blank" class="appbutton"><button type="button" class="btn btn-warning" style="height:4em">Guidance</button></a>
                 </div>
                 </div>
               </div>
@@ -63,9 +64,59 @@
         <div class="col-lg-6" id="nopad">
             <div class="col-sm-6">
               <div class="panel panel-primary">
+                  <div class="panel-heading text-center"><h1 id="dashheader">Lunch Form</h1></div>
+                  <div class="panel-body dashpanel">
+                    <cms:editable name='lunchorderform' type='richtext'>
+                        <p>Hello</p>
+                    </cms:editable>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+              <a class="various fancybox.iframe white" id="popout" href="opencampusmap.html">
+              <div class="panel panel-primary">
+                  <div class="panel-heading text-center"><h1 id="dashheader">Open Campus</h1></div>
+                  <div class="panel-body dashpanel">
+                    <!--iframe width="100%" height="100%" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/baxter-boundaries_70733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false#14/43.6542/-70.2564"></iframe-->
+                    <iframe width="100%" height="100%" frameborder="0" src="https://widgets.scribblemaps.com/sm/?d=true&z=true&lat=43.655515222619364&lng=-70.25721430778503&vz=14&type=osm_cycle&width=550&height=400&id=baxteropencampus" style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    <div class="col-lg-1"></div>
+</div>
+</div>
+<div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+        <div class="col-lg-6" id="nopad">
+            <div class="col-sm-12">
+              <div class="panel panel-primary">
+                <div class="panel-heading text-center"><h1 id="dashheader">Michele's Updates</h1></div>
+                  <div class="panel-body dashpanel">
+                    <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:100%;background-color:#transparent; border:0px solid #333333;"><div id="rsswidget" style="height:100%;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1463585972903&amp;x=http%3A%2F%2Fbaxterupdates.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&amp;w=100%&amp;h=100%&amp;bc=333333&amp;bw=0&amp;bgc=transparent&amp;m=20&amp;it=false&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:100%; height:225px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:0px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-6" id="nopad">
+            <div class="col-sm-6">
+              <div class="panel panel-primary">
+                  <div class="panel-heading text-center"><h1 id="dashheader">Forms</h1></div>
+                  <div class="panel-body dashpanel scroll-y">
+                  <cms:editable name='studentforms' type='richtext'><p>test</p></cms:editable>
+                  </div>
+                  <!--div class="panel-body dashpanel text-center">
+                    <a href="https://docs.google.com/a/baxter-academy.org/forms/viewform?hl=en&id=1Zsbv9kRbJj1SGy1ekLSsH1XwQw8pXu6ZEE2YFY8T4CY" target="_blank"><button type="button" class="btn btn-danger">Flex Friday<br> Fundraising Form</button></a>
+                </div-->
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="panel panel-primary">
                 <div class="panel-heading text-center">
                     <div class="form-group" style="height:2em;">
-                          <input style="text-align:center; font-size: 2em" type="text" class="form-control" id="box" placeholder="Search Teachers">
+                          <input style="text-align:center; font-size: 1.5em" type="text" class="form-control" id="box" placeholder="Search Teachers">
                     </div>
                   </div>
                   <div class="panel-body dashpanel" style="overflow-y: scroll">
@@ -102,53 +153,6 @@
                         </ul>
                 </div>
               </div>
-            </div>
-            <div class="col-sm-6">
-              <a class="various fancybox.iframe white" id="popout" href="opencampusmap.html">
-              <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Open Campus</h1></div>
-                  <div class="panel-body dashpanel">
-                    <!--iframe width="100%" height="100%" frameBorder="0" src="http://umap.openstreetmap.fr/en/map/baxter-boundaries_70733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&allowEdit=false&moreControl=false&datalayersControl=false&onLoadPanel=undefined&captionBar=false#14/43.6542/-70.2564"></iframe-->
-                    <iframe width="100%" height="100%" frameborder="0" src="https://widgets.scribblemaps.com/sm/?d=true&z=true&lat=43.655515222619364&lng=-70.25721430778503&vz=14&type=osm_cycle&width=550&height=400&id=baxteropencampus" style="border:0" allowfullscreen></iframe>
-                  </div>
-                </div>
-                </a>
-            </div>
-        </div>
-    <div class="col-lg-1"></div>
-</div>
-</div>
-<div class="row">
-    <div class="col-lg-1"></div>
-    <div class="col-lg-10">
-        <div class="col-lg-6" id="nopad">
-            <div class="col-sm-12">
-              <div class="panel panel-primary">
-                <div class="panel-heading text-center"><h1 id="dashheader">Michele's Updates</h1></div>
-                  <div class="panel-body dashpanel">
-                    <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:100%;background-color:#transparent; border:0px solid #333333;"><div id="rsswidget" style="height:230px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1455140028465&amp;x=http%3A%2F%2Fbaxteracademy-english10-peter.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&amp;w=100%&amp;h=100%&amp;bc=333333&amp;bw=0&amp;bgc=transparent&amp;m=20&amp;it=false&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:100%; height:225px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:0px solid #333333;" id="widgetbottom"></div></div>
-                </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-lg-6" id="nopad">
-            <div class="col-sm-6">
-              <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Senate links</h1></div>
-                  <div class="panel-body dashpanel text-center">
-                    <a href="https://docs.google.com/a/baxter-academy.org/forms/viewform?hl=en&id=1Zsbv9kRbJj1SGy1ekLSsH1XwQw8pXu6ZEE2YFY8T4CY" target="_blank"><button type="button" class="btn btn-danger">Flex Friday<br> Fundraising Form</button></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="panel panel-primary">
-                  <div class="panel-heading text-center"><h1 id="dashheader">Lunch Form</h1></div>
-                  <div class="panel-body dashpanel">
-                    <cms:editable name='lunchorderform' type='richtext'>
-                        <p>Hello</p>
-                    </cms:editable>
-                  </div>
-                </div>
             </div>
         </div>
     </div>

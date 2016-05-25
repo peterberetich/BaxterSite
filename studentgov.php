@@ -32,17 +32,19 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-  </head>
-  <body>
+</head>
+
+<body>
 <!--BEGIN NAV-->
 <?php include('header.html'); ?>
 <!--End of Navbar-->
+
 
 <section id="history">
     <h2 class="fullwidthhistory">Senate</h2>
 </section>
 
-<div class="image" style="background-image: url('images/headerimages/senatebanner.jpg'); background-position: center;"></div>
+<div class="image" style="background-image: url('gallerypics/Student Senate.jpg'); background-position: center;"></div>
 <br/>
 
 <div class="centeredtext">

@@ -51,7 +51,7 @@ The regular application period for 2016-2017 begins at 9 am on Tuesday, December
 Prospective students will have a chance to experience Baxter at our Baxter Academy Open Day on January 26, 2016.  Students will partake in a sample day at Baxter that includes a walk around our Open Campus, a seminar about Flex Friday, and a day of sample classes.  If you are interested in attending our Open Day, please click HERE! Students must attend an Open House prior to attending BA Open Day.
 </cms:editable>
 </div>
-<br/>
+
 <div class="panel panel-primary">
 <div class="panel-heading"><strong><span style="font-size:2em">STEP ONE:</span></strong></div>
 <div class="panel-body">

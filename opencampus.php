@@ -44,20 +44,30 @@
   height: 700px;
   border:0
 }
+
+@media all and (max-width: 600px) {
+    .mobilehide {
+        display:none;
+    }
+}
+
 </style>
 
 <section id="history">
     <h2 id="mission" class="fullwidthmission">Open Campus</h2>
 </section>
-<div class="image" style="background-image: url('images/headerimages/opencampusbanner.jpg'); background-position: 50% 30%;"></div>
-<br/>
+<div class="mobilehide">
+<div class="image" style="background-image: url('images/headerimages/opencampusbanner.jpg'); background-position: 50% 30%;"></div></div>
+
+<div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+        <img class="img-responsive" alt="" src="documents/open_campus_map.jpg">
+    </div>
+    <div class="col-lg-1"></div>
+</div>
+
 <div class="centeredtext">
-<object data='documents/open_campus_map.pdf'
-        type='application/pdf'>
-            <p>It appears your Web browser is not configured to display PDF files. 
-            No worries, just<br/><a href='documents/open_campus_map.pdf'>click here to download the PDF file.</a><br/>
-            </p>
-</object>
 
 <br/>
 <div class="panel panel-default">

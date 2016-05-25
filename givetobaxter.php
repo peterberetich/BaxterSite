@@ -39,20 +39,20 @@
 <?php include('header.html'); ?>
 <!--End of Navbar-->
 
-<div style="position:fixed; bottom:0; left: 50%; transform: translate(-50%, 0); z-index:99; height:auto">
+<div style="position:fixed; bottom:5px; left: 50%; transform: translate(-50%, 0); z-index:99; height:auto">
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="9NZEBBL3EQ89N">
-        <input type="submit" class="btn btn-success" style="font-size: xx-large; margin-left:15px" value="Donate with Paypal" name="Donate" alt="">
+        <input type="submit" class="btn btn-default" style="font-size: xx-large; margin-left:15px" value="Donate with Paypal" name="Donate" alt="">
     </form>
 </div>
 
 <div class="row">
     <div class="col-lg-3"></div>
     <div class="col-lg-6">
-        <img class="img-responsive" src="images/givetobaxter/1.jpg" alt="">
-        <img class="img-responsive" src="images/givetobaxter/2.jpg" alt="">
-        <img style="position: absolute; left: 50%; transform: translate(-50%, 0); width:70%" src="images/givetobaxter/3.jpg" alt="">
+        <img class="img-responsive" src="images/givetobaxter/1.jpg" alt="Give to Baxter 1">
+        <img class="img-responsive" src="images/givetobaxter/2.jpg" alt="Give to Baxter 2">
+        <img class="img-responsive" src="images/givetobaxter/3.jpg" alt="Give to Baxter 3">
     </div>
     <div class="col-lg-3"></div>
 </div>

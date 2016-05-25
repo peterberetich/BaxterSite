@@ -48,23 +48,10 @@
 <br/>
 <div>
 <div class="centeredtext">
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
-   <div class="panel-heading">
-     <h1 class="panel-title" style="text-align:center">Kelli Pryor – Chair</h1>
-   </div>
-   <div class="panel-body">
-         <p>
 <br/>
-Ms. Pryor began her career early—as a sixteen-year-old reporter at her hometown newspaper. From that lucky jump-start, she developed a keen respect for the power of letting young people do the real work of the world. That respect is what attracted her to being part of the founding board that secured Baxter Academy’s charter and helped open the doors for students ready to get their hands on projects they love.<br/><br/>
-After graduating summa cum laude from the University of Missouri’s School of Journalism, Ms. Pryor pursued her career in New York City, where she worked as everything from an intern at Life magazine to head of the research department at New York Magazine. She was on the start-up team for Entertainment Weekly, an experience that deeply informs the work she is doing at Baxter in its rigorous early years. Kelli is the author of both nonfiction and fiction books and is also a Sundance Screenwriting fellow, writing for studios such as Dreamworks, Warner Brothers, and Sony Pictures Entertainment, as well as for television.<br/><br/>
-Since 2002, she has also been the director of the CAFAM Chinese School in Portland, where she has helped engineer a program that inspires learning through meaningful explorations of Chinese innovation, art, language, and culture. Her work at the Chinese School was inspired by her twin daughters’ love for Chinese culture, and it was their interest that first brought Baxter Academy to her attention. Her daughters will be part of Baxter’s second graduating class in 2017.
-		</p>
-       </div>
-     </div>
-<br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
-     <h1 class="panel-title" style="text-align:center">Dr. Allison Crean Davis - Vice Chair</h1>
+     <h1 class="panel-title" style="text-align:center">Dr. Allison Crean Davis - Chair</h1>
    </div>
    <div class="panel-body">
          <p>
@@ -80,7 +67,7 @@ Prior to her work as a consultant, Allison was the Program Director for Research
        </div>
      </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 class="panel-title" style="text-align:center">Peter Montano – Treasurer</h1>
    </div>
@@ -97,7 +84,7 @@ He is active in various associations, and has spoken at conferences across Maine
        </div>
        </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 class="panel-title" style="text-align:center">Peter Morrison – Secretary</h1>
    </div>
@@ -113,7 +100,7 @@ Mr. Morrison has an extensive background in small business management as well as
        </div>
      </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 class="panel-title" style="text-align:center">Ruth Dean</h1>
    </div>
@@ -128,7 +115,7 @@ Ms. Dean was one of  the founders of Friends of Baxter Academy, an organization 
        </div>
      </div>
      
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 class="panel-title" style="text-align:center">Kim Gustafson</h1>
    </div>
@@ -141,7 +128,7 @@ Ms. Gustafson graduated from Middlebury College with a Bachelor of Arts degree i
 		</p>
     </div>
 </div>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 class="panel-title" style="text-align:center">Christian Sparling</h1>
    </div>

@@ -46,44 +46,39 @@
 <div class="row">
 	<div class="col-lg-2">
     	<div class="panelnoborder panel-default" style="margin-left:10%; margin-right:10%">
-        	<a id="popoverData" class="btn" style="margin-left:auto; margin-right:auto" href="#cstasio" data-content="Executive Director" rel="popover" data-trigger="hover"><h4>Carl Stasio</h4></a>
+        	<a id="popoverData" class="btn" style="margin-left:auto; margin-right:auto" href="#kpryor" data-content="Executive Director" rel="popover" data-trigger="hover"><h4>Kelli Pryor</h4></a>
             <a id="popoverData2" class="btn" style="margin-left:auto; margin-right:auto" href="#mlaforge" data-content="Head of School" rel="popover" data-trigger="hover"><h4>Michele Laforge</h4></a>
             <a id="popoverData3" class="btn" style="margin-left:auto; margin-right:auto" href="#kdriver" data-content="Director of Guidance and Counseling" rel="popover" data-trigger="hover"><h4>Katherine Driver</h4></a>
             <a id="popoverData4" class="btn" style="margin-left:auto; margin-right:auto" href="#acooper" data-content="IT Manager" rel="popover" data-trigger="hover"><h4>Amos Cooper</h4></a>
             <a id="popoverData5" class="btn" style="margin-left:auto; margin-right:auto" href="#jtalbot" data-content="Special Education" rel="popover" data-trigger="hover"><h4>Jessica Talbot</h4></a>
+            <a id="popoverData6" class="btn" style="margin-left:auto; margin-right:auto" href="#mnunez" data-content="Director of Student Services" rel="popover" data-trigger="hover"><h4>Moises Nunez</h4></a>
         </div>
         <br/>
 </div>
 <div class="col-lg-10">
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
-     <h1 id="cstasio" class="panel-title" style="text-align:center">Carl Stasio - Executive Director</h1>
+     <h1 id="kpryor" class="panel-title" style="text-align:center">Kelli Pryor - Executive Director</h1>
    </div>
    <div class="panel-body">
      <div class="row">
        <div class="col-md-3">
-         <img src="images/admin/cstasio.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
+         <img src="images/faculty/comingsoon.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:carl.stasio@baxter-academy.org" target="_top"><button type="button" class="btn btn-info">carl.stasio@baxter-academy.org</button></a>
+         <a class="btn btn-primary" href="mailto:kelli.pryor@baxter-academy.org" target="_top">kelli.pryor@baxter-academy.org</a>
          <p>
 <br/>
-Baxter Academy’s Executive Director, Carl Stasio, spent the past twenty-six years of his career as headmaster at one of Maine’s largest and oldest schools, Thornton Academy in Saco. Now he brings his wealth of experience and wisdom to bear on one of Maine’s youngest high schools. Mr. Stasio remarks every day how excited he is to be part working with Baxter: “Beginning any new venture is always exciting and starting a school from the ground up is truly wonderful. What a great opportunity it is to build a community of dynamic teachers and motivated students.”
-<br/><br/>
-At Thornton, Mr. Stasio led efforts to institute a middle school and an international boarding program while simultaneously broadening educational opportunities for all Thornton students. He traveled widely in Asia, visiting China seven times in the past decade, an experience that will enhance Baxter as it pursues its ties to a sister school near Shanghai. Through his work on the accreditation committee of the New England Association Of Schools and Colleges, Mr. Stasio has visited excellent schools in thirty-four countries around the world. He brings the best of innovative thinking in education to Baxter Academy.
-<br/><br/>
-“Baxter Academy benefits every day from Mr. Stasio’s strong curiosity and his deep experience. He is a forward-thinker who never neglects the lessons of the past,” says Kelli Pryor, chair of Baxter’s board of directors.
-<br/><br/>
-Mr. Stasio lives in Wells with his wife, Barbara. He is the father of five grown children.
-<br/><br/>
-Fun facts about Mr. Stasio: In high school, he took a bus every day from East Boston to Boston Latin Academy. He loves to read novels and can discuss the fine points of rock-and-roll. And he has a very stealthy sense of humor.
+Ms. Pryor began her career early—as a sixteen-year-old reporter at her hometown newspaper. From that lucky jump-start, she developed a keen respect for the power of letting young people do the real work of the world. That respect is what attracted her to being part of the founding board that secured Baxter Academy’s charter and helped open the doors for students ready to get their hands on projects they love.<br/><br/>
+After graduating summa cum laude from the University of Missouri’s School of Journalism, Ms. Pryor pursued her career in New York City, where she worked as everything from an intern at Life magazine to head of the research department at New York Magazine. She was on the start-up team for Entertainment Weekly, an experience that deeply informs the work she is doing at Baxter in its rigorous early years. Kelli is the author of both nonfiction and fiction books and is also a Sundance Screenwriting fellow, writing for studios such as Dreamworks, Warner Brothers, and Sony Pictures Entertainment, as well as for television.<br/><br/>
+Since 2002, she has also been the director of the CAFAM Chinese School in Portland, where she has helped engineer a program that inspires learning through meaningful explorations of Chinese innovation, art, language, and culture. Her work at the Chinese School was inspired by her twin daughters’ love for Chinese culture, and it was their interest that first brought Baxter Academy to her attention. Her daughters will be part of Baxter’s second graduating class in 2017.
 		</p>
        </div>
      </div>
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="mlaforge" class="panel-title" style="text-align:center">Michele LaForge - Head of School</h1>
    </div>
@@ -93,7 +88,7 @@ Fun facts about Mr. Stasio: In high school, he took a bus every day from East Bo
          <img src="images/admin/mlaforge.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:michele.laforge@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">michele.laforge@baxter-academy.org</button></a>
+         <a class="btn btn-primary" href="mailto:michele.laforge@baxter-academy.org" target="_top">michele.laforge@baxter-academy.org</a>
          <p>
 <br/>
 Michele LaForge is an exemplar Baxter Academy’s mission. The Head of School needs to be someone naturally sees the interconnectedness of one subject to another and that is Ms. LaForge. She has a background in both math and Russian literature. She is an avid reader who has worked in academic publishing. She is a creative and versatile educator who brings math alive in the world around her students by using her own curiosity to engage theirs.  She is also a highly competent leader who inspires the confidence and trust of teachers and administrators alike. Parents revere her.
@@ -115,7 +110,7 @@ Fun facts about Ms. LaForge:  She quilts. She likes to read Jane Austen and scie
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="kdriver" class="panel-title" style="text-align:center">Katherine Driver - Director of Guidance and Counseling</h1>
    </div>
@@ -125,7 +120,7 @@ Fun facts about Ms. LaForge:  She quilts. She likes to read Jane Austen and scie
          <img src="images/admin/kdriver.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:katherine.driver@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">katherine.driver@baxter-academy.org</button></a>
+         <a class="btn btn-primary" href="mailto:katherine.driver@baxter-academy.org" target="_top">katherine.driver@baxter-academy.org</a>
          <p>
 <br/>
 Ms. Driver has spent the last six years working as a school counselor in the American International School of Rotterdam and at Gray-New Gloucester High School, where she has been the Director of Guidance. She grew up in southern Maine and pursued a BA in psychology at Skidmore College, and then a Master of Science in Counseling at the University of Southern Maine. 
@@ -145,7 +140,7 @@ Fun facts about Ms. Driver: She plays bass in various bluegrass ensembles and is
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="acooper" class="panel-title" style="text-align:center">Amos Cooper - IT Manager</h1>
    </div>
@@ -155,7 +150,7 @@ Fun facts about Ms. Driver: She plays bass in various bluegrass ensembles and is
          <img src="images/admin/acooper.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:amos.cooper@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">amos.cooper@baxter-academy.org</button></a>
+         <a class="btn btn-primary" href="mailto:amos.cooper@baxter-academy.org" target="_top">amos.cooper@baxter-academy.org</a>
          <p>
 <br/>
 Mr. Cooper graduated from Gorham High School and studied Broadcast Communications and Film Studies at Susquehanna University in Pennsylvania. He is now back in Maine, serving as the IT Manager for Baxter Academy. 
@@ -171,7 +166,7 @@ Fun Facts: Mr. Cooper really enjoys playing music, especially the bass guitar. H
    </div>
 </div>
 <br/>
-<div class="panel panel-default facmax" style="margin-left: 1%; margin-right: 1%">
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
    <div class="panel-heading">
      <h1 id="jtalbot" class="panel-title" style="text-align:center">Jessica Talbot - Special Education Program Coordinator</h1>
    </div>
@@ -181,7 +176,7 @@ Fun Facts: Mr. Cooper really enjoys playing music, especially the bass guitar. H
          <img src="images/admin/jtalbot.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
        </div>
        <div class="col-md-9">
-         <a href="mailto:jessica.talbot@baxter-academy.org" target="_top"><button type="button" class="btn btn-info" style="text-align: left">jessica.talbot@baxter-academy.org</button></a>
+         <a class="btn btn-primary" href="mailto:jessica.talbot@baxter-academy.org" target="_top">jessica.talbot@baxter-academy.org</a>
          <p>
 <br/>
 From her command center in the school’s office, Ms. Talbot has been the up-front smile and go-to problem solver of Baxter Academy during its first year. She has managed the logistics of major projects, has created organizational systems, and has kept track of who was where when. And she has done it with such grace and attention to detail, that she’s moving in Baxter’s second year to serve as the program coordinator of special education.
@@ -197,6 +192,31 @@ Fun facts about Ms. Talbot: She spends much of her free time playing table-top R
    </div>
 </div>
 <br/>
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
+   <div class="panel-heading">
+     <h1 id="mnunez" class="panel-title" style="text-align:center">Moises Nunez - Director of Student Services</h1>
+   </div>
+   <div class="panel-body">
+     <div class="row">
+       <div class="col-md-3">
+         <img src="images/faculty/mnunez.jpg" class="img-responsive img-circle" style="width: 250px; height: auto; margin-top:40px; margin-left:auto; margin-right:auto">
+       </div>
+       <div class="col-md-9">
+         <a href="mailto:mo.nunez@baxter-academy.org" target="_top"><button type="button" class="btn btn-primary" style="text-align: left">mo.nunez@baxter-academy.org</button></a>
+         <p>
+<br/>
+Mr. Nunez has been teaching for over ten years. Most of his work has been with disadvantaged youth, and with special needs students. He comes to Baxter directly from Spurwink Services, where he has been a special ed teacher and case manager. Past positions for Mr. Nunez include being a faculty member of the English department at the Cambridge School of Weston, an instructor at the University of Massachusetts in Boston, and a guest lecturer at the University of Rochester. Mr. Nunez has also worked for the Department of Labor, has written for the National Academy of Sciences, and has consulted for several city/county school districts on issues related to youth violence.
+<br/><br/>
+His academic passions are focused on the relationships between teenagers, schools, and their communities. While in Rochester, he designed, and oversaw Project New Beginnings, an academic program for incarcerated and at-risk youth, that continues to this day.
+<br/><br/>
+Mr. Nunez is a graduate of Hampshire College and has a master’s degree in education from the University of Southern Maine. He is currently working on a second masters in Special Education administration. At Baxter, he will be spearheading the Special Education services, as well as supporting his fellow teachers on effective student engagement strategies. He’ll also teach a course or two. He lives in Portland with his wife (and brilliant sculptor) Christine. Mr. Nunez says, “I am beyond excited to join this team and grow this school!”
+<br/><br/>
+Fun facts about Mr. Nunez: Everyone calls him Mo. His first language is Spanish. He produces music and performs under the name mosart212.  He has a dog named Count Basie Caswell Nunez.
+        </p>
+       </div>
+     </div>
+   </div>
+</div>
 
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
