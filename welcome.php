@@ -1,3 +1,4 @@
+<?php require_once( 'couch/cms.php' ); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,7 +42,7 @@
   <body style="overflow:hidden">
 
 <!--BEGIN NAV-->
-<?php include('header.html'); ?>
+<?php include_once('header.html'); ?>
 <!--End of Navbar-->
 
 <div>
@@ -84,7 +85,7 @@
     <div class="col-lg-3"></div>
 </div>
 
-<div style="position:fixed; left:10px; bottom: 10px; z-index:100; background-color:white; border-radius:3px"><div style="margin:10px; Color:red"><p>Attention: Nothing</p></div></div>
+<div style="position:fixed; left:10px; bottom: 10px; z-index:100"><div class="hidethisupdate" style="font-size: 1.2em; margin:10px; Color:red; background-color: #FFFFFF; padding:10px"><cms:get_custom_field 'UrgentUpdates' masterpage='UrgentUpdates.php' /></div></div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.2.min.js"></script>
@@ -103,7 +104,19 @@
         backSpeed: 20,
       });
   });
+  $('div.hidethisupdate').each(function(i,e){
+    var txt = '';
+    for (var c = 0; c < e.childNodes.length; c++){
+        if (e.childNodes[c].nodeType===3){
+            txt += e.childNodes[c].data;
+        }
+    }
+    if (txt.trim().length===0){
+        $(e).hide();
+    }
+});
 </script>
     
 </body>
 </html>
+<?php COUCH::invoke(); ?>

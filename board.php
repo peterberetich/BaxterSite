@@ -146,6 +146,20 @@ Prior to becoming a school leader, Mr. Sparling spent three years at Teach for A
 		</p>
     </div>
 </div>
+<div class="panel panel-primary facmax" style="margin-left: 1%; margin-right: 1%">
+   <div class="panel-heading">
+     <h1 class="panel-title" style="text-align:center">Patti Oldmixon</h1>
+   </div>
+   <div class="panel-body">
+         <p>
+<br/>
+Patti Oldmixon is a Senior Group Manager at IDEXX Laboratories, in Westbrook, Maine. She is responsible for the Business Operations Organization. Patti’s work includes all aspects of supporting a 300-plus Sales and Service team throughout North America. Her team is responsible for financial analysis of sales opportunities, incentive compensation and goaling, as well as operational and executive dashboards.
+<br/><br/>
+Patti serves on the Board of Advisors for the Crown of Maine Organic Cooperative, a distribution organization for Maine grown and organic products. She provides sales and marketing guidance, as well as input on organizational structure. Patti also serves on the Chinese and American Friendship Association of Maine (CAFAM) Board of Directors and the CAFAM Chinese School Steering Committee. CAFAM provides forums and outreach that promotes cultural interchanges between the US and China. Patti has served as the annual Chinese New Year Celebration chairperson for over 7 years. This event is often attended by over 700 people, and has included a Chinese School dance performance, crafts for children, Chinese food and multiple speakers.
+<br/><br/>
+Prior to her work at IDEXX, Patti worked in the telecommunications industry with roles of increasing responsibility in customer service, finance and corporate sales. Patti earned her B.S. in finance from Bentley University and her MBA from Babson College. Patti and her family live in Cape Elizabeth, Maine.		</p>
+    </div>
+</div>
 
    </div>
 </div>

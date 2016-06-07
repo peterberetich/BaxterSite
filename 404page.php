@@ -48,11 +48,11 @@ h2 {
 <!--End of Navbar-->
 <br/><br/>
 <?php
-            $strings= array('I am a MESS!', 'Excuse me!', 'Please clap.', 'Slow and steady wins the race.');
+            $strings= array('Excuse me!', 'Please clap.', 'Slow and steady wins the race.');
             $random_str = $strings[array_rand($strings)];
           ?>
 <h1><?php echo $random_str; ?></h1>
-<h2>The page you requested probably hasn't been created yet.<br><br>(404)</h2>
+<h2>The page you requested doesn't exist :(<br><br>(404)</h2>
 <br/><br/><br/><br/><br/><br/>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

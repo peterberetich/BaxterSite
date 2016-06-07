@@ -1,3 +1,4 @@
+<?php require_once( 'couch/cms.php' ); ?>
 <!DOCTYPE html>
 <html id="mobile" lang="en">
   <head>
@@ -20,6 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#457fdb">
     <title>Welcome to Baxter Academy</title>
+    
     <!-- Bootstrap -->
     <link href="css/bootstrap_welcome.css" rel="stylesheet">
     <link href="css/default.css" rel="stylesheet">
@@ -77,7 +79,7 @@
     <div class="col-lg-3"></div>
     <div class="col-lg-6 text-center">
         <div style="display:inline-block">
-              <a href="experience"><img class="center-block img-responsive baxelements" src="images/elements/Cu-Curious.png"><br/></a>
+              <a href="about"><img class="center-block img-responsive baxelements" src="images/elements/Cu-Curious.png"><br/></a>
         </div>
         <div style="display:inline-block">
               <a href="howtoapply"><img class="center-block img-responsive baxelements" src="images/elements/Al-Apply.png"><br/></a>
@@ -99,12 +101,29 @@
     <div class="col-lg-3"></div>
 </div>
 
+<div style="position:fixed; left:10px; bottom: 10px; z-index:100"><div class="hidethisupdate" style="font-size: 1.2em; margin:10px; Color:red; background-color: #FFFFFF; padding:10px"><cms:get_custom_field 'UrgentUpdates' masterpage='UrgentUpdates.php' /></div></div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/plugins/jquery.capSlide.js"></script>
     <script src="js/plugins/owl.carousel.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    
+    <script>
+    $('div.hidethisupdate').each(function(i,e){
+    var txt = '';
+    for (var c = 0; c < e.childNodes.length; c++){
+        if (e.childNodes[c].nodeType===3){
+            txt += e.childNodes[c].data;
+        }
+    }
+    if (txt.trim().length===0){
+        $(e).hide();
+    }
+    });
+    </script>
 
 </body>
 </html>
+<?php COUCH::invoke(); ?>

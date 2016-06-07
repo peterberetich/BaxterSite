@@ -64,11 +64,22 @@ flip-list-last-modified-header {
             <div class="col-sm-5">
               <div class="panel panel-primary">
                   <div class="panel-heading text-center"><h1 id="dashheader">Apps</h1></div>
-                  <div class="panel-body dashpanel text-center">
+                  <div class="panel-body dashpanel text-center" style="overflow-y: scroll; overflow-x: none">
                         <a href="https://maine.infinitecampus.org/campus/baxter.jsp" target="_blank" class="appbutton"><button type="button" class="btn btn-ic">Infinite <br/>Campus</button></a>
                         <a href="https://classroom.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gc">Google <br/>Classroom</button></a>
                         <a href="https://mail.google.com" target="_blank" class="appbutton"><button type="button" class="btn btn-gm">Gmail</button></a>
                         <a href="https://docs.google.com/a/baxter-academy.org/forms/d/1PHt4FIGXcdl2jkftOmYrvjlDPiSHzpLOYHg_VdMu_pw/viewform?c=0&w=1" target="_blank" class="appbutton"><button type="button" class="btn btn-warning">Wish List<br/>Submission</button></a>
+                        <!--Upload Board Files-->
+                        <div class="well well-sm">
+                        <p style="margin:0px!important">Upload Board Minutes</p>
+                        <p style="font-size:13px; margin-bottom:3px!important">[3 Letter Month][Date][Year][Agenda/Minutes]</p>
+                        <form action="documents/upload_files.php" method="post" enctype="multipart/form-data">
+                            <span class="btn btn-default btn-file">
+                                Choose File<input class="pull-left" type="file" name="file" size="10" />
+                            </span>
+                            <input class="btn btn-primary" type="submit" value="Upload" />
+                        </form>
+                        </div>
                 </div>
                 </div>
               </div>
@@ -86,7 +97,7 @@ flip-list-last-modified-header {
               <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h1 id="dashheader">Michele's Updates</h1></div>
                   <div class="panel-body dashpanel">
-                    <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:100%;background-color:#transparent; border:0px solid #333333;"><div id="rsswidget" style="height:100%;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1463585972903&amp;x=http%3A%2F%2Fbaxterupdates.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&amp;w=100%&amp;h=100%&amp;bc=333333&amp;bw=0&amp;bgc=transparent&amp;m=20&amp;it=false&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:100%; height:225px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:0px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+                    <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:100%;background-color:#transparent; border:0px solid #333333;"><div id="rsswidget" style="height:100%;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1463585972903&amp;x=http%3A%2F%2Fbaxterupdates.blogspot.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss&amp;w=100%&amp;h=100%&amp;bc=333333&amp;bw=0&amp;bgc=transparent&amp;m=20&amp;it=false&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:100%; height:225px;" id="rssOutput">Reading RSS Feed ...</iframe></div></div>
                 </div>
               </div>
               </div>

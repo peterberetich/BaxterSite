@@ -7,66 +7,368 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://whassat.com/baxteracademy/</loc>
-  <lastmod>2016-01-25T16:03:27+00:00</lastmod>
+  <loc>http://baxter-academy.org/</loc>
+  <lastmod>2016-02-25T12:52:03+00:00</lastmod>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/welcome.php</loc>
+  <loc>http://baxter-academy.org/welcome.php</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/welcome.html</loc>
-  <lastmod>2016-01-18T17:12:58+00:00</lastmod>
+  <loc>http://baxter-academy.org/welcome</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/about.php</loc>
+  <loc>http://baxter-academy.org/history</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/history.php</loc>
+  <loc>http://baxter-academy.org/faculty</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/faculty.php</loc>
+  <loc>http://baxter-academy.org/administration</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/administration.php</loc>
+  <loc>http://baxter-academy.org/board</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/boardminutes.php</loc>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?sort_by=mod&amp;sort_as=asc&amp;dir=</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/calendar.php</loc>
+  <loc>http://baxter-academy.org/inthenews</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/pitchaproj.php</loc>
+  <loc>http://baxter-academy.org/calendar</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/login.html</loc>
-  <lastmod>2016-01-06T16:02:22+00:00</lastmod>
+  <loc>http://baxter-academy.org/formsandpolicies</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/prospectivedash.php</loc>
+  <loc>http://baxter-academy.org/experience</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/faculty.html</loc>
-  <lastmod>2016-01-17T23:31:52+00:00</lastmod>
+  <loc>http://baxter-academy.org/faqs</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/admin.html</loc>
-  <lastmod>2016-01-18T17:25:44+00:00</lastmod>
+  <loc>http://baxter-academy.org/baxtitution</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/boardminutes.html</loc>
-  <lastmod>2016-01-15T13:51:28+00:00</lastmod>
+  <loc>http://baxter-academy.org/studentgov</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/formpolicycal.html</loc>
-  <lastmod>2016-01-15T13:52:51+00:00</lastmod>
+  <loc>http://baxter-academy.org/opencampus</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/documents/Baxter_2015_2016.pdf</loc>
-  <lastmod>2016-01-11T17:33:39+00:00</lastmod>
+  <loc>http://baxter-academy.org/gallery</loc>
 </url>
 <url>
-  <loc>http://whassat.com/baxteracademy/documents/lettor_of_intent_2016-2017.pdf</loc>
-  <lastmod>2016-01-11T17:33:40+00:00</lastmod>
+  <loc>http://baxter-academy.org/howtoapply</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/openhouse</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/enroll</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/academic-overview</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/program-of-studies.pdf</loc>
+  <lastmod>2016-02-19T18:03:57+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/summer-programs</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/flexfriday</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/givetobaxter</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/partnerships</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/pitchaproj</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/contactus</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/employment</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/studentdash</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/parentdash</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/facultydash</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/prospectivedash</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/about</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?dir=</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?sort_by=name&amp;sort_as=asc&amp;dir=</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?sort_by=size&amp;sort_as=asc&amp;dir=</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?sort_by=mod&amp;sort_as=desc&amp;dir=</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/May%2010%202016%20Agenda.pdf</loc>
+  <lastmod>2016-05-27T19:49:39+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/April%2012%202016%20Minutes.pdf</loc>
+  <lastmod>2016-05-27T19:49:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/April%2012%202016%20Agenda.pdf</loc>
+  <lastmod>2016-05-27T19:49:00+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/March%208%202016%20Minutes.pdf</loc>
+  <lastmod>2016-05-27T19:48:38+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/March%208%202016%20Agenda.pdf</loc>
+  <lastmod>2016-05-27T19:48:21+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Feb%2023%202016%20Agenda.pdf</loc>
+  <lastmod>2016-05-27T19:47:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Jan%2019%202016%20Minutes.pdf</loc>
+  <lastmod>2016-05-27T19:43:50+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Jan%2019%202016%20Agenda.pdf</loc>
+  <lastmod>2016-05-27T19:43:19+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Dec%208%202015%20Minutes.pdf</loc>
+  <lastmod>2016-05-27T19:42:58+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Dec%208%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:58:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Nov%2010%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:58:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Nov%2010%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:58:02+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Oct%2013%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:57:50+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Oct%2013%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:57:38+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Sept%208%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:57:24+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Sept%208%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:57:02+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Aug%2011%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:56:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Aug%2011%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:56:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/July%2014%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:56:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/July%2014%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:56:08+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/June%209%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:55:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/June%209%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:55:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/May%2012%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:53:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/May%2012%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:46:22+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/April%2014%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:46:04+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/April%2014%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:45:48+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/March%2010%202015%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:45:16+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/March%2010%202015%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:43:26+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Jan%2013%202015%20Agenda%2BMinutes.pdf</loc>
+  <lastmod>2016-01-13T20:43:02+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Nov%203%202014%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:42:06+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Nov%203%202014%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:41:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Oct%2014%202014%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:41:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Oct%2014%202014%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:41:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Sept%209%202014%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:41:06+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Sept%209%202014%20Agenda.pdf</loc>
+  <lastmod>2016-01-13T20:40:58+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Aug%2012%202014%20Minutes.pdf</loc>
+  <lastmod>2016-01-13T20:40:22+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/July%208%202014.pdf</loc>
+  <lastmod>2016-01-13T20:40:08+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/June%2010%202014.pdf</loc>
+  <lastmod>2016-01-13T20:39:52+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/May%2013%202014.pdf</loc>
+  <lastmod>2016-01-13T20:39:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/April%208%202014.pdf</loc>
+  <lastmod>2016-01-13T20:39:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/March%2011%202014.pdf</loc>
+  <lastmod>2016-01-13T20:38:14+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Feb%2011%202014.pdf</loc>
+  <lastmod>2016-01-13T20:38:08+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Jan%2014%202014.pdf</loc>
+  <lastmod>2016-01-13T20:37:58+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Nov%2012%202013.pdf</loc>
+  <lastmod>2016-01-13T20:37:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Oct%208%202013.pdf</loc>
+  <lastmod>2016-01-13T20:36:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Sept%2010%202013.pdf</loc>
+  <lastmod>2016-01-13T20:35:58+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Aug%2026%202013.pdf</loc>
+  <lastmod>2016-01-13T20:35:50+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/Aug%2013%202013.pdf</loc>
+  <lastmod>2016-01-13T20:35:40+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/July%2016%202013.pdf</loc>
+  <lastmod>2016-01-13T20:34:50+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/June%2018%202013.pdf</loc>
+  <lastmod>2016-01-13T20:34:32+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/June%204%202013.pdf</loc>
+  <lastmod>2016-01-13T20:34:10+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?m&amp;dir=</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/Baxter_2015_2016.pdf</loc>
+  <lastmod>2016-01-11T15:54:19+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/baxtitution.php</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/OpenCampusContract.pdf</loc>
+  <lastmod>2016-02-29T16:38:56+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/Commitment+to+Enroll+2016-2017.pdf</loc>
+  <lastmod>2016-02-11T16:13:11+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/lettor_of_intent_2016-2017.pdf</loc>
+  <lastmod>2016-01-11T01:03:15+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/BaxterTeacherApplication.pdf</loc>
+  <lastmod>2016-05-23T11:57:48+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/opencampusmap.html</loc>
+  <lastmod>2016-03-28T15:20:50+00:00</lastmod>
+</url>
+<url>
+  <loc>http://baxter-academy.org/maine_work_permit.pdf</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/faculty.php</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?sort_by=name&amp;sort_as=desc&amp;dir=</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?sort_by=size&amp;sort_as=desc&amp;dir=</loc>
+</url>
+<url>
+  <loc>http://baxter-academy.org/documents/boardminutes/index?s&amp;dir=</loc>
 </url>
 </urlset>

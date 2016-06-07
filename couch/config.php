@@ -39,16 +39,16 @@
     // MySQL settings. You need to get this info from your web host.
     // 4.
     // Name of the database
-    define( 'K_DB_NAME', 'whassatc_baxteracademy' );
+    define( 'K_DB_NAME', 'baxter_academy' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'whassatc_peterb' );
+    define( 'K_DB_USER', 'miclaf8' );
     // 6.
     // Database password
-    define( 'K_DB_PASSWORD', 'Techisfun!' );
+    define( 'K_DB_PASSWORD', 'audiencecantsendquarter' );
     // 7.
     // MySQL hostname (it will usually be 'localhost')
-    define( 'K_DB_HOST', 'localhost' );
+    define( 'K_DB_HOST', 'mysql.baxter-academy.org' );
     // 7b.
     // Needed only if multiple instances of this CMS are to be installed in the same database
     // (please use only alphanumeric characters or underscore (NO hyphen))
